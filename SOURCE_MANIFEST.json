@@ -1,0 +1,4196 @@
+{
+  "origin": "87.83.206.218",
+  "server_path": "/opt/gpt-register-fp-test",
+  "verified_at_utc": "2026-11-16T14:25:35+00:00",
+  "server_hashes_verified": true,
+  "file_count": 521,
+  "source_archive_sha256": "cb40e2a10a24230b7490f3c4dbd1b999c1b3d1be4c669777d683500de91f72c3",
+  "export_adjustments": {
+    "deploy/remote_install_full_server.sh": "Require PANEL_PASSWORD environment variable instead of a hardcoded production password"
+  },
+  "excluded_runtime": [
+    "config.yaml",
+    ".env*",
+    "data/",
+    "mysql/",
+    "backups/",
+    "runtime/",
+    "browser-runtime/",
+    ".venv/",
+    "node_modules/",
+    "logs/",
+    "caches"
+  ],
+  "server_files": {
+    "README.md": {
+      "sha256": "f84e46812cd1fddba2cedc1531e4dda439bc3486ef414b945b3c234aac0cb621",
+      "size": 14480
+    },
+    "__main__.py": {
+      "sha256": "3bd586ac7e40e824196a42d66af71fea669c76f1e4c9e67572d6a7f779e6b9d3",
+      "size": 335
+    },
+    "cli.py": {
+      "sha256": "0f7236e320be723a3a54db7d18af4764d6289684cc66bf3e4a21cda47a0a38b9",
+      "size": 7850
+    },
+    "config.example.yaml": {
+      "sha256": "65e3a89225422de6ed3022e2f894d260587cde301898c1641c4f5bea066e5856",
+      "size": 8608
+    },
+    "config.py": {
+      "sha256": "5d6d7ddddc18bc4256c3ea1817d5e53f6f09be4b71036526f59472546eb0b1f9",
+      "size": 1638
+    },
+    "config_loader.py": {
+      "sha256": "3953a7c70ef4904ac414dd478f0d261c75d546cae481239664999ec3eebcd9f6",
+      "size": 13617
+    },
+    "local_browser.py": {
+      "sha256": "45d75d2f11bbefea978c722c82f2627ab9e8c6ccac7050d030fba67227dd1024",
+      "size": 19321
+    },
+    "proxy_util.py": {
+      "sha256": "c1727eff1f1da844b4524ba3a646f3def81bf29fd09073ad8a3d09a9084259fb",
+      "size": 15184
+    },
+    "pyproject.toml": {
+      "sha256": "e8c4628ed8f1f109ed9455dff39a67374c0711c7e24e6a5114517abe41fb61db",
+      "size": 67
+    },
+    "register_gpt.py": {
+      "sha256": "735396b1e97c465486fdd4714863391fcac95bc38f850cd15f980ee91eb8a770",
+      "size": 534
+    },
+    "requirements.txt": {
+      "sha256": "c913b523584ba742fde7016c54579433a49836ff4740802356d6160da9459d14",
+      "size": 266
+    },
+    "web_app.py": {
+      "sha256": "c804bb4c94c0f9a5cf28d8fec554b87a120e1449dd6fe35d864ebc5b7fb989d0",
+      "size": 122271
+    },
+    "codex_oauth/__init__.py": {
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+      "size": 22
+    },
+    "codex_oauth/cli.py": {
+      "sha256": "75312d17a8cec8022482d16927738bee66eb405a5335e85a312871bd7670d17b",
+      "size": 11224
+    },
+    "codex_oauth/import_jobs.py": {
+      "sha256": "b75a23f3b9932474566b255330437f6ea23581b301f5d2b604b218e161b26f3d",
+      "size": 84324
+    },
+    "codex_oauth/imported_sms.py": {
+      "sha256": "9c01c93bc04d2a6fda3ac23f1433433bd32bc235a7aec2ac92ed231e00edf0f9",
+      "size": 17807
+    },
+    "codex_oauth/oauth.py": {
+      "sha256": "e2d08912e005000cad0f32861914e31db334ffb5886782c7cf410f4073744556",
+      "size": 31560
+    },
+    "codex_oauth/quota.py": {
+      "sha256": "63eb2673e56732a709df98cad1529b1fa21fd3659a67813916137080ed27aab9",
+      "size": 66838
+    },
+    "codex_oauth/quota_ui.py": {
+      "sha256": "ce7270c377254a81a536f131d81172e4a59339e728e940c6d38d1af70b8a5581",
+      "size": 50642
+    },
+    "codex_oauth/sentinel.py": {
+      "sha256": "93cbf95c776c4aad9d8fc6d2433dd43fa44c39ccca9b8ea0791e7004f6c8161c",
+      "size": 12372
+    },
+    "codex_oauth/sentinel_config.py": {
+      "sha256": "bfc88f6d98f36df159d127d27f6fc98360096d2243d2ada0c06501993b72951f",
+      "size": 160
+    },
+    "codex_oauth/sentinel_runner.py": {
+      "sha256": "acc7ad00b45a0fff066a5a67d00428cc6880d9fb68849262d58acb3ccc60f386",
+      "size": 7639
+    },
+    "codex_oauth/sms.py": {
+      "sha256": "b097ab5427f7e922c5aa37412efb0ed572e2daa52d8ef7c8ffeb8898e3d30623",
+      "size": 42651
+    },
+    "codex_oauth/token_files.py": {
+      "sha256": "dcc3a90bbdad001ec93c9e38bce68a0305bb2230b483b9d400431df3c1a59549",
+      "size": 43828
+    },
+    "codex_oauth/web_auth.py": {
+      "sha256": "4d1a34f0e52a0157711d4ed86bd5cdaa4225ce8bb35816c4b298483e7fcf12d6",
+      "size": 2806
+    },
+    "common/__init__.py": {
+      "sha256": "39ad8db99dadf319a61403aceaf6c9192c371fe28d77691cb2b4b736c8524283",
+      "size": 65
+    },
+    "common/account_groups.py": {
+      "sha256": "d6b8833835088e164a183641fee910d219d4027e8168f7fd68abc714988487fe",
+      "size": 4662
+    },
+    "common/account_health.py": {
+      "sha256": "b504c15be6c2a29c53ea2ee5909f357826a1856434a863bae7c5586369f7b48c",
+      "size": 47981
+    },
+    "common/account_operation_log.py": {
+      "sha256": "ea5ae1f7bb514b3dc365dce7ea1d65ca03c85e22d42540c93b9922936a51831b",
+      "size": 31103
+    },
+    "common/account_store.py": {
+      "sha256": "123aad0db80f55674c27b71d32c9771a89cf0588d91beebef2a7cd5b88747807",
+      "size": 117462
+    },
+    "common/account_store_mysql.py": {
+      "sha256": "d620cecd1ff3a04df67b4cf6012eb021ce2fe9468b3813f5fe5e86fd9bbe8cb5",
+      "size": 13950
+    },
+    "common/browser.py": {
+      "sha256": "2a4f18822ad27ee7044a29076bfc1ebf7258ba6ce92f935c167f874e93001107",
+      "size": 47988
+    },
+    "common/chatgpt2api.py": {
+      "sha256": "62fbd45e536a4dbf81abee48ef682312939eb5c70b25cd6b544affce7bef7609",
+      "size": 8985
+    },
+    "common/cookies.py": {
+      "sha256": "28359be3ef1e5423fdcc24a7143b510d560724af9ecfcaeacea437e3d969b9d2",
+      "size": 5466
+    },
+    "common/country_identity.py": {
+      "sha256": "66475a4528cdc71dea025bf2ca41f3db0a54da68634076507443360c607dbca5",
+      "size": 3934
+    },
+    "common/diagnostic_codes.py": {
+      "sha256": "aec70eb797545c828f0523a9c8166362d88aad3b99e32788f8019e5749ded662",
+      "size": 657
+    },
+    "common/email_rebind_jobs.py": {
+      "sha256": "1c44ef812ec7fc23a6450c1824eeaceefc1b6bd1ee6baf018126141513fb4447",
+      "size": 15115
+    },
+    "common/external_api.py": {
+      "sha256": "66ceaf4be2040304be8431a3eaa86d5d28b409d7311b3cdd75d590035a13804a",
+      "size": 80276
+    },
+    "common/external_clients.py": {
+      "sha256": "0b2cbf5af7802482fa98930dff5e4ac83aa7bc3b25510373a7c485ed6b252d98",
+      "size": 51599
+    },
+    "common/external_pipeline.py": {
+      "sha256": "90fbb9c136fb882d7adebc3e9686cdb8f9c3296b3b50e2592bb03ce2d049590d",
+      "size": 53565
+    },
+    "common/mail_registration_metrics.py": {
+      "sha256": "1330317bb9c610e225e1b7a619f269611f5206c2eee171729ee06fb1297a5015",
+      "size": 22630
+    },
+    "common/mysql_backend.py": {
+      "sha256": "52f3d85f67dd607de0c4b2b22d9c6bc01d87401cf034d2250c17a7ccc2555e5c",
+      "size": 6945
+    },
+    "common/panel_ops.py": {
+      "sha256": "8b3b8e0917bbb29751e191dd1cef925d35ddb7442a35c1b36feb6cf69300d227",
+      "size": 28909
+    },
+    "common/promo_eligibility.py": {
+      "sha256": "b13c9ba099ac2fb26e89cb348284b90d42b5e000871c92c7ba63e7b20a92526a",
+      "size": 13922
+    },
+    "common/proxy_bridge.py": {
+      "sha256": "2dc3a9f73c08ea1413d1b60670589dcce1fcb132628598a4c2b5f4eda229e7be",
+      "size": 5315
+    },
+    "common/proxy_clearance.py": {
+      "sha256": "5128e50fd3010b6ee062b8b37d3c9f37b5a4377ef3cd5d7631e8074300335e02",
+      "size": 8844
+    },
+    "common/redaction.py": {
+      "sha256": "da9544a48d9e269676aae2ecbd6b0d21d919436c7a74dc2bb15c94b970463e47",
+      "size": 9330
+    },
+    "common/redis_cache.py": {
+      "sha256": "bb0aa65e8d1ee3258c6e364f956d7f8e49df14c919e2cc7e3c20771c0411d863",
+      "size": 9115
+    },
+    "common/registration_proxy_pool.py": {
+      "sha256": "915a97376d4cfe43aeabdd8e2e086d0dc61fb416f424387b424f1278c0c4e046",
+      "size": 5285
+    },
+    "common/registration_trace.py": {
+      "sha256": "695b5570dabaebd7ca34db735df9864d58042a7a731bfdbf26dcea9601e83721",
+      "size": 12155
+    },
+    "common/relay_paths.py": {
+      "sha256": "d363a2236a3df500636761e513dfe5e9e8d86686033bf586d6d2a1d606428cec",
+      "size": 1009
+    },
+    "common/relay_recovery.py": {
+      "sha256": "0c0077068437d566ed3dcf3fe12d54688aa244712d52d16488b436fa13fa7c6e",
+      "size": 8093
+    },
+    "common/session_export.py": {
+      "sha256": "6db39f2ca9be03c188d2088dfb2d0995091355528efaf9c45bd902b749f290ab",
+      "size": 19942
+    },
+    "common/session_refresh.py": {
+      "sha256": "42ea42395e79314bf4cba2f3ef5ea73dbfc1f2d29475c413ef9416941d74e05a",
+      "size": 17903
+    },
+    "common/sms_number_pool.py": {
+      "sha256": "0dd1a825e7561d79587a16177fdc4933f5d8f3086bd55c1b6210e3a2061a859b",
+      "size": 20960
+    },
+    "common/task_checkpoint.py": {
+      "sha256": "68d733c2544e33bdf77b7eaacb3954c1ac39b888d75272df39bc0043024d5a44",
+      "size": 6265
+    },
+    "common/task_store.py": {
+      "sha256": "df1d3172dcd9ee50c5accb602bf30fdf1206bc00dd756889013df6b8ec59cdab",
+      "size": 18519
+    },
+    "common/team_workspace.py": {
+      "sha256": "1e4b5652152bb2c509616406d1445d75cd7511e769620edff6d733936375d325",
+      "size": 25809
+    },
+    "common/totp.py": {
+      "sha256": "d87996af8725b1685c8a2124866f970c145e44d45f0fccacbc526b5fb83cba3a",
+      "size": 961
+    },
+    "common/trial_eligibility.py": {
+      "sha256": "84022da14c36f4fcf583f5951dbaea27bc03d045943443cfe5ea62155bb6d4ad",
+      "size": 31986
+    },
+    "common/trial_eligibility_jobs.py": {
+      "sha256": "96c14b09442a73d6bb89aef4c5acf02d9b2d337c0312ace2b051a240a81add1f",
+      "size": 21342
+    },
+    "common/trial_proxy_pool.py": {
+      "sha256": "0a84b7a4f1852b786e5633127c502ed7ae4ce199801503bf7d1e6ce7b4ed49e5",
+      "size": 3985
+    },
+    "common/web_auth.py": {
+      "sha256": "531ff609335dc579cd452813bf75e14ead7abd7e8dc0b0cb1f27543d02f0555a",
+      "size": 2822
+    },
+    "deploy/audit_mailcom_direct_five.py": {
+      "sha256": "15c46e3047d5a68e6d1e162696cb0f939e69567c9f2e17e09105d51cdd11cb15",
+      "size": 8308
+    },
+    "deploy/canary_mailcom_release.py": {
+      "sha256": "432a65be341275c1365197976ae52a7cfe5aacac90abb82ab98a406beb6fbfbb",
+      "size": 27625
+    },
+    "deploy/check_external_api_ui.py": {
+      "sha256": "780a66eeafdf43bf10fdbfcb3b3bfcb5f4f21d96d48ea4b8a43f958e1c981d38",
+      "size": 8147
+    },
+    "deploy/check_sms_pool_ui.py": {
+      "sha256": "23d31553b202b120d67faa8da7f5c4775a8883304852a14725e056ed0e1bd03a",
+      "size": 7140
+    },
+    "deploy/deploy_external_api.py": {
+      "sha256": "e7a33fd1357065639a43436aeab5c80e544f5b32357566dd2655b5eefdcdf933",
+      "size": 1879
+    },
+    "deploy/deploy_external_pipeline.py": {
+      "sha256": "1d2378a893038fff18476170e8f6abe95674f14c6bee996ef7d66fa3c78944f8",
+      "size": 5643
+    },
+    "deploy/deploy_mailcom_direct_five.py": {
+      "sha256": "23d0a1eac6114351f0ad5ee4551b8dd73f0b8098fbd05fa7871a8e808314dda7",
+      "size": 8711
+    },
+    "deploy/deploy_mailcom_fullname.py": {
+      "sha256": "660e2216655b4673abfbdda29f209179d861a2459a790da7f03cafe376069cf4",
+      "size": 1991
+    },
+    "deploy/deploy_mailcom_management.py": {
+      "sha256": "b03829425ea3e329d886b0aa2cc70ed90c89b74de7ed7f650db43db0e1c90295",
+      "size": 8412
+    },
+    "deploy/deploy_sms_pool.py": {
+      "sha256": "cc1e1f5e2fd0e879785160c299c306937e54d571ac2e77541e95073f45706332",
+      "size": 6698
+    },
+    "deploy/deploy_upi_complete.py": {
+      "sha256": "683700e9ef0fe2b3c9227e6e533b3a781adf2fe45d2db10cfe65ada3d483087d",
+      "size": 3218
+    },
+    "deploy/docker-compose.mailcode.yml": {
+      "sha256": "c2be95ceea87d6a65deecefd1c6865b43621467bf1d3b12766f45260708ac47c",
+      "size": 244
+    },
+    "deploy/mailcode-service.env.example": {
+      "sha256": "78f5b7ae3f88f4b861d867406601ab88848ea94053fc03cc6f5090be21f11f9b",
+      "size": 218
+    },
+    "deploy/mailcode-service.service.example": {
+      "sha256": "f022c6217e5381a3fcb227d74b626fa8953e2f38c11e853d2c9752fa167aecea",
+      "size": 511
+    },
+    "deploy/mailcom_fullname_baselines.json": {
+      "sha256": "4e59f7e6629599ec2d5503b1a614f5bfb5503ed3d11feb5c0aa054384a6b124b",
+      "size": 5790
+    },
+    "deploy/nginx-gpt.example.invalid.conf": {
+      "sha256": "ddca770d399d33a1592faf3c8bfc32444bb7141d14c3441ff1fb90dbdaefb2f1",
+      "size": 1065
+    },
+    "deploy/readonly_ssh_recon.py": {
+      "sha256": "6e49680a6a236fdadeae8fc188d7141b650e8eee5608d056ddd3038055a6c83c",
+      "size": 23312
+    },
+    "deploy/remote_fix_registration_node.sh": {
+      "sha256": "e0f6637f0cf826ac75578e5b0a4bedff68f2899310e616dac889076b22f30688",
+      "size": 5512
+    },
+    "deploy/remote_install_full_server.sh": {
+      "sha256": "33520e691a01fadf8c8a41fafdb72fe0f74e04ade3be617865ec2a2425e0f995",
+      "size": 4602
+    },
+    "deploy/remote_update_external_pipeline.sh": {
+      "sha256": "f6990db08f4af54154b30591fb1f4927b9bf5ed970cc551b9cb366b9f61993bc",
+      "size": 5849
+    },
+    "deploy/remote_update_mail_adapter.sh": {
+      "sha256": "ea38e4ac4c79caa09a38bbd7fb968659032d6de280ba28f3b6ce290540f57dbd",
+      "size": 2723
+    },
+    "deploy/remote_update_mailcom_alias_delete.sh": {
+      "sha256": "a35bb2dfec5a2274bb03136fd5c3ddeef3fa392fff8197155693e7e9295f347f",
+      "size": 6791
+    },
+    "deploy/remote_update_mailcom_bulk.sh": {
+      "sha256": "173b9ed82d4c8ad97f9ef782e32017cfe2e87057755c22b02c2bf16a098c579f",
+      "size": 2331
+    },
+    "deploy/remote_update_mailcom_direct.sh": {
+      "sha256": "0f6b640bf1094d354eba15ca86ade1c46741f8cb446bd2f7d09073c8a70a12d3",
+      "size": 11608
+    },
+    "deploy/remote_update_mailcom_direct_five.sh": {
+      "sha256": "6fe41fec25b010336b7a2764a91860dc670c443f1e02595982fded76f5946877",
+      "size": 17908
+    },
+    "deploy/remote_update_mailcom_management.sh": {
+      "sha256": "5c035d7053308f242c2c197c48a70686581de0f2b3cd8704923ef72a825cdc2f",
+      "size": 2497
+    },
+    "deploy/remote_update_mailcom_proxy_pool.sh": {
+      "sha256": "23ad63673c47a8c973ab1d4f9fbd417bb87a678ee82173af08a9091e7893da94",
+      "size": 6791
+    },
+    "deploy/remote_update_rebind_deferred_mailcom.sh": {
+      "sha256": "f69dfa6fef0efb5aaa7317ac6f13aef0ec3ed53489683cc9733002269e73dcb7",
+      "size": 2193
+    },
+    "deploy/remote_update_wdmail.sh": {
+      "sha256": "d0bcab599ed78720aa8ec4f51030186678da04b3e761965c7264c14beff76ecd",
+      "size": 3077
+    },
+    "mail/__init__.py": {
+      "sha256": "e7fd7b25caec24214392eba2ebc8b83da0f8fd7cc8f5741c9a8e56cc98479fe6",
+      "size": 184305
+    },
+    "mail/mailcom.py": {
+      "sha256": "b491c96554636e6cb9b47354e6b142e8c7ac8f1e7d3406f9514c52bb2d70df73",
+      "size": 60993
+    },
+    "mail/parsing.py": {
+      "sha256": "eb4a01df248d6e8f78ef8e1d9271cd120f9cb90b85fedeb1becc14852b5bd6fb",
+      "size": 7616
+    },
+    "mail/wdmail.py": {
+      "sha256": "918252ae1a6b5d2975d99b5f2d2acb9cfd73687803646198e6de129a4419e6f3",
+      "size": 6041
+    },
+    "mailcode-service/.dockerignore": {
+      "sha256": "c64bf3323af18c80f671891b6bda83fdd813246bc5d8d396cfec64e0e770426e",
+      "size": 54
+    },
+    "mailcode-service/Dockerfile": {
+      "sha256": "fc6faf613b85b0b4fa3484c36891eedfc56192b1651a88f4d648193c313f6a54",
+      "size": 474
+    },
+    "mailcode-service/README.md": {
+      "sha256": "298f27b15d3a88fdd60c36d964bb007eb754ac0321f01ce94929eabfe4797dcf",
+      "size": 3125
+    },
+    "mailcode-service/mailbox.mjs": {
+      "sha256": "7a1a641d5ced7d106780b735b5bb4701fcc2a225acb1fceae7e3798a40c1ff55",
+      "size": 9361
+    },
+    "mailcode-service/mailbox.test.mjs": {
+      "sha256": "8efbcb798813fc0153294de2e6d1f790358e7f1510fd82909a425d8aaebd238c",
+      "size": 15230
+    },
+    "mailcode-service/package-lock.json": {
+      "sha256": "596ac1f20af693861a31e6dd34fcba935e8cb3ead19e08d52700ea9c1a1d48d9",
+      "size": 1033
+    },
+    "mailcode-service/package.json": {
+      "sha256": "b2c9201e507d4b236ae4fba9a546e767a7905a1e191fc77e2037ce888ec636d7",
+      "size": 305
+    },
+    "mailcode-service/probe.mjs": {
+      "sha256": "6ac890105a650585c61c80b08bc58c2bc41c754a98d44e2dd83688ee9ca00ec3",
+      "size": 2911
+    },
+    "mailcode-service/regression.test.mjs": {
+      "sha256": "995e946cc4a15e31a684cdfff639209c1934bb8daf4bd61d99aec8fee5349efb",
+      "size": 17793
+    },
+    "mailcode-service/server.mjs": {
+      "sha256": "ef579dc5d4ea63efe64e79df87acfdfc9d1cc4e73a11dd0d55c772d3463603db",
+      "size": 41388
+    },
+    "mailcode-service/server.test.mjs": {
+      "sha256": "33e6eb017062de404fc287111577f254048057df1ca05d0e912fb5a5330ffed7",
+      "size": 17401
+    },
+    "mailcode-service/store.mjs": {
+      "sha256": "75fd14c192a1dce1087dded2d05556c49f276056865a909fc902fe8ed1ceac89",
+      "size": 2097
+    },
+    "mailcode-service/web-alias-client.mjs": {
+      "sha256": "edf0bef8c5f0692f662f9962c776692b40f6c604bf4161e1ba03d5a7b05a800a",
+      "size": 1676
+    },
+    "register/__init__.py": {
+      "sha256": "aa3cbbec4960f59e55e1294686c54b50054838c77169c9cc0e1ceab006c17936",
+      "size": 338
+    },
+    "register/auth_diagnostics.py": {
+      "sha256": "abb56b00ce911c4c3ad2435d43e53475eab7a48bdbdb3f50f24766c49fac35e2",
+      "size": 4307
+    },
+    "register/batch.py": {
+      "sha256": "3c36c7cbc8032415b7d62de660d6cc8ef32f1cb529b254b12a5e2f0795f32808",
+      "size": 39335
+    },
+    "register/cf.py": {
+      "sha256": "a63409e589d85fbbc573fda20981da1621046838ccd7a1f9e231ea9dfeafef38",
+      "size": 1467
+    },
+    "register/flow.py": {
+      "sha256": "151b7fce92fd42620932f2a7eb0e33d78b367f9f34a3efbed0b5dd2a924032b6",
+      "size": 91187
+    },
+    "register/initial_auth_response.py": {
+      "sha256": "d91c6b759510bba1d874c305516241d8a15d52bc2ed57ada0bbd5bd16d72fa52",
+      "size": 14267
+    },
+    "register/log.py": {
+      "sha256": "c4dd2ba4809393c9641dcbb4ced84912196a5784cef353ad252e6edfd6160947",
+      "size": 3062
+    },
+    "register/onboarding.py": {
+      "sha256": "b7eef2fc42bc37d5e769cea0438bb8b6f00490c68a3e99fa822315c7379f1ede",
+      "size": 10167
+    },
+    "register/page.py": {
+      "sha256": "ad4006f9c43f63d14dbe47f148cb16089a77d8027b59a76481c9decd4d729a2f",
+      "size": 90053
+    },
+    "register/pending_recovery.py": {
+      "sha256": "6c00ddd8182b54189d3a26d1dcdb4fd4b73929a5dae87eb16eb8a840c2502e1e",
+      "size": 10647
+    },
+    "register/protocol.py": {
+      "sha256": "7229b2ac8fda993cd7e1d28f4a66cecf3f118dcbdb56d0aebe9968728a8eb10b",
+      "size": 69224
+    },
+    "register/protocol_context.py": {
+      "sha256": "ca59f584612b6e7f223ba41911e234b6ab156c8e71b9e4beeca578beccdd4326",
+      "size": 19262
+    },
+    "register/protocol_fingerprint.py": {
+      "sha256": "3c95e51c1697e05719596acca6918e97ba8a61a7f21e9280af635f7e8bc49f7c",
+      "size": 112726
+    },
+    "register/protocol_http.py": {
+      "sha256": "caf77880116af0082a6e9be91971249fa5086605262dba177f8cf073690e93e7",
+      "size": 26751
+    },
+    "register/protocol_ops.py": {
+      "sha256": "70d665d4a1ec88b9da2f2add388915a6bde35f7817d2784eebcfd5a84d1438fb",
+      "size": 78923
+    },
+    "register/protocol_pkce.py": {
+      "sha256": "77fc9377e8cfc835fe00e6b27bd64a9cd89e1b6a73a079f28d1e26232b30b9a0",
+      "size": 604
+    },
+    "register/protocol_registrar.py": {
+      "sha256": "d4ddb787a0d5c9c1996b85b137694e527230b22fc7a5c128c001f975eeefbb7c",
+      "size": 219103
+    },
+    "register/protocol_runtime.py": {
+      "sha256": "c4e418f89b1acbe15e435af400c62d3ccd8faeca5a5cbf6796afb71fe347f2df",
+      "size": 4625
+    },
+    "register/protocol_security_standalone.py": {
+      "sha256": "a959f042e9e7e60a2fa1adc64e4d7bb7d00496b36eb116f0eefb6d63c2c3d141",
+      "size": 30221
+    },
+    "register/protocol_sentinel.py": {
+      "sha256": "4c08bae2ac05e68459aa02bf16181c4035307055fa3bbc1bec2bcbef23be2d60",
+      "size": 46091
+    },
+    "register/protocol_turnstile.py": {
+      "sha256": "53b2f4f4e0c05fa19da9b5c6eb737cd597efe0485fb341f0b15becb51a83008e",
+      "size": 10616
+    },
+    "register/rebind.py": {
+      "sha256": "e849423db2ad786c7b343911851a2facd90f0fcbdb481306b94599d2184909e0",
+      "size": 23857
+    },
+    "register/registration_outcome.py": {
+      "sha256": "7b30687b3837b14e786d4a306229476c19ee8b40c5bef0d272aabe9a31da7bd1",
+      "size": 12198
+    },
+    "register/scheduling.py": {
+      "sha256": "3893dd5f6ed2981fba5916e98dfa41a70396e173a12bd1f7b3f0faa34b3ade91",
+      "size": 1909
+    },
+    "register/sessions.py": {
+      "sha256": "762415f90169ed22a2c402480fd85f45f1135b5a1300a795b6aac05dcd909b0a",
+      "size": 1732
+    },
+    "register/util.py": {
+      "sha256": "2c3b5088d00d259d89ed064e51daf0246076a30361f9862cee9640f03e73e75a",
+      "size": 2760
+    },
+    "register/sentinel_vm/runtime_worker.js": {
+      "sha256": "897079c952bbff969859321d00ea18a72291a229616f1d2a66bfa0fb118e2780",
+      "size": 16687
+    },
+    "scripts/migrate_sqlite_to_mysql.py": {
+      "sha256": "400536d6d674875c61d77ed3b42b8fbe91cbc0b65449843d8c353d21032d2181",
+      "size": 9876
+    },
+    "scripts/restart_web_after_kakao_batch.py": {
+      "sha256": "f2b7d52cec2fe0b08d357bfdfc89517a197780f7ff4c2612c63eb23c50771fc1",
+      "size": 4118
+    },
+    "scripts/start-web.sh": {
+      "sha256": "875361adec78405a7394a1245be68286ce5c2523317a0938027391461a82226b",
+      "size": 2542
+    },
+    "sentinel/sdk.js": {
+      "sha256": "a9683c60a66bfc1c0ef962e3a78cdd6f3e0568ffcba9c7bb966c1be1bcfc5f21",
+      "size": 33806
+    },
+    "sentinel/sentinel-runner.js": {
+      "sha256": "abd70632bb46b2617310178700bc737abb8c48ca7845355d546f612b06d927ec",
+      "size": 23231
+    },
+    "tests/conftest.py": {
+      "sha256": "2795c1938e695a5c060b24762934901e87a9d5449d68969fd5e79007e465a2a1",
+      "size": 1480
+    },
+    "tests/test_account_identity_regressions.py": {
+      "sha256": "195861781535dae063e67bf0ce989bac7166cb1f0d5820b297ea71e821adb50c",
+      "size": 9891
+    },
+    "tests/test_account_key_migration.py": {
+      "sha256": "b234611389bac39598424db54d807a4ffd9683cb5ee429da41295af36669cd4c",
+      "size": 10400
+    },
+    "tests/test_account_operation_log.py": {
+      "sha256": "b37b4bcf9df4806b536670efc787564e07d1f3a0e14909f1036bbde53f505d5d",
+      "size": 21011
+    },
+    "tests/test_account_store_mysql.py": {
+      "sha256": "ca07f5cc37ed96f73d2d0e9c40ae78e7f62c3f7ec1b5acca9479160a4a3e08ef",
+      "size": 11475
+    },
+    "tests/test_account_store_sqlite.py": {
+      "sha256": "a972444ed882d9df31f4a8455813aef34af139fe91a632dc06a40d0e87f7ee8a",
+      "size": 12346
+    },
+    "tests/test_auth_routes.py": {
+      "sha256": "171d2a71aa85bb17a48dedd0ec45bfc5d20b12a03a09410b822c635fd1743433",
+      "size": 486
+    },
+    "tests/test_core.py": {
+      "sha256": "58d1129f76156273edfaf3bff63a6bbe49c56ce4f4c83f05038e623e445615c1",
+      "size": 510073
+    },
+    "tests/test_email_rebind_jobs.py": {
+      "sha256": "bb1d187de47bb2e76348ad8d3e998d8b41e6cd825ba91ed89663a50cfe51c728",
+      "size": 4298
+    },
+    "tests/test_external_clients.py": {
+      "sha256": "4af889938053ea99a5b0655d747e6e1650f65a249f0cb05d38c790a3bf23eb25",
+      "size": 43656
+    },
+    "tests/test_external_mysql.py": {
+      "sha256": "51305dfd8a7198f5ef6ca90a5ff260cbaa26cf4a6f7f6b18c1d029840ba30d68",
+      "size": 3267
+    },
+    "tests/test_external_mysql_integration.py": {
+      "sha256": "b1590ee8563cddd5c1b8e21ba104f083e9072a8f887a47e1c6e331aa1915d042",
+      "size": 4081
+    },
+    "tests/test_external_pipeline.py": {
+      "sha256": "d354f13db2a5006c3794b98d6ed600715189f10f81ae9cad87f3d4fa347ae0c3",
+      "size": 7210
+    },
+    "tests/test_external_routes.py": {
+      "sha256": "2354afc91f2092d8d84d3e510dd135de396043113df25fc760e569741a4a1719",
+      "size": 40796
+    },
+    "tests/test_external_service.py": {
+      "sha256": "1d426331b02d557b05b17969d613e5ac9113222b96f73aea9ea4ae757e54ac2b",
+      "size": 22412
+    },
+    "tests/test_health_integrity_regressions.py": {
+      "sha256": "6b5f74ab07054c779d9fbb015a26d767e5ba0c88d83df2bf7483b4b2353b2315",
+      "size": 9138
+    },
+    "tests/test_import_checkpoint_concurrency.py": {
+      "sha256": "4a1913a94256dfe328a7bb5b5b8532a4dcf3cf27d8abe59a9c97c2d26cf6f0d1",
+      "size": 10029
+    },
+    "tests/test_import_identity_config.py": {
+      "sha256": "bca48d5297f48ce174e0c724f036e4bc822eca09c94a4fdc9fdbe041bbe9423f",
+      "size": 8191
+    },
+    "tests/test_imported_sms.py": {
+      "sha256": "c7ff97de1580105785b5d194d6da63cba17212e28ef88915d937b98fb4a5ea84",
+      "size": 23144
+    },
+    "tests/test_mail_adapters.py": {
+      "sha256": "6d7ec7abf70f53e7c0a573960f0a3591ed2ef1792c9737d3d375b2110d777013",
+      "size": 13447
+    },
+    "tests/test_mail_registration_metrics_mysql.py": {
+      "sha256": "6dea2d648d6f0e87389b021abe9893ab2eafd1e2c6019271007db23bd3bf0282",
+      "size": 3939
+    },
+    "tests/test_mail_state_concurrency.py": {
+      "sha256": "c37b4b886db87925157070aab954c3d783ccae20144b484bdfb38965801e8be2",
+      "size": 3060
+    },
+    "tests/test_mailcom_batch_management.py": {
+      "sha256": "96ac20d5c6adff6d1e0ace93559b3757bc962b3fceb3ae0890838ca456669212",
+      "size": 6017
+    },
+    "tests/test_mailcom_provider.py": {
+      "sha256": "6a3e2f0a5041679f55804afa0f20728f64b32845c195e2f1f9384148d609da43",
+      "size": 37223
+    },
+    "tests/test_mailcom_rebind_routes.py": {
+      "sha256": "da6450ec4ca1b77f053a7e846067376ea4aec6abf96e62c96411a84dd4ddeca7",
+      "size": 10550
+    },
+    "tests/test_mysql_real_job_sms.py": {
+      "sha256": "994af5ae40c4a46a241b158808c0bf73a650b911954a485fd62ec993370934e3",
+      "size": 4706
+    },
+    "tests/test_mysql_task_sms_store.py": {
+      "sha256": "4922c18a3d48906d65ba235cc52dbfd12d9bc89e13c026341936015dddf1a570",
+      "size": 2711
+    },
+    "tests/test_password_change_options.py": {
+      "sha256": "e9cdfb942c922fe4525c6cfee578321dfc84d18fd4dd42dbf990f2dabc338ae6",
+      "size": 3804
+    },
+    "tests/test_protocol_optimizations.py": {
+      "sha256": "f7571e76cefcbd26204dd770f861523da883f3469f0fab815a3fc76d8150c6bf",
+      "size": 16256
+    },
+    "tests/test_rebind.py": {
+      "sha256": "8159d26899417fd35f1ce30b6d7a98de4d5389015f192cd270793e4dd8ff8efb",
+      "size": 11628
+    },
+    "tests/test_rebind_batch_endpoint.py": {
+      "sha256": "b072e50185e43e4f1562e395213b1c9fe4724be51cc4f03ca3a9da9f2db8540c",
+      "size": 16970
+    },
+    "tests/test_rebind_batch_helpers.py": {
+      "sha256": "b1de2fe84d129a69f411c5634c7cb538b14eaf1afdd5d47b0a355203766c5521",
+      "size": 4521
+    },
+    "tests/test_registration_proxy_pool.py": {
+      "sha256": "e8db1e3378dd16e0ac747f3c7ae85c092dbabbcdb7b485f10bc2d7568f2c443e",
+      "size": 5040
+    },
+    "tests/test_relay_export.py": {
+      "sha256": "8eed2855547579d348b43458a3f6e5d7b29592f83bb1d796beef77bc782bff52",
+      "size": 13446
+    },
+    "tests/test_relay_paths.py": {
+      "sha256": "1222ca5d4845975a3bd9c27e191238b1386202b5afab06ae55d684cb2371a9cd",
+      "size": 822
+    },
+    "tests/test_relay_recovery.py": {
+      "sha256": "73e3bc76b4075849447a7e9e95ac2b75a1f4574d8a284f0e89741973f1cd3806",
+      "size": 16881
+    },
+    "tests/test_resource_lifecycle.py": {
+      "sha256": "1ae0b133de7091361a3d8a6ed34b2dba2eb80f93206b1d6e7c37a5191d73beea",
+      "size": 4867
+    },
+    "tests/test_session_refresh.py": {
+      "sha256": "60d058cd29d1055cff346f99f3aa764df1442c165419e71d9fb14e6ca545d1d7",
+      "size": 8010
+    },
+    "tests/test_sms_number_pool.py": {
+      "sha256": "8482d338bd322cc499f3ba7504cf7aac9df4780c5d2dff075e2ae93038279490",
+      "size": 7900
+    },
+    "tests/test_sms_pool_routes.py": {
+      "sha256": "e1c26aecb29965e86ec13b93c494ea0c4b4e24b2e3b24dc982e37ed09670f63c",
+      "size": 26421
+    },
+    "tests/test_sms_workflow.py": {
+      "sha256": "3d4db02e100cda575b4528b753702d409337e626579e4898075ee5d76ab7eead",
+      "size": 22147
+    },
+    "tests/test_task_checkpoint.py": {
+      "sha256": "91d1dafcf2af782cad7d118f65f3ffcb2ee32bea88b7dde9e512a4290e2666b1",
+      "size": 11035
+    },
+    "tests/test_team_session_lifecycle.py": {
+      "sha256": "7af828ed4142793ee6f74b08eb8deb12a9ebdfd9b415a8575b4984caf329385b",
+      "size": 14745
+    },
+    "tests/test_team_workspace_import.py": {
+      "sha256": "7f702c56521bd9abd6ab6ea399735a06e69c83bb21aaeb907dc2e46bccb70e3d",
+      "size": 15760
+    },
+    "tests/test_trial_eligibility.py": {
+      "sha256": "326c39cda93126628c8dcd5429cac4bdc9fe5a09e682257a0361125b26d7e895",
+      "size": 25861
+    },
+    "tests/test_workspace_login_retry.py": {
+      "sha256": "79fdf1bf7482ddaa2e31adc7f3efc4b311b03b923aacd9cce8a509a81a94fa88",
+      "size": 10279
+    },
+    "tests/test_workspace_session_redirects.py": {
+      "sha256": "4f4113851bbf46b32eb96d1b9c642a50dc0c13b04a74f30a56319eaab020c8d2",
+      "size": 13954
+    },
+    "web/routes/__init__.py": {
+      "sha256": "f96e26f85bc36542718277b1477d4aaf3266e305cee1c4ec05121ce1aa8a8637",
+      "size": 51
+    },
+    "web/routes/account_groups.py": {
+      "sha256": "c46c11a8434652b274189eca4d33024cb1bf0a0ccdf62e863992994081c42338",
+      "size": 4673
+    },
+    "web/routes/accounts_io.py": {
+      "sha256": "f1d49cdca9085bca95edc0ffeb836940981d8d6688b85b28a6cd2d08ec3686c6",
+      "size": 9772
+    },
+    "web/routes/accounts_reauth.py": {
+      "sha256": "27457e547498f0553427abdd1d18d1e91bdc08909aca348b5c2b225ccc2df6c9",
+      "size": 21547
+    },
+    "web/routes/accounts_rebind.py": {
+      "sha256": "912ca011a0eb082f4bad8a6de121515ca30772724045c3049fd416ed4b6b83ba",
+      "size": 68614
+    },
+    "web/routes/accounts_trash.py": {
+      "sha256": "4809699cd5141438a8b478ad9a0ea958f6ae48d85d816b1ad6bf338e52bdfd0a",
+      "size": 1895
+    },
+    "web/routes/auth.py": {
+      "sha256": "11ba1c31460123695f13dfdbb1bf4d6e5dfb6713dcaad5683cbecd3ee721eacb",
+      "size": 6828
+    },
+    "web/routes/chatgpt2api.py": {
+      "sha256": "958779a28ce065c5d886c6c651c8b2fbdd964f9a93f3d7a135fac8d8f62a8883",
+      "size": 6271
+    },
+    "web/routes/cliproxy.py": {
+      "sha256": "c290c878fa19d04e5269b81a1c64f8aa5764e9faed452cef82e228c459ffa015",
+      "size": 41324
+    },
+    "web/routes/codex_oauth.py": {
+      "sha256": "2063e1ed89afb0c1949e16fd8a2e25f36c98712a546d7fb54ddc448dbd9946be",
+      "size": 134026
+    },
+    "web/routes/external_api.py": {
+      "sha256": "50d7c8471e3ec93ff04d3898cb3ff11e9b103935b97f191714e7b5a573776299",
+      "size": 19163
+    },
+    "web/routes/jobs.py": {
+      "sha256": "477c17308feeb019ef0184fb3ab7f3fdda77fdeb1c3bb8c86f06090a01e7a95a",
+      "size": 71074
+    },
+    "web/routes/mailbox.py": {
+      "sha256": "e077a7f6193e1066230fe570297bd5e572f69d6ff31843375c3a1bdfa725bdd2",
+      "size": 68855
+    },
+    "web/routes/mailcom.py": {
+      "sha256": "cdd5afd9f363dd1ea42f353792c01afdb469624653bc3f1c94cab00842c999b0",
+      "size": 48775
+    },
+    "web/routes/ops.py": {
+      "sha256": "8421b5fa437b905e54300afe913d9102c34bd90d8a6661480eb4055e2c4776a2",
+      "size": 37410
+    },
+    "web/routes/proxy_admin.py": {
+      "sha256": "1dfae23be094668ebd7f1467b4036e32def18359870ea6e70470eae4e3945df4",
+      "size": 8669
+    },
+    "web/routes/refresh_at.py": {
+      "sha256": "1c6aa029806fb98db8c6ac44ca2f082e022d6b07e942b561ab86363470e6a1bf",
+      "size": 4780
+    },
+    "web/routes/security_ops.py": {
+      "sha256": "a53b61ce8ba3f161d8f5d983d950d9b3f3657e3d05cdde7549ef3903915b6b03",
+      "size": 49016
+    },
+    "web/routes/shared_models.py": {
+      "sha256": "22fa3d45fd28cb973d7dbc1c30f0b2c1381cef86ed895928731866611af6e6ca",
+      "size": 319
+    },
+    "web/routes/sms_pool.py": {
+      "sha256": "c2a9e0a50ae23f725f5da88771103b772fbec02d92247e6844a277cf0e0f8ccc",
+      "size": 5091
+    },
+    "web/routes/trial_health.py": {
+      "sha256": "f69acbea5283b4d8f8974d9baf0182a9dee742b2931c8232549065c91dd46ddf",
+      "size": 24396
+    },
+    "web/static/style.css": {
+      "sha256": "0fafccdf7fa6d454f4569fb37d94555082ff6f6334c2406538f59295e98fa9ad",
+      "size": 38256
+    },
+    "web/static/vue/index.html": {
+      "sha256": "b7e17f922ec7a8488b34c6e686cb26277299cc6e5a88f6805d2b4aba81a5538d",
+      "size": 2683
+    },
+    "web/static/vue/new.html": {
+      "sha256": "c5f623f18fffba0c8581136672eafdb0e44552b035ad3b3869440da8eab18bcb",
+      "size": 974
+    },
+    "web/static/vue/assets/AccountsView-C1w7kagQ.css": {
+      "sha256": "a2e2de51261ee128e083b4c7be2d85e74e937a782fec3eb367a0228cd3ae94e1",
+      "size": 21856
+    },
+    "web/static/vue/assets/AccountsView-CeKy3GEd.js": {
+      "sha256": "c07d0bd487f6030b0dbe582c24f9c875c44b15df63b9d15a8ff815db2ac2ab24",
+      "size": 60821
+    },
+    "web/static/vue/assets/AccountsView-CsHYbf-D.css": {
+      "sha256": "b0c03c28b67737d9ca9785967d9f531c318f32a1c6d653afe1da9cb7845350a4",
+      "size": 21606
+    },
+    "web/static/vue/assets/AccountsView-hIA-JA3X.js": {
+      "sha256": "c9ef50656f8db58b12b0667afd536fd24b20ffbd8177d928487ed4a3694667c7",
+      "size": 60527
+    },
+    "web/static/vue/assets/AppEmpty-D88HNJnz.js": {
+      "sha256": "99010e36df9fe18ff7858fc1d2f6e4602b1dc51330f5a0d7d0ced43125755f43",
+      "size": 467
+    },
+    "web/static/vue/assets/AppEmpty-DvDrnfmq.css": {
+      "sha256": "605ad01a7e2a59ea335959e5cb7feb42702d204fdd57177f1ea83de44cdca3f9",
+      "size": 333
+    },
+    "web/static/vue/assets/AppPager-B-cbAPhP.js": {
+      "sha256": "925660ac6187d99d48d55a5b7b7b83fc415e763b1bab8a6b16124fa471fac92c",
+      "size": 1344
+    },
+    "web/static/vue/assets/AppPager-sqyLaiRA.css": {
+      "sha256": "ecb01f11e7802ba43a124707c6cde1dcf872609cbebb61a4a4ea750d72ec8438",
+      "size": 922
+    },
+    "web/static/vue/assets/CliproxyView-BvaRvJZ2.css": {
+      "sha256": "fb9c9f5cb0d61d63d765361c9d86200567fabb65675ea8207cdc30c2a6241ed7",
+      "size": 4667
+    },
+    "web/static/vue/assets/CliproxyView-D58LrhJ5.css": {
+      "sha256": "04e119427b7b08bfd4a9b170d06c2553a0288b254df19edc32e271cc690bc825",
+      "size": 4667
+    },
+    "web/static/vue/assets/CliproxyView-DAnposvs.js": {
+      "sha256": "56f050c363efbb19c7c2ff2ca5d77502b1383a14eecbfd9f43c2abf8294e0eb1",
+      "size": 16880
+    },
+    "web/static/vue/assets/CliproxyView-oX56Yshn.js": {
+      "sha256": "3abe275d299a28480fb7cc4dddb319493b419129941af82e3866975ac080987c",
+      "size": 16285
+    },
+    "web/static/vue/assets/CredentialExportView-8J0xj0Ye.js": {
+      "sha256": "014e8a4ec7bd33d5c6e32ba33ca4fe8b42f4fba586f415648080f5558b6f5a6e",
+      "size": 16033
+    },
+    "web/static/vue/assets/CredentialExportView-D0boux3T.js": {
+      "sha256": "07a94bab18468c7a73a89935ec06dc49cf6f0765c913ca38254e8648914d4e56",
+      "size": 16033
+    },
+    "web/static/vue/assets/CredentialExportView-DmYLoUWq.css": {
+      "sha256": "b0f453be18d3d7babadfb75464b4c8fd2e5c1fb912c95ee7dbe4a8a5c94c626f",
+      "size": 8030
+    },
+    "web/static/vue/assets/DashboardView-7JBC0NA2.js": {
+      "sha256": "c228e9ff6c8d5a57dd9fd431597c98c7141f2ca7d9bd938f17c2faa8cca519b7",
+      "size": 5354
+    },
+    "web/static/vue/assets/DashboardView-D3dkybTU.css": {
+      "sha256": "ab15c11b26e017f4d92b5f0309f9dc6b14fb603f3145616c80e24818c3426228",
+      "size": 3863
+    },
+    "web/static/vue/assets/DashboardView-Dg0IHwVa.js": {
+      "sha256": "177451a3780682e57ca04d5a17bf0827829c57b2fd384c52aaa0d5976bd06d84",
+      "size": 5354
+    },
+    "web/static/vue/assets/ExternalApiView-BvhF5_jE.css": {
+      "sha256": "8a9c8555844b83fcdf5fba2f82852b1e175fbe0ed2be6b6c09166131e37a468c",
+      "size": 13110
+    },
+    "web/static/vue/assets/ExternalApiView-C3SezO1u.js": {
+      "sha256": "6c07699efc22dd6bb93bf3dde5c0da01343062ec47e5160c9714f3173aa89d80",
+      "size": 79881
+    },
+    "web/static/vue/assets/ExternalApiView-DEWaSrZP.js": {
+      "sha256": "c7f0c004402127168012d10bc8d3d7da68e0d9d4f8649b0dbe54f9687263677e",
+      "size": 215
+    },
+    "web/static/vue/assets/FingerprintView-B1TUuvSo.css": {
+      "sha256": "d648cae984e6a930e1053dcafc39c8ec412d6e7094b4b16ea8cc8b8f287fc503",
+      "size": 2760
+    },
+    "web/static/vue/assets/FingerprintView-CO3wPOdA.js": {
+      "sha256": "a88a4775afc1c4671bc08eb2b16c7e21a2b2a6c5c22c1a1d48fa88d92a57af57",
+      "size": 6354
+    },
+    "web/static/vue/assets/FingerprintView-DInwj8v2.js": {
+      "sha256": "ed394bbad40705ed407a9e384d35e8ac14d26c7195c7de823a87308452959fe8",
+      "size": 6354
+    },
+    "web/static/vue/assets/IntegrationView-BTGwAXp1.js": {
+      "sha256": "4ba7d6f531cf6c423093fb925538f9a7c4370c2510bf0fa01f5695e40f0c6bcb",
+      "size": 4472
+    },
+    "web/static/vue/assets/IntegrationView-Bfs52u_5.js": {
+      "sha256": "ca5c094412e6fe030804b7616568ea77a7e5416e622a9f23df19ba2d34222258",
+      "size": 4477
+    },
+    "web/static/vue/assets/IntegrationView-CPdeV6Jc.css": {
+      "sha256": "a4a8da08a8ae3dbb8cb2c5a5b4c1b709cb4957b56d35910f491b4970e80d3e68",
+      "size": 1003
+    },
+    "web/static/vue/assets/LogsView-BB5YknVS.css": {
+      "sha256": "82afe164cb545654e17fb16578ef6f50b110baa4999d0650b403412b0856232c",
+      "size": 1313
+    },
+    "web/static/vue/assets/LogsView-CpDOBZ9j.js": {
+      "sha256": "70c335c20ef020397374d3b5e91cae4f37e3a7496d54f30baff2350a8b6805c9",
+      "size": 3796
+    },
+    "web/static/vue/assets/LogsView-g2qNGnP6.js": {
+      "sha256": "df326005effac02f3b9afa313e4f88de003c78d694142040bf9583f6bfb43ed7",
+      "size": 3791
+    },
+    "web/static/vue/assets/MailView-DBTcPxm2.css": {
+      "sha256": "4eb5e76d1ee1fa933bb9052b1655a677ec5526e3ae7c9b600957c6a9974ed138",
+      "size": 4566
+    },
+    "web/static/vue/assets/MailView-DfhsIzvN.js": {
+      "sha256": "a7227cadaef13401316ad98ff64def90c2a316bf8c00ab075f2b90d065a66ddb",
+      "size": 23600
+    },
+    "web/static/vue/assets/MailView-FYv8uiSN.js": {
+      "sha256": "9e2309d32ea35cd5ef66603d3f6a3d46e5a020062d6535da54d7717329835814",
+      "size": 23600
+    },
+    "web/static/vue/assets/OperationsView-C_v1S1we.css": {
+      "sha256": "09df89bdba7ad56855a1b7e7ec40597b68a4a0c53f9e85bfcedd1627a9f6fbc1",
+      "size": 18659
+    },
+    "web/static/vue/assets/OperationsView-CrBNu2kN.js": {
+      "sha256": "6969715d047dccec97b6650b4eb43c90adfeadd70b765eecaf34c4be691dbba1",
+      "size": 45640
+    },
+    "web/static/vue/assets/OperationsView-xbvYbdL7.js": {
+      "sha256": "5b67959391174f57b6414a5ba5727fe8eca82cb7bb1f2095e101451e87a8b670",
+      "size": 45640
+    },
+    "web/static/vue/assets/ProtocolLoginView-Btzslsom.js": {
+      "sha256": "2a6206f5eb7ab9580e9d6a14ce70d3830c9a8778864e8a7cac9631318527736b",
+      "size": 12936
+    },
+    "web/static/vue/assets/ProtocolLoginView-CGJUVR1J.css": {
+      "sha256": "a2ab3e2c020b55b90b80eb9e7274fd7f8b57295dd30431486159842974594c74",
+      "size": 4062
+    },
+    "web/static/vue/assets/ProtocolLoginView-DGvnpr4n.js": {
+      "sha256": "c79b45da28baeabc8aa2685b33fd7aeb4530436ac2d15580af012c17e10f991d",
+      "size": 12936
+    },
+    "web/static/vue/assets/ProxyView-C2mcZWWb.css": {
+      "sha256": "c30f3d4db9b51e5be2f0fb78e0600a620ae907dcbb303c247bae30dc0f08802b",
+      "size": 3637
+    },
+    "web/static/vue/assets/ProxyView-C9go7LTI.js": {
+      "sha256": "255c5986deeadfed064fa02404ec8163fc258daa8fe51b1802d6cf17d9946fc1",
+      "size": 12928
+    },
+    "web/static/vue/assets/ProxyView-NgR9ANVN.js": {
+      "sha256": "c2304eb24c68f84f78632d3070e6274a9d58fa073c08fd4cb86b4b906462a352",
+      "size": 12928
+    },
+    "web/static/vue/assets/RebindMailboxPicker-B87LgyNV.js": {
+      "sha256": "f268c1a003cbd285f7d8925e192ec7c76567991ab832d3e9077a20f0a2d34e2e",
+      "size": 52238
+    },
+    "web/static/vue/assets/RebindMailboxPicker-BCBTTB5u.css": {
+      "sha256": "782c02c7ebac4c6068cce5786ce132e4ec5f8434847efa0a8ca70c1eda5da17e",
+      "size": 16011
+    },
+    "web/static/vue/assets/RebindMailboxPicker-CnvQWPGT.css": {
+      "sha256": "74840c1ba96d8f72c89efef2a98c7b303572d5adfa3033be10b98dc9b56a7ae3",
+      "size": 16011
+    },
+    "web/static/vue/assets/RebindMailboxPicker-rUx3iw16.js": {
+      "sha256": "148365e664e04aae84f39091cf5c2f7df16284ee28dc23db18e576f5aaf1b425",
+      "size": 52453
+    },
+    "web/static/vue/assets/RebindView-BzTEbI0T.css": {
+      "sha256": "3f960905de52d3bff80812f096e8f27a2b7fb737724f0df55084c1e6626d0007",
+      "size": 6090
+    },
+    "web/static/vue/assets/RebindView-CfTzaiS5.js": {
+      "sha256": "50f33e33b7303dba295444f39c65b54ef64e7ad6362d35df0c7a196a3235b1ee",
+      "size": 22027
+    },
+    "web/static/vue/assets/RebindView-DYlE9Xl-.js": {
+      "sha256": "6dccca65a01b19daf11b9d2afeacd973f6c48d107b9466432942497bfb899b88",
+      "size": 22027
+    },
+    "web/static/vue/assets/SmsNumberPool-Cvq0NjHF.css": {
+      "sha256": "24ecc55214db3033a992c8a7f63fb77ea6ffe7176544a9205215f441d5e6afe0",
+      "size": 6868
+    },
+    "web/static/vue/assets/SmsNumberPool-D1RzdE4g.js": {
+      "sha256": "2d3afea0a12ecaa2a71420513b163f514ef4bef7de704ca07306adec814cd2ef",
+      "size": 13920
+    },
+    "web/static/vue/assets/SmsPoolView-EAWv1iRn.js": {
+      "sha256": "34e437dae0b86c770dde3b15f4909589ce7f680393189067612fe2f74b97aa80",
+      "size": 249
+    },
+    "web/static/vue/assets/TasksView-BTewBtAS.css": {
+      "sha256": "50089ffa9c92c8efd6188accd0d9939666d0754a31669006262eceb1506246a3",
+      "size": 4773
+    },
+    "web/static/vue/assets/TasksView-BvpRbVrw.js": {
+      "sha256": "a755437448dc775aa8699ddeae670f09d47f06e3f835a582d7c1914a9a448d4b",
+      "size": 12937
+    },
+    "web/static/vue/assets/TasksView-DOFmTm7S.css": {
+      "sha256": "5b8a353040e46a8087b8cefb34be9b5306765d7799fcc3f586a2c475cfa1df29",
+      "size": 4182
+    },
+    "web/static/vue/assets/TasksView-IKyrPNFj.js": {
+      "sha256": "a993cdf67f011f953da758367a2130ed6a4d71cf8e5396e9b70fd3ae0c2a2b96",
+      "size": 11678
+    },
+    "web/static/vue/assets/TrialView-C8knMy2S.js": {
+      "sha256": "97974befe70f2c56241906a14b94dde181ed4242bcc6df83632546d38fc7f5cd",
+      "size": 17065
+    },
+    "web/static/vue/assets/TrialView-D1xMQida.js": {
+      "sha256": "9ac546b392401763eddf948620ae2cafa6e9121d7decd2d59cf210291b92d111",
+      "size": 17065
+    },
+    "web/static/vue/assets/TrialView-Dia7HJCI.css": {
+      "sha256": "bae3f67ffa11afdd6cf5a34aa3de45c36fd25770b93e099840de010e13c4700b",
+      "size": 6924
+    },
+    "web/static/vue/assets/_plugin-vue_export-helper-CbfZvTSH.js": {
+      "sha256": "8df24513fbadd628b73d402c114ea144fb56fdb5f7595be601283dbf2534eba0",
+      "size": 63339
+    },
+    "web/static/vue/assets/api-BCb6BjQc.js": {
+      "sha256": "82d151bd0c458b746624c45ed594a9860d218e9d5975db31ba45bf16c4d15852",
+      "size": 1596
+    },
+    "web/static/vue/assets/circle-check-CDVD9kV1.js": {
+      "sha256": "c66e760ea2b2cbb8893bdc436faf8432af0b23533331623a905dc6b4d1ca0a08",
+      "size": 163
+    },
+    "web/static/vue/assets/circle-x-BQE3-zmV.js": {
+      "sha256": "09123af24d699dbfb738c8775ed1424049f22a1c7eacccb949c0b2c2a01ed27d",
+      "size": 192
+    },
+    "web/static/vue/assets/client-B9oxHnyk.js": {
+      "sha256": "a9872580d40f535ba83c5f65e23d618cd54dba25d95aa2ea7e6cbaf805904347",
+      "size": 7615
+    },
+    "web/static/vue/assets/clipboard-paste-CXHf5osN.js": {
+      "sha256": "5d91058aa6e2492dfc1084ae877a141d485ea9399939fd4118a15b2c321d367e",
+      "size": 366
+    },
+    "web/static/vue/assets/cliproxy-DUgyBei4.js": {
+      "sha256": "876ecc920d7750687573b1a86598d2cfcd74860608badea5da6a62eb7e65fa68",
+      "size": 2754
+    },
+    "web/static/vue/assets/config-lUtuP-TW.js": {
+      "sha256": "fc5d6e9db9090e4768eea3d7e4cc99b9408e63306c57329f2cb087835e4e124d",
+      "size": 222
+    },
+    "web/static/vue/assets/copy-CLviQImC.js": {
+      "sha256": "af6ee3137052ab3c8d08b113410385066563d334ae3207dd4a789ecaea4584be",
+      "size": 579
+    },
+    "web/static/vue/assets/eraser-DjHJxeAI.js": {
+      "sha256": "0ef9765fb1f958714b520403f0d100c1135462569aa58a38c639b09c8a7c1d2a",
+      "size": 267
+    },
+    "web/static/vue/assets/globe-CZXtfi1n.js": {
+      "sha256": "0ea5bf7cedf1c513aeb9b0c4008d1d321a0beb9d9aa9d5344d4431829b9996d8",
+      "size": 227
+    },
+    "web/static/vue/assets/groups-CwQ7VoiK.js": {
+      "sha256": "b2da754fd750742ed0a461a298ace45d63711f976d62b6ba2f453479def0bad7",
+      "size": 1256
+    },
+    "web/static/vue/assets/mail-plus-BW5uB1BP.js": {
+      "sha256": "b9f432d390ed221f7fdd4845685a18f5a0fdf73d44df4d50642bb7cbbe2802c4",
+      "size": 299
+    },
+    "web/static/vue/assets/main-BB2Hf74a.css": {
+      "sha256": "4c15c0528196f80d22d64fdde6c2843a31b6fa1cee12af6fcab8e79515195877",
+      "size": 101380
+    },
+    "web/static/vue/assets/main-BEdzb4Ut.js": {
+      "sha256": "dc3bf8f0153ef3842db3a3e282c73b79e9a7efac5216b3438938f43ea1876657",
+      "size": 353872
+    },
+    "web/static/vue/assets/main-CA-ovduB.css": {
+      "sha256": "8f462e42d1c24c6276128efdf13e8a1b527059ee0af19b1de0aeca70d8acbc99",
+      "size": 102191
+    },
+    "web/static/vue/assets/main-CGrM8epi.js": {
+      "sha256": "b13237670d19cbc9c07b53728ef19a12a72a533c2679e441058bf29cd0674bf4",
+      "size": 354848
+    },
+    "web/static/vue/assets/main-Cfh8MFvt.js": {
+      "sha256": "a40ba8c219fb5746ca4eec12e2a9008bb09e6b8798a5fe9addf08b95fc0041e0",
+      "size": 351033
+    },
+    "web/static/vue/assets/new-C355Rqox.js": {
+      "sha256": "7d10f37505e49395d6991cd81f957333b4186320948af1f90cb54cfc39c684e6",
+      "size": 105389
+    },
+    "web/static/vue/assets/new-DQurB5CH.js": {
+      "sha256": "5ecd4a09eefdefb4f4f9871a134940fa0e45142341ebd834c472d5f25a921543",
+      "size": 105183
+    },
+    "web/static/vue/assets/new-iCIG0wAi.css": {
+      "sha256": "e850a408f87a1c1f047e12ea2231fe09e07dc36d8ffb80f39c72552026d14176",
+      "size": 35109
+    },
+    "web/static/vue/assets/ops-e45t228R.js": {
+      "sha256": "b0191b2fef6fc6dee3343e695788b23fc3b258bb71ba62c2ee3919ec5a789bef",
+      "size": 1572
+    },
+    "web/static/vue/assets/plus-Ds2i_d_s.js": {
+      "sha256": "e569ae9d6fe1184ba73908b166abf824fb6e08ee91b83c6a06ca978b63b8dc75",
+      "size": 138
+    },
+    "web/static/vue/assets/rotate-ccw-CFy9-nbq.js": {
+      "sha256": "9fa0cff23682d011e5df906e69ed3ddce33847708b133a5198ff283eb0c2f9ad",
+      "size": 185
+    },
+    "web/static/vue/assets/settings-EeXUgwDG.js": {
+      "sha256": "de29e4b7c0d6440282a1d713bcb2ceacd73f9809c96b4389be69e7da8d9c7e3b",
+      "size": 180
+    },
+    "web/static/vue/assets/square-B464B_v1.js": {
+      "sha256": "c904893bab22cc6fec119bacf4354bbe9fd3d6396fcecedda8b31e903fa19643",
+      "size": 132
+    },
+    "web/static/vue/assets/tasks-DrNckYx1.js": {
+      "sha256": "b0c1c3c255a160c4c1e9b76eaeca7b7d23050e792c4a7dac1c9cfe0d19789d2f",
+      "size": 1684
+    },
+    "web/static/vue/assets/tasks-QB0CaqgH.js": {
+      "sha256": "301bc0ab0d27940a92572e43777502c6f995478d10f6a99a07ae06dad3e3fa0a",
+      "size": 1485
+    },
+    "web/static/vue/assets/trash-2-CcD4ZZyG.js": {
+      "sha256": "3029c6f2248118ff61b2c26e705e7b432727e883bb10b87d992463f3008fb3db",
+      "size": 313
+    },
+    "web/static/vue/assets/useConfirm-BMtIJ3on.js": {
+      "sha256": "3b83f701c48ece0e3ef202e20f83fda259e6dd2cf6fa079ee4847f842aed25da",
+      "size": 102
+    },
+    "web/static/vue/assets/useConfirm-D_Nduzah.js": {
+      "sha256": "b4303c08f68c19e69ddf801a95195ce732247a44cf1caa3db8eebe0f19280797",
+      "size": 102
+    },
+    "web/static/vue/assets/x-bwIyGy5p.js": {
+      "sha256": "2560c93000d9c4eeb73ee9105575b4afd0eeeb7057dcf006abefb080002159f2",
+      "size": 23198
+    },
+    "web/static/vue/assets/zap-COSlnULO.js": {
+      "sha256": "b026787d959d8636c40fc137e8138e4c4b427701329988c3778919b30548dccc",
+      "size": 756
+    },
+    "web/static/vue-local-overlay-20261015-061659/index.html": {
+      "sha256": "62c33b41309d4817cb1d8e6d212e76fc5f36cc25aba0e10de1fcb07e4074fb60",
+      "size": 2683
+    },
+    "web/static/vue-local-overlay-20261015-061659/new.html": {
+      "sha256": "94a9ba70533c3ab23b6d808b7b593b82cf548a20a38639bd784929a42d4f37e9",
+      "size": 974
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/AccountsView-C1w7kagQ.css": {
+      "sha256": "a2e2de51261ee128e083b4c7be2d85e74e937a782fec3eb367a0228cd3ae94e1",
+      "size": 21856
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/AccountsView-DCWeX4w0.js": {
+      "sha256": "6e3bf8ad9c0fa1ac216e55d368514815e8ad8998b1b1e899e792442af05df6b1",
+      "size": 60527
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/AppEmpty-D88HNJnz.js": {
+      "sha256": "99010e36df9fe18ff7858fc1d2f6e4602b1dc51330f5a0d7d0ced43125755f43",
+      "size": 467
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/AppEmpty-DvDrnfmq.css": {
+      "sha256": "605ad01a7e2a59ea335959e5cb7feb42702d204fdd57177f1ea83de44cdca3f9",
+      "size": 333
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/AppPager-B-cbAPhP.js": {
+      "sha256": "925660ac6187d99d48d55a5b7b7b83fc415e763b1bab8a6b16124fa471fac92c",
+      "size": 1344
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/AppPager-sqyLaiRA.css": {
+      "sha256": "ecb01f11e7802ba43a124707c6cde1dcf872609cbebb61a4a4ea750d72ec8438",
+      "size": 922
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/CliproxyView-BvaRvJZ2.css": {
+      "sha256": "fb9c9f5cb0d61d63d765361c9d86200567fabb65675ea8207cdc30c2a6241ed7",
+      "size": 4667
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/CliproxyView-Dt0C4xwl.js": {
+      "sha256": "57a2263bf63fee7e5195e09fe123b508f29076a04d69c9297c307b5c992b157c",
+      "size": 16285
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/CredentialExportView-B21KF58w.js": {
+      "sha256": "ea26aeb8c66d5dcec7bc0c816167cbebd252a0ea96239b93d03abcc87934140e",
+      "size": 16033
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/CredentialExportView-DmYLoUWq.css": {
+      "sha256": "b0f453be18d3d7babadfb75464b4c8fd2e5c1fb912c95ee7dbe4a8a5c94c626f",
+      "size": 8030
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/DashboardView-CM9XffIT.js": {
+      "sha256": "b508253907a1a3b3c343620fda57e6bbd92e046b7a25a49ed9c71b65002740fe",
+      "size": 5354
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/DashboardView-D3dkybTU.css": {
+      "sha256": "ab15c11b26e017f4d92b5f0309f9dc6b14fb603f3145616c80e24818c3426228",
+      "size": 3863
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/ExternalApiView-BvhF5_jE.css": {
+      "sha256": "8a9c8555844b83fcdf5fba2f82852b1e175fbe0ed2be6b6c09166131e37a468c",
+      "size": 13110
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/ExternalApiView-C3SezO1u.js": {
+      "sha256": "6c07699efc22dd6bb93bf3dde5c0da01343062ec47e5160c9714f3173aa89d80",
+      "size": 79881
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/ExternalApiView-DEWaSrZP.js": {
+      "sha256": "c7f0c004402127168012d10bc8d3d7da68e0d9d4f8649b0dbe54f9687263677e",
+      "size": 215
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/FingerprintView-B1TUuvSo.css": {
+      "sha256": "d648cae984e6a930e1053dcafc39c8ec412d6e7094b4b16ea8cc8b8f287fc503",
+      "size": 2760
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/FingerprintView-D88y_ryQ.js": {
+      "sha256": "ca271687b23a80a096c097a7f7efbe70e187ea2db28ac06f4d7399920a2a92d7",
+      "size": 6354
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/IntegrationView-CPdeV6Jc.css": {
+      "sha256": "a4a8da08a8ae3dbb8cb2c5a5b4c1b709cb4957b56d35910f491b4970e80d3e68",
+      "size": 1003
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/IntegrationView-DMs0-lbZ.js": {
+      "sha256": "008de650d626cc3d697f559143823580a598304a5186a20bde1978abe2c1afbc",
+      "size": 4472
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/LogsView-BB5YknVS.css": {
+      "sha256": "82afe164cb545654e17fb16578ef6f50b110baa4999d0650b403412b0856232c",
+      "size": 1313
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/LogsView-D10RFMEq.js": {
+      "sha256": "4faff91c9f8846322d847ad10d054020e511565ef143169515335c07c8ada811",
+      "size": 3796
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/MailView-CoSRAc6v.js": {
+      "sha256": "37f21e419708ab43da052f96417337939b6d04fad61ec419a25c0b3e8b895ea2",
+      "size": 23600
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/MailView-DBTcPxm2.css": {
+      "sha256": "4eb5e76d1ee1fa933bb9052b1655a677ec5526e3ae7c9b600957c6a9974ed138",
+      "size": 4566
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/OperationsView-CTrnFzcb.css": {
+      "sha256": "d749dc15b2fde4d73d3b4c3d5a97f3c5dcdf591c251eaa1f8c42202341723c3a",
+      "size": 18659
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/OperationsView-D1zzOO4x.js": {
+      "sha256": "3c737a4f8c2a124f387ee95561cff70b082f856dbfafdd987ca1660096296fd0",
+      "size": 45664
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/ProtocolLoginView-BgRDvB5Q.css": {
+      "sha256": "2a061f4811d0b352719bc8f3aaa1e59bb2c1d198edd9efeb5deaedf66a50844a",
+      "size": 4062
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/ProtocolLoginView-zEuKHAn7.js": {
+      "sha256": "3d550d3f04a3222b722fb5959188442c512a071f2b64919f634dddc930b0d8f7",
+      "size": 12947
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/ProxyView-C2mcZWWb.css": {
+      "sha256": "c30f3d4db9b51e5be2f0fb78e0600a620ae907dcbb303c247bae30dc0f08802b",
+      "size": 3637
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/ProxyView-CnGsq5RZ.js": {
+      "sha256": "6fcb43e93d7223070bced3cfb94d0ef8b0224abd45ed759da112e79cfae1f9d7",
+      "size": 12928
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/RebindMailboxPicker-BFZwH0QM.css": {
+      "sha256": "8872f2d419fe79fac8eca19996c389bd9ab10b847b6312e1398fc2eb12d2d2a7",
+      "size": 15665
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/RebindMailboxPicker-CUF950uG.js": {
+      "sha256": "9392670d06996228253eb195cfa515083ea8dbcfb6f27f4dad4d83fbd079f0d1",
+      "size": 50891
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/RebindView-BzTEbI0T.css": {
+      "sha256": "3f960905de52d3bff80812f096e8f27a2b7fb737724f0df55084c1e6626d0007",
+      "size": 6090
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/RebindView-DdKRGd5T.js": {
+      "sha256": "3073f9e7b5bf14d2ea5b7ad434c731f2fc5cf60805159b0dd2db923103aaa772",
+      "size": 22027
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/SmsNumberPool-Cvq0NjHF.css": {
+      "sha256": "24ecc55214db3033a992c8a7f63fb77ea6ffe7176544a9205215f441d5e6afe0",
+      "size": 6868
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/SmsNumberPool-D1RzdE4g.js": {
+      "sha256": "2d3afea0a12ecaa2a71420513b163f514ef4bef7de704ca07306adec814cd2ef",
+      "size": 13920
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/SmsPoolView-EAWv1iRn.js": {
+      "sha256": "34e437dae0b86c770dde3b15f4909589ce7f680393189067612fe2f74b97aa80",
+      "size": 249
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/TasksView-BZJhRFi1.js": {
+      "sha256": "aa63b879c30f939be0f512972a32399a60c2090e9d71a86bd819e15303b0de35",
+      "size": 11678
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/TasksView-DOFmTm7S.css": {
+      "sha256": "5b8a353040e46a8087b8cefb34be9b5306765d7799fcc3f586a2c475cfa1df29",
+      "size": 4182
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/TrialView-CM6Rfftl.js": {
+      "sha256": "8d1060312e87262e4a33a502b4e3c8aff918e1621ffe712ea40d0b8609b28671",
+      "size": 17065
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/TrialView-Dia7HJCI.css": {
+      "sha256": "bae3f67ffa11afdd6cf5a34aa3de45c36fd25770b93e099840de010e13c4700b",
+      "size": 6924
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/_plugin-vue_export-helper-CbfZvTSH.js": {
+      "sha256": "8df24513fbadd628b73d402c114ea144fb56fdb5f7595be601283dbf2534eba0",
+      "size": 63339
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/api-BCb6BjQc.js": {
+      "sha256": "82d151bd0c458b746624c45ed594a9860d218e9d5975db31ba45bf16c4d15852",
+      "size": 1596
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/circle-check-CDVD9kV1.js": {
+      "sha256": "c66e760ea2b2cbb8893bdc436faf8432af0b23533331623a905dc6b4d1ca0a08",
+      "size": 163
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/circle-x-BQE3-zmV.js": {
+      "sha256": "09123af24d699dbfb738c8775ed1424049f22a1c7eacccb949c0b2c2a01ed27d",
+      "size": 192
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/client-B9oxHnyk.js": {
+      "sha256": "a9872580d40f535ba83c5f65e23d618cd54dba25d95aa2ea7e6cbaf805904347",
+      "size": 7615
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/clipboard-paste-CXHf5osN.js": {
+      "sha256": "5d91058aa6e2492dfc1084ae877a141d485ea9399939fd4118a15b2c321d367e",
+      "size": 366
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/cliproxy-DUgyBei4.js": {
+      "sha256": "876ecc920d7750687573b1a86598d2cfcd74860608badea5da6a62eb7e65fa68",
+      "size": 2754
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/config-lUtuP-TW.js": {
+      "sha256": "fc5d6e9db9090e4768eea3d7e4cc99b9408e63306c57329f2cb087835e4e124d",
+      "size": 222
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/copy-CLviQImC.js": {
+      "sha256": "af6ee3137052ab3c8d08b113410385066563d334ae3207dd4a789ecaea4584be",
+      "size": 579
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/eraser-DjHJxeAI.js": {
+      "sha256": "0ef9765fb1f958714b520403f0d100c1135462569aa58a38c639b09c8a7c1d2a",
+      "size": 267
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/globe-CZXtfi1n.js": {
+      "sha256": "0ea5bf7cedf1c513aeb9b0c4008d1d321a0beb9d9aa9d5344d4431829b9996d8",
+      "size": 227
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/groups-CwQ7VoiK.js": {
+      "sha256": "b2da754fd750742ed0a461a298ace45d63711f976d62b6ba2f453479def0bad7",
+      "size": 1256
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/mail-plus-BW5uB1BP.js": {
+      "sha256": "b9f432d390ed221f7fdd4845685a18f5a0fdf73d44df4d50642bb7cbbe2802c4",
+      "size": 299
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/main-BYoLui_o.css": {
+      "sha256": "ab5954294def3bb4c0262891824ebdb3d0b8c19b49547e632f5dc383c31f08ad",
+      "size": 100654
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/main-D-iTaFYy.js": {
+      "sha256": "4a49770c54f264671bdd3b93f8e7d73844dd01885ee992182c9c412bf4b10681",
+      "size": 345090
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/new-DezEwzL-.js": {
+      "sha256": "4543ecc1c75789f9385f97e436d5f170e111dc51c1a1df1824eeac1580dafc61",
+      "size": 105183
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/new-iCIG0wAi.css": {
+      "sha256": "e850a408f87a1c1f047e12ea2231fe09e07dc36d8ffb80f39c72552026d14176",
+      "size": 35109
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/ops-e45t228R.js": {
+      "sha256": "b0191b2fef6fc6dee3343e695788b23fc3b258bb71ba62c2ee3919ec5a789bef",
+      "size": 1572
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/plus-Ds2i_d_s.js": {
+      "sha256": "e569ae9d6fe1184ba73908b166abf824fb6e08ee91b83c6a06ca978b63b8dc75",
+      "size": 138
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/rotate-ccw-CFy9-nbq.js": {
+      "sha256": "9fa0cff23682d011e5df906e69ed3ddce33847708b133a5198ff283eb0c2f9ad",
+      "size": 185
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/settings-EeXUgwDG.js": {
+      "sha256": "de29e4b7c0d6440282a1d713bcb2ceacd73f9809c96b4389be69e7da8d9c7e3b",
+      "size": 180
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/square-B464B_v1.js": {
+      "sha256": "c904893bab22cc6fec119bacf4354bbe9fd3d6396fcecedda8b31e903fa19643",
+      "size": 132
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/tasks-9AhCerlD.js": {
+      "sha256": "aaa53c945a37c718201bb842c0007937bf4e40050d9df5b8fd50f6072167c409",
+      "size": 1485
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/trash-2-CcD4ZZyG.js": {
+      "sha256": "3029c6f2248118ff61b2c26e705e7b432727e883bb10b87d992463f3008fb3db",
+      "size": 313
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/useConfirm-C63l0ovg.js": {
+      "sha256": "c644a399c1ff1dfbcae84ed6abd690d6c2105f1f3807fb028afa3271b3a7060f",
+      "size": 102
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/x-bwIyGy5p.js": {
+      "sha256": "2560c93000d9c4eeb73ee9105575b4afd0eeeb7057dcf006abefb080002159f2",
+      "size": 23198
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/zap-COSlnULO.js": {
+      "sha256": "b026787d959d8636c40fc137e8138e4c4b427701329988c3778919b30548dccc",
+      "size": 756
+    },
+    "web-ui/API_ENV.md": {
+      "sha256": "32112341a0947151650a85e38016109878fac3776730de5d256fa6a41834fffb",
+      "size": 1241
+    },
+    "web-ui/index.html": {
+      "sha256": "00bb4c8375721cc6ccc4a6eb06bb22935ec82927ba38be4b9ee7c3235b757bff",
+      "size": 636
+    },
+    "web-ui/new.html": {
+      "sha256": "9bdc8c9c9ad6b48721bde411606e9f9014cb5979b66e322137008a69adb7aabb",
+      "size": 583
+    },
+    "web-ui/package-lock.json": {
+      "sha256": "aaae39987e803afd0362e833afdc744aa5931822565d2e82eecbfa9be5f4c49f",
+      "size": 44196
+    },
+    "web-ui/package.json": {
+      "sha256": "6126083b150be9fbe5f3631928611da613d6e5af6081b53c26edcb251faa1be1",
+      "size": 608
+    },
+    "web-ui/tsconfig.json": {
+      "sha256": "3adf58bc07f8602abd55096185f541e990bbe8820b6ff54ae384a2f4251e14dc",
+      "size": 332
+    },
+    "web-ui/vite.config.js": {
+      "sha256": "0d1427f60e0dd0ce41620455c09485f1a81bc97242da831a2a02e5b3ffa399da",
+      "size": 962
+    },
+    "web-ui/src/App.vue": {
+      "sha256": "3082135ed948c808e5813688f49ac097a4b837c3fe25c12e0e4a692e86ebeb96",
+      "size": 218772
+    },
+    "web-ui/src/api.js": {
+      "sha256": "3340948ea339598519f6ca95f01b196baaac26479e5cf04c6948c3d6bc381712",
+      "size": 3021
+    },
+    "web-ui/src/main.js": {
+      "sha256": "0f7974ce1783b2507765aed008e0e1e0b255aa763fe6bbb2caf1ea8b64748374",
+      "size": 149
+    },
+    "web-ui/src/vue.css": {
+      "sha256": "f006f59c4ba8f7341eedae0f10af7cb3f89fb975d67d73ce3683c195927753db",
+      "size": 105808
+    },
+    "web-ui/src/components/AccountLogDialog.vue": {
+      "sha256": "bcd27ac0fb18fab8b5f98cecce76942b42f5626d80f9c1a7dc704d3d0dcb5b65",
+      "size": 4922
+    },
+    "web-ui/src/components/AccountsView.vue": {
+      "sha256": "5264da7d320e7eb422bad70bbd475aa5fff18380303069277ca33dbc8687c214",
+      "size": 82394
+    },
+    "web-ui/src/components/AppDialog.vue": {
+      "sha256": "3b206dd88f10215a6712d3a27e216da32ddd1347dcfa0115e32bb1ccd2303b69",
+      "size": 3023
+    },
+    "web-ui/src/components/AppPager.vue": {
+      "sha256": "ec7528b42cd0717787f83112f73e9f48de83e8d69faab1b98522c0593719b5be",
+      "size": 1233
+    },
+    "web-ui/src/components/AppSidebar.vue": {
+      "sha256": "bfb0b16e71f3dfb02d5c81894496bd81518c01176e9a679dfd5122ce53553f19",
+      "size": 3641
+    },
+    "web-ui/src/components/AppTopbar.vue": {
+      "sha256": "f978659eed00dd388120fae32d8f53d26bd6aca50ff1ea3916ae6d51470fc1b0",
+      "size": 1750
+    },
+    "web-ui/src/components/BrowserView.vue": {
+      "sha256": "800ebf846db6e080012cb1a292bee7ce839b9ee095899af1019bc1be10d1c01e",
+      "size": 3798
+    },
+    "web-ui/src/components/ClipboardDialog.vue": {
+      "sha256": "c8dcf1dc72b027d33ceec78edcfb30294a7bf28219f5c4ffcf86dd9a395870b6",
+      "size": 2194
+    },
+    "web-ui/src/components/CliproxyView.vue": {
+      "sha256": "b2be06a61b64af3f478388e06170d5c3b79181a3cb0de30a593a0ee7e928a8f6",
+      "size": 25903
+    },
+    "web-ui/src/components/CodexOauthDialog.vue": {
+      "sha256": "3368ee43dff6c1dfd501ddf9568aca38a4a539a5e1f55ddcd310b8cedab8eb46",
+      "size": 8976
+    },
+    "web-ui/src/components/ConcurrencyDialog.vue": {
+      "sha256": "8641e2e951b9cb6c8195beaad4c44fa64c85bae35d396c53e09b5b471ce9753f",
+      "size": 3709
+    },
+    "web-ui/src/components/CredentialExportView.vue": {
+      "sha256": "2983f7b73170cf0065b6fc9012ef3d67f6c4abb4e5cb8cfaf76d75cc39c29b06",
+      "size": 4637
+    },
+    "web-ui/src/components/ExternalApiView.vue": {
+      "sha256": "fac8bf74c601f9c8f80131838440b86c353cfcf674110e8cc3615caef88d9260",
+      "size": 126734
+    },
+    "web-ui/src/components/ImportAccountsDialog.vue": {
+      "sha256": "c45d50e72979be96a3e144a73b48f327885d4629fe1a294a886ae95f19d38703",
+      "size": 6279
+    },
+    "web-ui/src/components/ImportHistoryDialog.vue": {
+      "sha256": "03f00c92f0b4a4fac6fd1ff31aa1aefd27308c968dc0a787b919adea74650b3c",
+      "size": 7024
+    },
+    "web-ui/src/components/IntegrationView.vue": {
+      "sha256": "04c83c5b87788dc30334ab4dd2ff01c3d65c85143b1a365bba00d9d3de36a64e",
+      "size": 2122
+    },
+    "web-ui/src/components/LoginView.vue": {
+      "sha256": "d2c57181d979d1f0727b485e2fd9c98d5b9ed133f7b4f898540692216c218a13",
+      "size": 4219
+    },
+    "web-ui/src/components/LogsView.vue": {
+      "sha256": "79822ee6dbf74d855f81c29082a65d99d75b5576b0d17f913c7d10c65a3a6fb3",
+      "size": 2277
+    },
+    "web-ui/src/components/MailView.vue": {
+      "sha256": "849b7332e489fe82d5fe8994becb7f20c64405dae8a616ecceb9790961973944",
+      "size": 18011
+    },
+    "web-ui/src/components/MailcomRebindSettings.vue": {
+      "sha256": "d5aaa2cd0a1589799223434fb613dc470b5454a57ea705bc0acf83843eff6eed",
+      "size": 67032
+    },
+    "web-ui/src/components/MetricStrip.vue": {
+      "sha256": "f23f90044985cde90e53ce16e081bcbba919c56bb72c5643f7ace80a7e5b87d4",
+      "size": 2364
+    },
+    "web-ui/src/components/OperationProgress.vue": {
+      "sha256": "12984a44ba0f2e0fcf6939889ca0d92e9eb056a375ef2ec3c338ea0000ed1756",
+      "size": 1558
+    },
+    "web-ui/src/components/OperationsView.vue": {
+      "sha256": "773e137f2b08598cc1d5d6b0a166e1c7efa92b655db85fe649731a97823cfefd",
+      "size": 21096
+    },
+    "web-ui/src/components/PasswordChangeDialog.vue": {
+      "sha256": "84ccf70e80925d7ef5967b72203e515d9944fa854ac1d49eadff2776755fd7d7",
+      "size": 5114
+    },
+    "web-ui/src/components/PlusEligibilityView.vue": {
+      "sha256": "798fdedcb44a2fb02782909cc9201530fd729fd3896577214e689b0f78343315",
+      "size": 10994
+    },
+    "web-ui/src/components/ProtocolLoginView.vue": {
+      "sha256": "ef9ab33dcbea6d51a1d829ecda19c0381f03f995c32feecbec99811127c0f309",
+      "size": 13535
+    },
+    "web-ui/src/components/ProxyView.vue": {
+      "sha256": "8a9bb86c74486838bf7b9a326349268d805a7736a52c7f2c86c9c1a8bc1fd423",
+      "size": 8977
+    },
+    "web-ui/src/components/RebindAccountPicker.vue": {
+      "sha256": "9e1ca71acf709b3d8d962ace75b12706e0c37d780f53b7731aaf6d0e438d688e",
+      "size": 16264
+    },
+    "web-ui/src/components/RebindMailboxPicker.vue": {
+      "sha256": "2b47fe07cd651692960925a13b8701565d5eb74537124a714b3a5487bd8cc9c7",
+      "size": 6327
+    },
+    "web-ui/src/components/RebindView.vue": {
+      "sha256": "d40445b21d6ef7c4b19c1e23672eb5d4ec77c98d0e02507974660cdd9eae305b",
+      "size": 24564
+    },
+    "web-ui/src/components/SmsCountryPicker.vue": {
+      "sha256": "8afe4ecf930c2c31c32ef87fdbdd49fc59f216a9715b7bdda5c8030f7e774ec0",
+      "size": 7860
+    },
+    "web-ui/src/components/SmsNumberPool.vue": {
+      "sha256": "3173640eb6aa1e3c13897651094637ad0146a24b5f62371242f01cd054469d60",
+      "size": 24571
+    },
+    "web-ui/src/components/TaskView.vue": {
+      "sha256": "5741b316add8cc2060fd7649c1b22aaa5f2fd78079b1e5bf72d6c8b39de68ae2",
+      "size": 15105
+    },
+    "web-ui/src/components/TrialProxyView.vue": {
+      "sha256": "181f72b1b4ec5b1d0de4a1b538ef185555dda06e692c5b0f597e124d75d76b69",
+      "size": 3715
+    },
+    "web-ui/src/constants/mailcomAliasDomains.ts": {
+      "sha256": "0b924449b187f351ca98c349ef75d6c45fbf8e943c2e3228a2d4de6b4c1eab95",
+      "size": 3813
+    },
+    "web-ui/src/new/App.vue": {
+      "sha256": "998cdad524bef21abe41d51c552126ea730cdfd9362b58a446cd54b08a18cc70",
+      "size": 1029
+    },
+    "web-ui/src/new/main.ts": {
+      "sha256": "9a2dacb8a40fe87eed05f6abff5106c4314be6446f447121b3e24922fe9a286e",
+      "size": 281
+    },
+    "web-ui/src/new/api/accounts.ts": {
+      "sha256": "6da0823d45f0eb24400d2cdf0fe4ccb98d84556bd1b334498c3075f062ba4b83",
+      "size": 6421
+    },
+    "web-ui/src/new/api/auth.ts": {
+      "sha256": "0d4891d410cf96f652872a0bc8caa9411a0d570f6d889e78c4638b3920900934",
+      "size": 763
+    },
+    "web-ui/src/new/api/batchops.ts": {
+      "sha256": "3ef72df973faa7b67d0222502b54351e1fffbb9af181a7847f54a51192f2c46e",
+      "size": 11567
+    },
+    "web-ui/src/new/api/chatgpt2api.ts": {
+      "sha256": "a77bba679d00e478a59015a777d7ae7f16d0c2e21224add5a8d50c44ec3f8e4b",
+      "size": 1262
+    },
+    "web-ui/src/new/api/client.ts": {
+      "sha256": "1a5f5cf4dd8c605d6c0efc98357926dc9f95a2736f259b34ae219005ed6ac92b",
+      "size": 3799
+    },
+    "web-ui/src/new/api/cliproxy.ts": {
+      "sha256": "c476598d5bb15d85a625138923cc23d0302f2e28c47cd193bb9789abe6d12dd2",
+      "size": 6714
+    },
+    "web-ui/src/new/api/config.ts": {
+      "sha256": "5c8c96c6647ecf1bf4cd2c6ad8f60204b1bc233de04945c011f051f3dfaa23b6",
+      "size": 1053
+    },
+    "web-ui/src/new/api/groups.ts": {
+      "sha256": "eec0d4b475bc6a41c481bd7adcc78016b7a66891f1241e85cc2f2dd9aae96d56",
+      "size": 1413
+    },
+    "web-ui/src/new/api/mail.ts": {
+      "sha256": "cd774c86c447965f0b4068aac688a150408ad7360538f0085c29d126fb8d69b8",
+      "size": 3529
+    },
+    "web-ui/src/new/api/ops.ts": {
+      "sha256": "a96b593ee5ae03b373a71fd572044043413d824905ecf3596bbc29c0a3aa108b",
+      "size": 8615
+    },
+    "web-ui/src/new/api/proxy.ts": {
+      "sha256": "3f16b7093f6e1a7e4e6e7c4ededf7c65c6f94aa710add95f3742a5260eb18ec4",
+      "size": 1483
+    },
+    "web-ui/src/new/api/rebind.ts": {
+      "sha256": "54bad125b0ab7899146a9b5e58a6998657ee882998e1070c9f06bf1fda85425f",
+      "size": 3115
+    },
+    "web-ui/src/new/api/settings.ts": {
+      "sha256": "13932ac7bc02115b70d9280101a2f23c6c393be329e1cdcabad139855508e274",
+      "size": 586
+    },
+    "web-ui/src/new/api/status.ts": {
+      "sha256": "5d5ab6aa7705e8058ef63877669fb9ead368f2e2841b77731fef7c51e648a834",
+      "size": 219
+    },
+    "web-ui/src/new/api/tasks.ts": {
+      "sha256": "b736507d15fc01757cc1c372271afe6957ff611c311901059b1917e06a948c0a",
+      "size": 1863
+    },
+    "web-ui/src/new/api/trial.ts": {
+      "sha256": "dd99107ebbb2ca1a74f816dd37e6662dcd9b67deba45922a24ae4fbcaa1e91af",
+      "size": 2353
+    },
+    "web-ui/src/new/api/types.ts": {
+      "sha256": "d47e4fa3e9a6f50daf6b3d39a8fe3809a16cac4c3d30e4349a7b1628eede47a1",
+      "size": 808
+    },
+    "web-ui/src/new/components/layout/AppShell.vue": {
+      "sha256": "53fc18c0f9ddbabbaa784730ad21f09b3cb39961ef4540da70bf45d1bbdece43",
+      "size": 3477
+    },
+    "web-ui/src/new/components/layout/AppSidebar.vue": {
+      "sha256": "306cacfaa4f9b97849792e821e9957bf46b9b9b178bef3d6d757d92907e41ac4",
+      "size": 5123
+    },
+    "web-ui/src/new/components/layout/AppTopbar.vue": {
+      "sha256": "4b1a6089af01ecb9996c1541b5267c972513fd79bf39ee68c5bf8ba86c2313eb",
+      "size": 2856
+    },
+    "web-ui/src/new/components/sms/SmsCountryPicker.vue": {
+      "sha256": "f76dcfa8fdddd4cb6af1ef289d3ce9cb8f535ea537d971a763ec733aa378af6e",
+      "size": 14134
+    },
+    "web-ui/src/new/components/ui/AppButton.vue": {
+      "sha256": "6f9f33b3c54bd4e84d26558281d6ba2446c4b419d6aea2f3fec2ad5099a16663",
+      "size": 2288
+    },
+    "web-ui/src/new/components/ui/AppDialog.vue": {
+      "sha256": "64fdb054b45b49129b7d3512384ccbbff99c71365f6850053d7146f4e5a057e5",
+      "size": 1872
+    },
+    "web-ui/src/new/components/ui/AppEmpty.vue": {
+      "sha256": "7fe1fc9ac8fd7d838fbcf46126f5a95c6a20d7c2427d117fa95bc2452284e2e8",
+      "size": 650
+    },
+    "web-ui/src/new/components/ui/AppModal.vue": {
+      "sha256": "e2b990a2409add8037f1721577df8757bb69e89f783c7c76e1d8e51797a3b0dc",
+      "size": 3245
+    },
+    "web-ui/src/new/components/ui/AppPager.vue": {
+      "sha256": "b8a07d4b54c94d110ce1bbb8f2fb6cef97b01a010dc8935c8e5db091422240b4",
+      "size": 2292
+    },
+    "web-ui/src/new/components/ui/AppTag.vue": {
+      "sha256": "1132920ce1045a39643b62e92287c02cbf2d4697f3c135c942045a81d0736bd8",
+      "size": 860
+    },
+    "web-ui/src/new/components/ui/AppToast.vue": {
+      "sha256": "7f887796d283fca2f26afb69c4c4ca13b82369343ac8037e4dc220d338bd3c87",
+      "size": 1405
+    },
+    "web-ui/src/new/composables/useConfirm.ts": {
+      "sha256": "15464b31af60c7a497056e6b824ed9ebc3aa089fc3411b89d940ad3172c8fcb5",
+      "size": 280
+    },
+    "web-ui/src/new/composables/useCopy.ts": {
+      "sha256": "056c1c00cb2b6dce2aa3d3bb04fe27cdf889ddbbcd1c3e5bf247b30ad4eee293",
+      "size": 1059
+    },
+    "web-ui/src/new/composables/usePoller.ts": {
+      "sha256": "bdfdc0e937dbd0e3afd60a2d10b86c16b4c5c022301af8fa05af91132464384b",
+      "size": 1228
+    },
+    "web-ui/src/new/composables/useSse.ts": {
+      "sha256": "424c2983d4ae1b6b1cc6fba547a2b3b822170f861950d87fa02f11ee0363b870",
+      "size": 1532
+    },
+    "web-ui/src/new/router/index.ts": {
+      "sha256": "d134e54932fbb35a3ad2ee36fc9f63f2263767709b95cf6af53a449e41c82d2b",
+      "size": 7579
+    },
+    "web-ui/src/new/stores/accounts.ts": {
+      "sha256": "f1b58cb4993d5dc4edfa4f8a1ba8ddb487846a35d10b6ba5d9c2ca6faecb41d3",
+      "size": 9010
+    },
+    "web-ui/src/new/stores/auth.ts": {
+      "sha256": "bb9a90130047f0e6bfbaefd98f729facd65eb462ce3421f2d576fd0650063ada",
+      "size": 778
+    },
+    "web-ui/src/new/stores/batchops.ts": {
+      "sha256": "c8d2e44f50db783c2dd93b826cc49f075dbe74ec1ee64350a4253871ecc4ce4e",
+      "size": 23776
+    },
+    "web-ui/src/new/stores/cliproxy.ts": {
+      "sha256": "03eaa064eebda82653a5b8a589965c5dacc4d919de7a815d204a5d6f7ab608a3",
+      "size": 3346
+    },
+    "web-ui/src/new/stores/fingerprint.ts": {
+      "sha256": "879184c44a8fc26aa4f814588dbeaa0b718e25a74bfc5ee1bc80a1b998878579",
+      "size": 3037
+    },
+    "web-ui/src/new/stores/groups.ts": {
+      "sha256": "904683176a8170e0ff6970098be43a158634445b99477a07156996cbee4ad4d0",
+      "size": 1392
+    },
+    "web-ui/src/new/stores/mail.ts": {
+      "sha256": "e205269f92451474c748138bdfd2b64898f07693814ab048bbad6be4e9a8aa2d",
+      "size": 8200
+    },
+    "web-ui/src/new/stores/operations.ts": {
+      "sha256": "f76b783a3b90a6525b6336a336ee51937c288296a60dab3bdd62621c9d8ef432",
+      "size": 5077
+    },
+    "web-ui/src/new/stores/proxy.ts": {
+      "sha256": "08d5184ee21bdd2c25f741b583cb2e87a673e6fe1f547558a722213aee9a40d0",
+      "size": 4318
+    },
+    "web-ui/src/new/stores/rebind.ts": {
+      "sha256": "8ebe5bef13834e01a8d3b5b999650b589c050d0bfe4f154c82939b554f654b7f",
+      "size": 5272
+    },
+    "web-ui/src/new/stores/status.ts": {
+      "sha256": "6529c0029acc464821b19b7965af628565301cf4b98f6d7cb1a48255684b6be6",
+      "size": 750
+    },
+    "web-ui/src/new/stores/tasks.ts": {
+      "sha256": "bf748d9e31c9e4497b17a6a20342cb4157e31425e4fa83de6f61035db8180a79",
+      "size": 2372
+    },
+    "web-ui/src/new/stores/trial.ts": {
+      "sha256": "8311d6c9b7ddd1cb099fb4b6aa78548c67de014d5185bda834784528817fd5f1",
+      "size": 5041
+    },
+    "web-ui/src/new/stores/ui.ts": {
+      "sha256": "fe4aa6d56966ede180b2aefc5dd73f8b913215052cecf41dddd45fa8ccc2f2a9",
+      "size": 1759
+    },
+    "web-ui/src/new/styles/base.css": {
+      "sha256": "1cda799286fe221a7c361fe7d4b636a5e09b342da154fc46dfecf79d1e35ab31",
+      "size": 4039
+    },
+    "web-ui/src/new/styles/tokens.css": {
+      "sha256": "219abdaf16ec3dfdd196ffa28111fe9688f44c35569c3422f989715c04467f77",
+      "size": 4389
+    },
+    "web-ui/src/new/views/DashboardView.vue": {
+      "sha256": "d0bb35707745011da74045e56a088edec206e2440a5a00833b07e00c366738b0",
+      "size": 10360
+    },
+    "web-ui/src/new/views/StubView.vue": {
+      "sha256": "1bbdc433257d433b28d4dd758d43d090b989a5cafd7adf6e3d8e54ba1850a5de",
+      "size": 779
+    },
+    "web-ui/src/new/views/accounts/AccountBatchBar.vue": {
+      "sha256": "1fff0a75312c005c79cec8796d979e82525881d486d59a21052fd92faf08e09f",
+      "size": 12271
+    },
+    "web-ui/src/new/views/accounts/AccountCardList.vue": {
+      "sha256": "b3a8b11a70c4ff1ace21a28295afc2ddafc60ff0b82f50c1dc0f2fbe96277ff6",
+      "size": 9070
+    },
+    "web-ui/src/new/views/accounts/AccountLogDialog.vue": {
+      "sha256": "83b405bbc6e404c940831c772f71d537f352b7c93b9b7e99c08b3cb8b957f093",
+      "size": 4259
+    },
+    "web-ui/src/new/views/accounts/AccountTable.vue": {
+      "sha256": "4e5be4590592d881868398d3c6152c49dc10a3c3c045dd0586653a4a1a535c92",
+      "size": 14385
+    },
+    "web-ui/src/new/views/accounts/AccountToolbar.vue": {
+      "sha256": "efdabef5ccd6e1d8d09c072425ace2807ff40b1764757b85a6b696d5917a275b",
+      "size": 14033
+    },
+    "web-ui/src/new/views/accounts/AccountsView.vue": {
+      "sha256": "8b1e6fcdd8b1a8dc96155e40ed4ba5737f0967ba1b8738173e33bf7d0d421166",
+      "size": 10372
+    },
+    "web-ui/src/new/views/accounts/BatchJobDialog.vue": {
+      "sha256": "abdc02d1d2f17ccdbe2a8e8b3fb9f9d07b6a389c314488fbd3c9711c3a134730",
+      "size": 6708
+    },
+    "web-ui/src/new/views/accounts/BatchStartDialog.vue": {
+      "sha256": "8802c29fc9c23260602017e9d2705ecb64c6aa4d8647dec312d2c4731ac30385",
+      "size": 9949
+    },
+    "web-ui/src/new/views/accounts/CodexLiveDialog.vue": {
+      "sha256": "974789e32db1c68e4e8e5c5c7316005f56000362fc3a81d22184d964256a39d9",
+      "size": 24629
+    },
+    "web-ui/src/new/views/accounts/CredentialExportView.vue": {
+      "sha256": "6c303df75e32e73f5789e243f694ef72560d2022ac1b71bae431aae26400f298",
+      "size": 25814
+    },
+    "web-ui/src/new/views/accounts/DeviceInfoDialog.vue": {
+      "sha256": "e5cbd401e5eee9a946b0b039b2a196c67076af8cdc7c7c482aea4c6ea761d206",
+      "size": 6977
+    },
+    "web-ui/src/new/views/accounts/HealthProgress.vue": {
+      "sha256": "95f6c11947aa05876c5a7a8cde4fd6e984886e31c4643b5e480c336fe235aeaf",
+      "size": 3471
+    },
+    "web-ui/src/new/views/accounts/ImportAccountsDialog.vue": {
+      "sha256": "34b5b9fab81a3e3a53daaf9acdd6f0f96868c1e552912e526cdc36c7334d202d",
+      "size": 7433
+    },
+    "web-ui/src/new/views/accounts/ImportHistoryDialog.vue": {
+      "sha256": "deb6a1cdd8764fa1001af5b9c859e8726a32665dd4864ad07d85ada7ad60cebe",
+      "size": 7607
+    },
+    "web-ui/src/new/views/accounts/ProtocolLoginView.vue": {
+      "sha256": "98645623ec3a184e57913a07120caa713a2296337d8e14a5a7ad446c1fa77b19",
+      "size": 21130
+    },
+    "web-ui/src/new/views/accounts/RebindView.vue": {
+      "sha256": "2be89f31c106099b5d04bdcb56d4dc2d3347f2c7a46677b8779701ddf3701195",
+      "size": 32647
+    },
+    "web-ui/src/new/views/accounts/SmsHistoryDialog.vue": {
+      "sha256": "b3354f830a9aded493eba569758a42521fd573bccb527388b463436709eb4336",
+      "size": 12886
+    },
+    "web-ui/src/new/views/accounts/SmsPoolView.vue": {
+      "sha256": "f14920f094f2c0e2676997f97383b85c83811ce0f14dfe9f881249e0005a14d7",
+      "size": 182
+    },
+    "web-ui/src/new/views/accounts/SmsStartDialog.vue": {
+      "sha256": "6d847c8206df462f1b4bcb2a14405609d0bf8408c7e9b98d9ded2a535172b57b",
+      "size": 17784
+    },
+    "web-ui/src/new/views/accounts/SmsTaskBar.vue": {
+      "sha256": "74b398756da39f20932aea174328bf27595f30b4865789c0e7b33f3d9aaa64c1",
+      "size": 5326
+    },
+    "web-ui/src/new/views/accounts/useAccountActions.ts": {
+      "sha256": "ed6d0d00bdfb815b4e3f2b3a9b0bd67ebba89a47271a8d8719303147b9de1d9c",
+      "size": 11713
+    },
+    "web-ui/src/new/views/integrations/CliproxyView.vue": {
+      "sha256": "ac19de3065c3033ae48a11495ff743928b5d3724949102a8220e001d69c560cf",
+      "size": 25462
+    },
+    "web-ui/src/new/views/integrations/ExternalApiView.vue": {
+      "sha256": "b15763d4be204a6914ac93d9cfae8effa59a5642a76813a0abd07be3a5748ee3",
+      "size": 152
+    },
+    "web-ui/src/new/views/integrations/IntegrationView.vue": {
+      "sha256": "684c5fc3db147f68ca73b2c0fec1382f1467e41d921bebdfd23d7377da25c917",
+      "size": 5363
+    },
+    "web-ui/src/new/views/integrations/TrialView.vue": {
+      "sha256": "249c894abe861bc80f29d79ba7877ce49b45385a1ab092232cec5d1fc75d4074",
+      "size": 22759
+    },
+    "web-ui/src/new/views/register/FingerprintView.vue": {
+      "sha256": "5c4c27976194d9b12ea7ad527bddb9a6d369ccbb2d37c91eeb08d1eb3b1c7ebd",
+      "size": 7844
+    },
+    "web-ui/src/new/views/register/MailView.vue": {
+      "sha256": "3573dacbeeab02b6c3937be77ae9429b1d1c0a669acb94e6bf6f776a63627d20",
+      "size": 25937
+    },
+    "web-ui/src/new/views/register/ProxyView.vue": {
+      "sha256": "23dd10301535eb6ae3fb2163f6352fd6179fb6989e8673bc45dd1ed45f26b759",
+      "size": 16300
+    },
+    "web-ui/src/new/views/system/LogsView.vue": {
+      "sha256": "b642b91969c46f7101d14f40ed98d408ad914077772a50d0f223e806ca9c744f",
+      "size": 6863
+    },
+    "web-ui/src/new/views/system/OperationsView.vue": {
+      "sha256": "4af6cd09654b41aff8445c42774903491849efb881430421130fad6c46099cc9",
+      "size": 1948
+    },
+    "web-ui/src/new/views/system/OpsMaintenance.vue": {
+      "sha256": "bed97860377360f50c01264e2ebefbc6324afc51016398db5861527a1b2bf51c",
+      "size": 7647
+    },
+    "web-ui/src/new/views/system/OpsMetrics.vue": {
+      "sha256": "a84bd7f2c6fb0af4efe7c8ac1ad32cf67827a3fcba8ecc3de54c77bfdb16f8fa",
+      "size": 14068
+    },
+    "web-ui/src/new/views/system/OpsSettings.vue": {
+      "sha256": "56634d923aff732ca6ff4a05bf7bea635d72d427ee2c855246a3eda8e2a095d3",
+      "size": 7924
+    },
+    "web-ui/src/new/views/system/OpsSms.vue": {
+      "sha256": "5d07cfe236ffdb9cdf3a5596ee055b059931fd963978bac0fb06e87795c58eb3",
+      "size": 19312
+    },
+    "web-ui/src/new/views/tasks/TaskForm.vue": {
+      "sha256": "3450962cecde9902bd01a5f5535504c104923e1db0cea22ac019da4a7da9c51b",
+      "size": 5260
+    },
+    "web-ui/src/new/views/tasks/TasksView.vue": {
+      "sha256": "6c12e41ca37fd17908d1f7a727b590992b879f5074536b8625eb192676d8b507",
+      "size": 13664
+    },
+    "web-ui/src/styles/liquid-glass.css": {
+      "sha256": "74656879ec7f5fbecad02d8bbedeb7defc53b0e8cb8f519f92037caa2cdc7e14",
+      "size": 8551
+    },
+    "web-ui/tests/account-batch-selection.test.mjs": {
+      "sha256": "77381b0fbd363170a79130ab4f878129516bbeb4c21b7def49de90b08c22052c",
+      "size": 6282
+    },
+    "web-ui/tests/batchops-progress.test.mjs": {
+      "sha256": "8be2cf7f63a78772924501912da3da2052741a6d7a6e30f2089437258f158bce",
+      "size": 7697
+    },
+    "web-ui/tests/credential-export.test.mjs": {
+      "sha256": "e1636c975167dd8ae255d431e872188903e773740829a7a4b379c05617bfa335",
+      "size": 11473
+    },
+    "web-ui/tests/external-api.test.mjs": {
+      "sha256": "fb774b84ceee6caca8de853553bb097c7dddb9cb528b8a4faa6ff4b7d5b25b8f",
+      "size": 57805
+    },
+    "web-ui/tests/live-sms-log.test.mjs": {
+      "sha256": "9a76ef0daf0bcd03be842db528d872986341048fd150801b2cb3e56bcf10203e",
+      "size": 8211
+    },
+    "web-ui/tests/mailcom-alias-settings.test.mjs": {
+      "sha256": "067a8affa3fc3de52bfd9bb4a0874571bffade0eb3418dda5b60b6d1c40f1734",
+      "size": 12703
+    },
+    "web-ui/tests/mailcom-management-preview.html": {
+      "sha256": "f38d905cce573af6c987041161979dff1b3b308302e420d044a42ac8c80d66ae",
+      "size": 4109
+    },
+    "web-ui/tests/protocol-login-input.test.mjs": {
+      "sha256": "af55cdeb3bb60ea2cc2040c58ad439ff4865faca12ea79a94a28ab7749b7d965",
+      "size": 10814
+    },
+    "web-ui/tests/sms-number-pool.test.mjs": {
+      "sha256": "57760dc64901a26daa26a076597c870d83744d660aa4b46810b931b222563c21",
+      "size": 13918
+    },
+    "web-ui/tests/sms-settings.test.mjs": {
+      "sha256": "82bba2e9b51938dc4f8af790602f47fc428c58442d1d81fbe46024a858ab4648",
+      "size": 4781
+    },
+    "web-ui/tests/sms-ui-components.test.mjs": {
+      "sha256": "5a0868cd0eb3a092a78fb3e49a45a3a725338e4aeacca612a3a9a7bc82cabe95",
+      "size": 10546
+    },
+    "web-ui/tests/sms-workflow.test.mjs": {
+      "sha256": "ecff63fb0bde308abf5a0142a59909d34d2926473558a641c5675152115a99d6",
+      "size": 17823
+    }
+  },
+  "exported_files": {
+    "README.md": {
+      "sha256": "f84e46812cd1fddba2cedc1531e4dda439bc3486ef414b945b3c234aac0cb621",
+      "size": 14480
+    },
+    "__main__.py": {
+      "sha256": "3bd586ac7e40e824196a42d66af71fea669c76f1e4c9e67572d6a7f779e6b9d3",
+      "size": 335
+    },
+    "cli.py": {
+      "sha256": "0f7236e320be723a3a54db7d18af4764d6289684cc66bf3e4a21cda47a0a38b9",
+      "size": 7850
+    },
+    "config.example.yaml": {
+      "sha256": "65e3a89225422de6ed3022e2f894d260587cde301898c1641c4f5bea066e5856",
+      "size": 8608
+    },
+    "config.py": {
+      "sha256": "5d6d7ddddc18bc4256c3ea1817d5e53f6f09be4b71036526f59472546eb0b1f9",
+      "size": 1638
+    },
+    "config_loader.py": {
+      "sha256": "3953a7c70ef4904ac414dd478f0d261c75d546cae481239664999ec3eebcd9f6",
+      "size": 13617
+    },
+    "local_browser.py": {
+      "sha256": "45d75d2f11bbefea978c722c82f2627ab9e8c6ccac7050d030fba67227dd1024",
+      "size": 19321
+    },
+    "proxy_util.py": {
+      "sha256": "c1727eff1f1da844b4524ba3a646f3def81bf29fd09073ad8a3d09a9084259fb",
+      "size": 15184
+    },
+    "pyproject.toml": {
+      "sha256": "e8c4628ed8f1f109ed9455dff39a67374c0711c7e24e6a5114517abe41fb61db",
+      "size": 67
+    },
+    "register_gpt.py": {
+      "sha256": "735396b1e97c465486fdd4714863391fcac95bc38f850cd15f980ee91eb8a770",
+      "size": 534
+    },
+    "requirements.txt": {
+      "sha256": "c913b523584ba742fde7016c54579433a49836ff4740802356d6160da9459d14",
+      "size": 266
+    },
+    "web_app.py": {
+      "sha256": "c804bb4c94c0f9a5cf28d8fec554b87a120e1449dd6fe35d864ebc5b7fb989d0",
+      "size": 122271
+    },
+    "codex_oauth/__init__.py": {
+      "sha256": "91447944015cec709e8aa7655f7e9d64e1e4508e7023a57fe3746911c0fc6fed",
+      "size": 22
+    },
+    "codex_oauth/cli.py": {
+      "sha256": "75312d17a8cec8022482d16927738bee66eb405a5335e85a312871bd7670d17b",
+      "size": 11224
+    },
+    "codex_oauth/import_jobs.py": {
+      "sha256": "b75a23f3b9932474566b255330437f6ea23581b301f5d2b604b218e161b26f3d",
+      "size": 84324
+    },
+    "codex_oauth/imported_sms.py": {
+      "sha256": "9c01c93bc04d2a6fda3ac23f1433433bd32bc235a7aec2ac92ed231e00edf0f9",
+      "size": 17807
+    },
+    "codex_oauth/oauth.py": {
+      "sha256": "e2d08912e005000cad0f32861914e31db334ffb5886782c7cf410f4073744556",
+      "size": 31560
+    },
+    "codex_oauth/quota.py": {
+      "sha256": "63eb2673e56732a709df98cad1529b1fa21fd3659a67813916137080ed27aab9",
+      "size": 66838
+    },
+    "codex_oauth/quota_ui.py": {
+      "sha256": "ce7270c377254a81a536f131d81172e4a59339e728e940c6d38d1af70b8a5581",
+      "size": 50642
+    },
+    "codex_oauth/sentinel.py": {
+      "sha256": "93cbf95c776c4aad9d8fc6d2433dd43fa44c39ccca9b8ea0791e7004f6c8161c",
+      "size": 12372
+    },
+    "codex_oauth/sentinel_config.py": {
+      "sha256": "bfc88f6d98f36df159d127d27f6fc98360096d2243d2ada0c06501993b72951f",
+      "size": 160
+    },
+    "codex_oauth/sentinel_runner.py": {
+      "sha256": "acc7ad00b45a0fff066a5a67d00428cc6880d9fb68849262d58acb3ccc60f386",
+      "size": 7639
+    },
+    "codex_oauth/sms.py": {
+      "sha256": "b097ab5427f7e922c5aa37412efb0ed572e2daa52d8ef7c8ffeb8898e3d30623",
+      "size": 42651
+    },
+    "codex_oauth/token_files.py": {
+      "sha256": "dcc3a90bbdad001ec93c9e38bce68a0305bb2230b483b9d400431df3c1a59549",
+      "size": 43828
+    },
+    "codex_oauth/web_auth.py": {
+      "sha256": "4d1a34f0e52a0157711d4ed86bd5cdaa4225ce8bb35816c4b298483e7fcf12d6",
+      "size": 2806
+    },
+    "common/__init__.py": {
+      "sha256": "39ad8db99dadf319a61403aceaf6c9192c371fe28d77691cb2b4b736c8524283",
+      "size": 65
+    },
+    "common/account_groups.py": {
+      "sha256": "d6b8833835088e164a183641fee910d219d4027e8168f7fd68abc714988487fe",
+      "size": 4662
+    },
+    "common/account_health.py": {
+      "sha256": "b504c15be6c2a29c53ea2ee5909f357826a1856434a863bae7c5586369f7b48c",
+      "size": 47981
+    },
+    "common/account_operation_log.py": {
+      "sha256": "ea5ae1f7bb514b3dc365dce7ea1d65ca03c85e22d42540c93b9922936a51831b",
+      "size": 31103
+    },
+    "common/account_store.py": {
+      "sha256": "123aad0db80f55674c27b71d32c9771a89cf0588d91beebef2a7cd5b88747807",
+      "size": 117462
+    },
+    "common/account_store_mysql.py": {
+      "sha256": "d620cecd1ff3a04df67b4cf6012eb021ce2fe9468b3813f5fe5e86fd9bbe8cb5",
+      "size": 13950
+    },
+    "common/browser.py": {
+      "sha256": "2a4f18822ad27ee7044a29076bfc1ebf7258ba6ce92f935c167f874e93001107",
+      "size": 47988
+    },
+    "common/chatgpt2api.py": {
+      "sha256": "62fbd45e536a4dbf81abee48ef682312939eb5c70b25cd6b544affce7bef7609",
+      "size": 8985
+    },
+    "common/cookies.py": {
+      "sha256": "28359be3ef1e5423fdcc24a7143b510d560724af9ecfcaeacea437e3d969b9d2",
+      "size": 5466
+    },
+    "common/country_identity.py": {
+      "sha256": "66475a4528cdc71dea025bf2ca41f3db0a54da68634076507443360c607dbca5",
+      "size": 3934
+    },
+    "common/diagnostic_codes.py": {
+      "sha256": "aec70eb797545c828f0523a9c8166362d88aad3b99e32788f8019e5749ded662",
+      "size": 657
+    },
+    "common/email_rebind_jobs.py": {
+      "sha256": "1c44ef812ec7fc23a6450c1824eeaceefc1b6bd1ee6baf018126141513fb4447",
+      "size": 15115
+    },
+    "common/external_api.py": {
+      "sha256": "66ceaf4be2040304be8431a3eaa86d5d28b409d7311b3cdd75d590035a13804a",
+      "size": 80276
+    },
+    "common/external_clients.py": {
+      "sha256": "0b2cbf5af7802482fa98930dff5e4ac83aa7bc3b25510373a7c485ed6b252d98",
+      "size": 51599
+    },
+    "common/external_pipeline.py": {
+      "sha256": "90fbb9c136fb882d7adebc3e9686cdb8f9c3296b3b50e2592bb03ce2d049590d",
+      "size": 53565
+    },
+    "common/mail_registration_metrics.py": {
+      "sha256": "1330317bb9c610e225e1b7a619f269611f5206c2eee171729ee06fb1297a5015",
+      "size": 22630
+    },
+    "common/mysql_backend.py": {
+      "sha256": "52f3d85f67dd607de0c4b2b22d9c6bc01d87401cf034d2250c17a7ccc2555e5c",
+      "size": 6945
+    },
+    "common/panel_ops.py": {
+      "sha256": "8b3b8e0917bbb29751e191dd1cef925d35ddb7442a35c1b36feb6cf69300d227",
+      "size": 28909
+    },
+    "common/promo_eligibility.py": {
+      "sha256": "b13c9ba099ac2fb26e89cb348284b90d42b5e000871c92c7ba63e7b20a92526a",
+      "size": 13922
+    },
+    "common/proxy_bridge.py": {
+      "sha256": "2dc3a9f73c08ea1413d1b60670589dcce1fcb132628598a4c2b5f4eda229e7be",
+      "size": 5315
+    },
+    "common/proxy_clearance.py": {
+      "sha256": "5128e50fd3010b6ee062b8b37d3c9f37b5a4377ef3cd5d7631e8074300335e02",
+      "size": 8844
+    },
+    "common/redaction.py": {
+      "sha256": "da9544a48d9e269676aae2ecbd6b0d21d919436c7a74dc2bb15c94b970463e47",
+      "size": 9330
+    },
+    "common/redis_cache.py": {
+      "sha256": "bb0aa65e8d1ee3258c6e364f956d7f8e49df14c919e2cc7e3c20771c0411d863",
+      "size": 9115
+    },
+    "common/registration_proxy_pool.py": {
+      "sha256": "915a97376d4cfe43aeabdd8e2e086d0dc61fb416f424387b424f1278c0c4e046",
+      "size": 5285
+    },
+    "common/registration_trace.py": {
+      "sha256": "695b5570dabaebd7ca34db735df9864d58042a7a731bfdbf26dcea9601e83721",
+      "size": 12155
+    },
+    "common/relay_paths.py": {
+      "sha256": "d363a2236a3df500636761e513dfe5e9e8d86686033bf586d6d2a1d606428cec",
+      "size": 1009
+    },
+    "common/relay_recovery.py": {
+      "sha256": "0c0077068437d566ed3dcf3fe12d54688aa244712d52d16488b436fa13fa7c6e",
+      "size": 8093
+    },
+    "common/session_export.py": {
+      "sha256": "6db39f2ca9be03c188d2088dfb2d0995091355528efaf9c45bd902b749f290ab",
+      "size": 19942
+    },
+    "common/session_refresh.py": {
+      "sha256": "42ea42395e79314bf4cba2f3ef5ea73dbfc1f2d29475c413ef9416941d74e05a",
+      "size": 17903
+    },
+    "common/sms_number_pool.py": {
+      "sha256": "0dd1a825e7561d79587a16177fdc4933f5d8f3086bd55c1b6210e3a2061a859b",
+      "size": 20960
+    },
+    "common/task_checkpoint.py": {
+      "sha256": "68d733c2544e33bdf77b7eaacb3954c1ac39b888d75272df39bc0043024d5a44",
+      "size": 6265
+    },
+    "common/task_store.py": {
+      "sha256": "df1d3172dcd9ee50c5accb602bf30fdf1206bc00dd756889013df6b8ec59cdab",
+      "size": 18519
+    },
+    "common/team_workspace.py": {
+      "sha256": "1e4b5652152bb2c509616406d1445d75cd7511e769620edff6d733936375d325",
+      "size": 25809
+    },
+    "common/totp.py": {
+      "sha256": "d87996af8725b1685c8a2124866f970c145e44d45f0fccacbc526b5fb83cba3a",
+      "size": 961
+    },
+    "common/trial_eligibility.py": {
+      "sha256": "84022da14c36f4fcf583f5951dbaea27bc03d045943443cfe5ea62155bb6d4ad",
+      "size": 31986
+    },
+    "common/trial_eligibility_jobs.py": {
+      "sha256": "96c14b09442a73d6bb89aef4c5acf02d9b2d337c0312ace2b051a240a81add1f",
+      "size": 21342
+    },
+    "common/trial_proxy_pool.py": {
+      "sha256": "0a84b7a4f1852b786e5633127c502ed7ae4ce199801503bf7d1e6ce7b4ed49e5",
+      "size": 3985
+    },
+    "common/web_auth.py": {
+      "sha256": "531ff609335dc579cd452813bf75e14ead7abd7e8dc0b0cb1f27543d02f0555a",
+      "size": 2822
+    },
+    "deploy/audit_mailcom_direct_five.py": {
+      "sha256": "15c46e3047d5a68e6d1e162696cb0f939e69567c9f2e17e09105d51cdd11cb15",
+      "size": 8308
+    },
+    "deploy/canary_mailcom_release.py": {
+      "sha256": "432a65be341275c1365197976ae52a7cfe5aacac90abb82ab98a406beb6fbfbb",
+      "size": 27625
+    },
+    "deploy/check_external_api_ui.py": {
+      "sha256": "780a66eeafdf43bf10fdbfcb3b3bfcb5f4f21d96d48ea4b8a43f958e1c981d38",
+      "size": 8147
+    },
+    "deploy/check_sms_pool_ui.py": {
+      "sha256": "23d31553b202b120d67faa8da7f5c4775a8883304852a14725e056ed0e1bd03a",
+      "size": 7140
+    },
+    "deploy/deploy_external_api.py": {
+      "sha256": "e7a33fd1357065639a43436aeab5c80e544f5b32357566dd2655b5eefdcdf933",
+      "size": 1879
+    },
+    "deploy/deploy_external_pipeline.py": {
+      "sha256": "1d2378a893038fff18476170e8f6abe95674f14c6bee996ef7d66fa3c78944f8",
+      "size": 5643
+    },
+    "deploy/deploy_mailcom_direct_five.py": {
+      "sha256": "23d0a1eac6114351f0ad5ee4551b8dd73f0b8098fbd05fa7871a8e808314dda7",
+      "size": 8711
+    },
+    "deploy/deploy_mailcom_fullname.py": {
+      "sha256": "660e2216655b4673abfbdda29f209179d861a2459a790da7f03cafe376069cf4",
+      "size": 1991
+    },
+    "deploy/deploy_mailcom_management.py": {
+      "sha256": "b03829425ea3e329d886b0aa2cc70ed90c89b74de7ed7f650db43db0e1c90295",
+      "size": 8412
+    },
+    "deploy/deploy_sms_pool.py": {
+      "sha256": "cc1e1f5e2fd0e879785160c299c306937e54d571ac2e77541e95073f45706332",
+      "size": 6698
+    },
+    "deploy/deploy_upi_complete.py": {
+      "sha256": "683700e9ef0fe2b3c9227e6e533b3a781adf2fe45d2db10cfe65ada3d483087d",
+      "size": 3218
+    },
+    "deploy/docker-compose.mailcode.yml": {
+      "sha256": "c2be95ceea87d6a65deecefd1c6865b43621467bf1d3b12766f45260708ac47c",
+      "size": 244
+    },
+    "deploy/mailcode-service.env.example": {
+      "sha256": "78f5b7ae3f88f4b861d867406601ab88848ea94053fc03cc6f5090be21f11f9b",
+      "size": 218
+    },
+    "deploy/mailcode-service.service.example": {
+      "sha256": "f022c6217e5381a3fcb227d74b626fa8953e2f38c11e853d2c9752fa167aecea",
+      "size": 511
+    },
+    "deploy/mailcom_fullname_baselines.json": {
+      "sha256": "4e59f7e6629599ec2d5503b1a614f5bfb5503ed3d11feb5c0aa054384a6b124b",
+      "size": 5790
+    },
+    "deploy/nginx-gpt.example.invalid.conf": {
+      "sha256": "ddca770d399d33a1592faf3c8bfc32444bb7141d14c3441ff1fb90dbdaefb2f1",
+      "size": 1065
+    },
+    "deploy/readonly_ssh_recon.py": {
+      "sha256": "6e49680a6a236fdadeae8fc188d7141b650e8eee5608d056ddd3038055a6c83c",
+      "size": 23312
+    },
+    "deploy/remote_fix_registration_node.sh": {
+      "sha256": "e0f6637f0cf826ac75578e5b0a4bedff68f2899310e616dac889076b22f30688",
+      "size": 5512
+    },
+    "deploy/remote_install_full_server.sh": {
+      "sha256": "240a6a4290a855c81223c841b8bcd39ce5a6ad2e543aba3e3f2c44de194b8c40",
+      "size": 4735
+    },
+    "deploy/remote_update_external_pipeline.sh": {
+      "sha256": "f6990db08f4af54154b30591fb1f4927b9bf5ed970cc551b9cb366b9f61993bc",
+      "size": 5849
+    },
+    "deploy/remote_update_mail_adapter.sh": {
+      "sha256": "ea38e4ac4c79caa09a38bbd7fb968659032d6de280ba28f3b6ce290540f57dbd",
+      "size": 2723
+    },
+    "deploy/remote_update_mailcom_alias_delete.sh": {
+      "sha256": "a35bb2dfec5a2274bb03136fd5c3ddeef3fa392fff8197155693e7e9295f347f",
+      "size": 6791
+    },
+    "deploy/remote_update_mailcom_bulk.sh": {
+      "sha256": "173b9ed82d4c8ad97f9ef782e32017cfe2e87057755c22b02c2bf16a098c579f",
+      "size": 2331
+    },
+    "deploy/remote_update_mailcom_direct.sh": {
+      "sha256": "0f6b640bf1094d354eba15ca86ade1c46741f8cb446bd2f7d09073c8a70a12d3",
+      "size": 11608
+    },
+    "deploy/remote_update_mailcom_direct_five.sh": {
+      "sha256": "6fe41fec25b010336b7a2764a91860dc670c443f1e02595982fded76f5946877",
+      "size": 17908
+    },
+    "deploy/remote_update_mailcom_management.sh": {
+      "sha256": "5c035d7053308f242c2c197c48a70686581de0f2b3cd8704923ef72a825cdc2f",
+      "size": 2497
+    },
+    "deploy/remote_update_mailcom_proxy_pool.sh": {
+      "sha256": "23ad63673c47a8c973ab1d4f9fbd417bb87a678ee82173af08a9091e7893da94",
+      "size": 6791
+    },
+    "deploy/remote_update_rebind_deferred_mailcom.sh": {
+      "sha256": "f69dfa6fef0efb5aaa7317ac6f13aef0ec3ed53489683cc9733002269e73dcb7",
+      "size": 2193
+    },
+    "deploy/remote_update_wdmail.sh": {
+      "sha256": "d0bcab599ed78720aa8ec4f51030186678da04b3e761965c7264c14beff76ecd",
+      "size": 3077
+    },
+    "mail/__init__.py": {
+      "sha256": "e7fd7b25caec24214392eba2ebc8b83da0f8fd7cc8f5741c9a8e56cc98479fe6",
+      "size": 184305
+    },
+    "mail/mailcom.py": {
+      "sha256": "b491c96554636e6cb9b47354e6b142e8c7ac8f1e7d3406f9514c52bb2d70df73",
+      "size": 60993
+    },
+    "mail/parsing.py": {
+      "sha256": "eb4a01df248d6e8f78ef8e1d9271cd120f9cb90b85fedeb1becc14852b5bd6fb",
+      "size": 7616
+    },
+    "mail/wdmail.py": {
+      "sha256": "918252ae1a6b5d2975d99b5f2d2acb9cfd73687803646198e6de129a4419e6f3",
+      "size": 6041
+    },
+    "mailcode-service/.dockerignore": {
+      "sha256": "c64bf3323af18c80f671891b6bda83fdd813246bc5d8d396cfec64e0e770426e",
+      "size": 54
+    },
+    "mailcode-service/Dockerfile": {
+      "sha256": "fc6faf613b85b0b4fa3484c36891eedfc56192b1651a88f4d648193c313f6a54",
+      "size": 474
+    },
+    "mailcode-service/README.md": {
+      "sha256": "298f27b15d3a88fdd60c36d964bb007eb754ac0321f01ce94929eabfe4797dcf",
+      "size": 3125
+    },
+    "mailcode-service/mailbox.mjs": {
+      "sha256": "7a1a641d5ced7d106780b735b5bb4701fcc2a225acb1fceae7e3798a40c1ff55",
+      "size": 9361
+    },
+    "mailcode-service/mailbox.test.mjs": {
+      "sha256": "8efbcb798813fc0153294de2e6d1f790358e7f1510fd82909a425d8aaebd238c",
+      "size": 15230
+    },
+    "mailcode-service/package-lock.json": {
+      "sha256": "596ac1f20af693861a31e6dd34fcba935e8cb3ead19e08d52700ea9c1a1d48d9",
+      "size": 1033
+    },
+    "mailcode-service/package.json": {
+      "sha256": "b2c9201e507d4b236ae4fba9a546e767a7905a1e191fc77e2037ce888ec636d7",
+      "size": 305
+    },
+    "mailcode-service/probe.mjs": {
+      "sha256": "6ac890105a650585c61c80b08bc58c2bc41c754a98d44e2dd83688ee9ca00ec3",
+      "size": 2911
+    },
+    "mailcode-service/regression.test.mjs": {
+      "sha256": "995e946cc4a15e31a684cdfff639209c1934bb8daf4bd61d99aec8fee5349efb",
+      "size": 17793
+    },
+    "mailcode-service/server.mjs": {
+      "sha256": "ef579dc5d4ea63efe64e79df87acfdfc9d1cc4e73a11dd0d55c772d3463603db",
+      "size": 41388
+    },
+    "mailcode-service/server.test.mjs": {
+      "sha256": "33e6eb017062de404fc287111577f254048057df1ca05d0e912fb5a5330ffed7",
+      "size": 17401
+    },
+    "mailcode-service/store.mjs": {
+      "sha256": "75fd14c192a1dce1087dded2d05556c49f276056865a909fc902fe8ed1ceac89",
+      "size": 2097
+    },
+    "mailcode-service/web-alias-client.mjs": {
+      "sha256": "edf0bef8c5f0692f662f9962c776692b40f6c604bf4161e1ba03d5a7b05a800a",
+      "size": 1676
+    },
+    "register/__init__.py": {
+      "sha256": "aa3cbbec4960f59e55e1294686c54b50054838c77169c9cc0e1ceab006c17936",
+      "size": 338
+    },
+    "register/auth_diagnostics.py": {
+      "sha256": "abb56b00ce911c4c3ad2435d43e53475eab7a48bdbdb3f50f24766c49fac35e2",
+      "size": 4307
+    },
+    "register/batch.py": {
+      "sha256": "3c36c7cbc8032415b7d62de660d6cc8ef32f1cb529b254b12a5e2f0795f32808",
+      "size": 39335
+    },
+    "register/cf.py": {
+      "sha256": "a63409e589d85fbbc573fda20981da1621046838ccd7a1f9e231ea9dfeafef38",
+      "size": 1467
+    },
+    "register/flow.py": {
+      "sha256": "151b7fce92fd42620932f2a7eb0e33d78b367f9f34a3efbed0b5dd2a924032b6",
+      "size": 91187
+    },
+    "register/initial_auth_response.py": {
+      "sha256": "d91c6b759510bba1d874c305516241d8a15d52bc2ed57ada0bbd5bd16d72fa52",
+      "size": 14267
+    },
+    "register/log.py": {
+      "sha256": "c4dd2ba4809393c9641dcbb4ced84912196a5784cef353ad252e6edfd6160947",
+      "size": 3062
+    },
+    "register/onboarding.py": {
+      "sha256": "b7eef2fc42bc37d5e769cea0438bb8b6f00490c68a3e99fa822315c7379f1ede",
+      "size": 10167
+    },
+    "register/page.py": {
+      "sha256": "ad4006f9c43f63d14dbe47f148cb16089a77d8027b59a76481c9decd4d729a2f",
+      "size": 90053
+    },
+    "register/pending_recovery.py": {
+      "sha256": "6c00ddd8182b54189d3a26d1dcdb4fd4b73929a5dae87eb16eb8a840c2502e1e",
+      "size": 10647
+    },
+    "register/protocol.py": {
+      "sha256": "7229b2ac8fda993cd7e1d28f4a66cecf3f118dcbdb56d0aebe9968728a8eb10b",
+      "size": 69224
+    },
+    "register/protocol_context.py": {
+      "sha256": "ca59f584612b6e7f223ba41911e234b6ab156c8e71b9e4beeca578beccdd4326",
+      "size": 19262
+    },
+    "register/protocol_fingerprint.py": {
+      "sha256": "3c95e51c1697e05719596acca6918e97ba8a61a7f21e9280af635f7e8bc49f7c",
+      "size": 112726
+    },
+    "register/protocol_http.py": {
+      "sha256": "caf77880116af0082a6e9be91971249fa5086605262dba177f8cf073690e93e7",
+      "size": 26751
+    },
+    "register/protocol_ops.py": {
+      "sha256": "70d665d4a1ec88b9da2f2add388915a6bde35f7817d2784eebcfd5a84d1438fb",
+      "size": 78923
+    },
+    "register/protocol_pkce.py": {
+      "sha256": "77fc9377e8cfc835fe00e6b27bd64a9cd89e1b6a73a079f28d1e26232b30b9a0",
+      "size": 604
+    },
+    "register/protocol_registrar.py": {
+      "sha256": "d4ddb787a0d5c9c1996b85b137694e527230b22fc7a5c128c001f975eeefbb7c",
+      "size": 219103
+    },
+    "register/protocol_runtime.py": {
+      "sha256": "c4e418f89b1acbe15e435af400c62d3ccd8faeca5a5cbf6796afb71fe347f2df",
+      "size": 4625
+    },
+    "register/protocol_security_standalone.py": {
+      "sha256": "a959f042e9e7e60a2fa1adc64e4d7bb7d00496b36eb116f0eefb6d63c2c3d141",
+      "size": 30221
+    },
+    "register/protocol_sentinel.py": {
+      "sha256": "4c08bae2ac05e68459aa02bf16181c4035307055fa3bbc1bec2bcbef23be2d60",
+      "size": 46091
+    },
+    "register/protocol_turnstile.py": {
+      "sha256": "53b2f4f4e0c05fa19da9b5c6eb737cd597efe0485fb341f0b15becb51a83008e",
+      "size": 10616
+    },
+    "register/rebind.py": {
+      "sha256": "e849423db2ad786c7b343911851a2facd90f0fcbdb481306b94599d2184909e0",
+      "size": 23857
+    },
+    "register/registration_outcome.py": {
+      "sha256": "7b30687b3837b14e786d4a306229476c19ee8b40c5bef0d272aabe9a31da7bd1",
+      "size": 12198
+    },
+    "register/scheduling.py": {
+      "sha256": "3893dd5f6ed2981fba5916e98dfa41a70396e173a12bd1f7b3f0faa34b3ade91",
+      "size": 1909
+    },
+    "register/sessions.py": {
+      "sha256": "762415f90169ed22a2c402480fd85f45f1135b5a1300a795b6aac05dcd909b0a",
+      "size": 1732
+    },
+    "register/util.py": {
+      "sha256": "2c3b5088d00d259d89ed064e51daf0246076a30361f9862cee9640f03e73e75a",
+      "size": 2760
+    },
+    "register/sentinel_vm/runtime_worker.js": {
+      "sha256": "897079c952bbff969859321d00ea18a72291a229616f1d2a66bfa0fb118e2780",
+      "size": 16687
+    },
+    "scripts/migrate_sqlite_to_mysql.py": {
+      "sha256": "400536d6d674875c61d77ed3b42b8fbe91cbc0b65449843d8c353d21032d2181",
+      "size": 9876
+    },
+    "scripts/restart_web_after_kakao_batch.py": {
+      "sha256": "f2b7d52cec2fe0b08d357bfdfc89517a197780f7ff4c2612c63eb23c50771fc1",
+      "size": 4118
+    },
+    "scripts/start-web.sh": {
+      "sha256": "875361adec78405a7394a1245be68286ce5c2523317a0938027391461a82226b",
+      "size": 2542
+    },
+    "sentinel/sdk.js": {
+      "sha256": "a9683c60a66bfc1c0ef962e3a78cdd6f3e0568ffcba9c7bb966c1be1bcfc5f21",
+      "size": 33806
+    },
+    "sentinel/sentinel-runner.js": {
+      "sha256": "abd70632bb46b2617310178700bc737abb8c48ca7845355d546f612b06d927ec",
+      "size": 23231
+    },
+    "tests/conftest.py": {
+      "sha256": "2795c1938e695a5c060b24762934901e87a9d5449d68969fd5e79007e465a2a1",
+      "size": 1480
+    },
+    "tests/test_account_identity_regressions.py": {
+      "sha256": "195861781535dae063e67bf0ce989bac7166cb1f0d5820b297ea71e821adb50c",
+      "size": 9891
+    },
+    "tests/test_account_key_migration.py": {
+      "sha256": "b234611389bac39598424db54d807a4ffd9683cb5ee429da41295af36669cd4c",
+      "size": 10400
+    },
+    "tests/test_account_operation_log.py": {
+      "sha256": "b37b4bcf9df4806b536670efc787564e07d1f3a0e14909f1036bbde53f505d5d",
+      "size": 21011
+    },
+    "tests/test_account_store_mysql.py": {
+      "sha256": "ca07f5cc37ed96f73d2d0e9c40ae78e7f62c3f7ec1b5acca9479160a4a3e08ef",
+      "size": 11475
+    },
+    "tests/test_account_store_sqlite.py": {
+      "sha256": "a972444ed882d9df31f4a8455813aef34af139fe91a632dc06a40d0e87f7ee8a",
+      "size": 12346
+    },
+    "tests/test_auth_routes.py": {
+      "sha256": "171d2a71aa85bb17a48dedd0ec45bfc5d20b12a03a09410b822c635fd1743433",
+      "size": 486
+    },
+    "tests/test_core.py": {
+      "sha256": "58d1129f76156273edfaf3bff63a6bbe49c56ce4f4c83f05038e623e445615c1",
+      "size": 510073
+    },
+    "tests/test_email_rebind_jobs.py": {
+      "sha256": "bb1d187de47bb2e76348ad8d3e998d8b41e6cd825ba91ed89663a50cfe51c728",
+      "size": 4298
+    },
+    "tests/test_external_clients.py": {
+      "sha256": "4af889938053ea99a5b0655d747e6e1650f65a249f0cb05d38c790a3bf23eb25",
+      "size": 43656
+    },
+    "tests/test_external_mysql.py": {
+      "sha256": "51305dfd8a7198f5ef6ca90a5ff260cbaa26cf4a6f7f6b18c1d029840ba30d68",
+      "size": 3267
+    },
+    "tests/test_external_mysql_integration.py": {
+      "sha256": "b1590ee8563cddd5c1b8e21ba104f083e9072a8f887a47e1c6e331aa1915d042",
+      "size": 4081
+    },
+    "tests/test_external_pipeline.py": {
+      "sha256": "d354f13db2a5006c3794b98d6ed600715189f10f81ae9cad87f3d4fa347ae0c3",
+      "size": 7210
+    },
+    "tests/test_external_routes.py": {
+      "sha256": "2354afc91f2092d8d84d3e510dd135de396043113df25fc760e569741a4a1719",
+      "size": 40796
+    },
+    "tests/test_external_service.py": {
+      "sha256": "1d426331b02d557b05b17969d613e5ac9113222b96f73aea9ea4ae757e54ac2b",
+      "size": 22412
+    },
+    "tests/test_health_integrity_regressions.py": {
+      "sha256": "6b5f74ab07054c779d9fbb015a26d767e5ba0c88d83df2bf7483b4b2353b2315",
+      "size": 9138
+    },
+    "tests/test_import_checkpoint_concurrency.py": {
+      "sha256": "4a1913a94256dfe328a7bb5b5b8532a4dcf3cf27d8abe59a9c97c2d26cf6f0d1",
+      "size": 10029
+    },
+    "tests/test_import_identity_config.py": {
+      "sha256": "bca48d5297f48ce174e0c724f036e4bc822eca09c94a4fdc9fdbe041bbe9423f",
+      "size": 8191
+    },
+    "tests/test_imported_sms.py": {
+      "sha256": "c7ff97de1580105785b5d194d6da63cba17212e28ef88915d937b98fb4a5ea84",
+      "size": 23144
+    },
+    "tests/test_mail_adapters.py": {
+      "sha256": "6d7ec7abf70f53e7c0a573960f0a3591ed2ef1792c9737d3d375b2110d777013",
+      "size": 13447
+    },
+    "tests/test_mail_registration_metrics_mysql.py": {
+      "sha256": "6dea2d648d6f0e87389b021abe9893ab2eafd1e2c6019271007db23bd3bf0282",
+      "size": 3939
+    },
+    "tests/test_mail_state_concurrency.py": {
+      "sha256": "c37b4b886db87925157070aab954c3d783ccae20144b484bdfb38965801e8be2",
+      "size": 3060
+    },
+    "tests/test_mailcom_batch_management.py": {
+      "sha256": "96ac20d5c6adff6d1e0ace93559b3757bc962b3fceb3ae0890838ca456669212",
+      "size": 6017
+    },
+    "tests/test_mailcom_provider.py": {
+      "sha256": "6a3e2f0a5041679f55804afa0f20728f64b32845c195e2f1f9384148d609da43",
+      "size": 37223
+    },
+    "tests/test_mailcom_rebind_routes.py": {
+      "sha256": "da6450ec4ca1b77f053a7e846067376ea4aec6abf96e62c96411a84dd4ddeca7",
+      "size": 10550
+    },
+    "tests/test_mysql_real_job_sms.py": {
+      "sha256": "994af5ae40c4a46a241b158808c0bf73a650b911954a485fd62ec993370934e3",
+      "size": 4706
+    },
+    "tests/test_mysql_task_sms_store.py": {
+      "sha256": "4922c18a3d48906d65ba235cc52dbfd12d9bc89e13c026341936015dddf1a570",
+      "size": 2711
+    },
+    "tests/test_password_change_options.py": {
+      "sha256": "e9cdfb942c922fe4525c6cfee578321dfc84d18fd4dd42dbf990f2dabc338ae6",
+      "size": 3804
+    },
+    "tests/test_protocol_optimizations.py": {
+      "sha256": "f7571e76cefcbd26204dd770f861523da883f3469f0fab815a3fc76d8150c6bf",
+      "size": 16256
+    },
+    "tests/test_rebind.py": {
+      "sha256": "8159d26899417fd35f1ce30b6d7a98de4d5389015f192cd270793e4dd8ff8efb",
+      "size": 11628
+    },
+    "tests/test_rebind_batch_endpoint.py": {
+      "sha256": "b072e50185e43e4f1562e395213b1c9fe4724be51cc4f03ca3a9da9f2db8540c",
+      "size": 16970
+    },
+    "tests/test_rebind_batch_helpers.py": {
+      "sha256": "b1de2fe84d129a69f411c5634c7cb538b14eaf1afdd5d47b0a355203766c5521",
+      "size": 4521
+    },
+    "tests/test_registration_proxy_pool.py": {
+      "sha256": "e8db1e3378dd16e0ac747f3c7ae85c092dbabbcdb7b485f10bc2d7568f2c443e",
+      "size": 5040
+    },
+    "tests/test_relay_export.py": {
+      "sha256": "8eed2855547579d348b43458a3f6e5d7b29592f83bb1d796beef77bc782bff52",
+      "size": 13446
+    },
+    "tests/test_relay_paths.py": {
+      "sha256": "1222ca5d4845975a3bd9c27e191238b1386202b5afab06ae55d684cb2371a9cd",
+      "size": 822
+    },
+    "tests/test_relay_recovery.py": {
+      "sha256": "73e3bc76b4075849447a7e9e95ac2b75a1f4574d8a284f0e89741973f1cd3806",
+      "size": 16881
+    },
+    "tests/test_resource_lifecycle.py": {
+      "sha256": "1ae0b133de7091361a3d8a6ed34b2dba2eb80f93206b1d6e7c37a5191d73beea",
+      "size": 4867
+    },
+    "tests/test_session_refresh.py": {
+      "sha256": "60d058cd29d1055cff346f99f3aa764df1442c165419e71d9fb14e6ca545d1d7",
+      "size": 8010
+    },
+    "tests/test_sms_number_pool.py": {
+      "sha256": "8482d338bd322cc499f3ba7504cf7aac9df4780c5d2dff075e2ae93038279490",
+      "size": 7900
+    },
+    "tests/test_sms_pool_routes.py": {
+      "sha256": "e1c26aecb29965e86ec13b93c494ea0c4b4e24b2e3b24dc982e37ed09670f63c",
+      "size": 26421
+    },
+    "tests/test_sms_workflow.py": {
+      "sha256": "3d4db02e100cda575b4528b753702d409337e626579e4898075ee5d76ab7eead",
+      "size": 22147
+    },
+    "tests/test_task_checkpoint.py": {
+      "sha256": "91d1dafcf2af782cad7d118f65f3ffcb2ee32bea88b7dde9e512a4290e2666b1",
+      "size": 11035
+    },
+    "tests/test_team_session_lifecycle.py": {
+      "sha256": "7af828ed4142793ee6f74b08eb8deb12a9ebdfd9b415a8575b4984caf329385b",
+      "size": 14745
+    },
+    "tests/test_team_workspace_import.py": {
+      "sha256": "7f702c56521bd9abd6ab6ea399735a06e69c83bb21aaeb907dc2e46bccb70e3d",
+      "size": 15760
+    },
+    "tests/test_trial_eligibility.py": {
+      "sha256": "326c39cda93126628c8dcd5429cac4bdc9fe5a09e682257a0361125b26d7e895",
+      "size": 25861
+    },
+    "tests/test_workspace_login_retry.py": {
+      "sha256": "79fdf1bf7482ddaa2e31adc7f3efc4b311b03b923aacd9cce8a509a81a94fa88",
+      "size": 10279
+    },
+    "tests/test_workspace_session_redirects.py": {
+      "sha256": "4f4113851bbf46b32eb96d1b9c642a50dc0c13b04a74f30a56319eaab020c8d2",
+      "size": 13954
+    },
+    "web/routes/__init__.py": {
+      "sha256": "f96e26f85bc36542718277b1477d4aaf3266e305cee1c4ec05121ce1aa8a8637",
+      "size": 51
+    },
+    "web/routes/account_groups.py": {
+      "sha256": "c46c11a8434652b274189eca4d33024cb1bf0a0ccdf62e863992994081c42338",
+      "size": 4673
+    },
+    "web/routes/accounts_io.py": {
+      "sha256": "f1d49cdca9085bca95edc0ffeb836940981d8d6688b85b28a6cd2d08ec3686c6",
+      "size": 9772
+    },
+    "web/routes/accounts_reauth.py": {
+      "sha256": "27457e547498f0553427abdd1d18d1e91bdc08909aca348b5c2b225ccc2df6c9",
+      "size": 21547
+    },
+    "web/routes/accounts_rebind.py": {
+      "sha256": "912ca011a0eb082f4bad8a6de121515ca30772724045c3049fd416ed4b6b83ba",
+      "size": 68614
+    },
+    "web/routes/accounts_trash.py": {
+      "sha256": "4809699cd5141438a8b478ad9a0ea958f6ae48d85d816b1ad6bf338e52bdfd0a",
+      "size": 1895
+    },
+    "web/routes/auth.py": {
+      "sha256": "11ba1c31460123695f13dfdbb1bf4d6e5dfb6713dcaad5683cbecd3ee721eacb",
+      "size": 6828
+    },
+    "web/routes/chatgpt2api.py": {
+      "sha256": "958779a28ce065c5d886c6c651c8b2fbdd964f9a93f3d7a135fac8d8f62a8883",
+      "size": 6271
+    },
+    "web/routes/cliproxy.py": {
+      "sha256": "c290c878fa19d04e5269b81a1c64f8aa5764e9faed452cef82e228c459ffa015",
+      "size": 41324
+    },
+    "web/routes/codex_oauth.py": {
+      "sha256": "2063e1ed89afb0c1949e16fd8a2e25f36c98712a546d7fb54ddc448dbd9946be",
+      "size": 134026
+    },
+    "web/routes/external_api.py": {
+      "sha256": "50d7c8471e3ec93ff04d3898cb3ff11e9b103935b97f191714e7b5a573776299",
+      "size": 19163
+    },
+    "web/routes/jobs.py": {
+      "sha256": "477c17308feeb019ef0184fb3ab7f3fdda77fdeb1c3bb8c86f06090a01e7a95a",
+      "size": 71074
+    },
+    "web/routes/mailbox.py": {
+      "sha256": "e077a7f6193e1066230fe570297bd5e572f69d6ff31843375c3a1bdfa725bdd2",
+      "size": 68855
+    },
+    "web/routes/mailcom.py": {
+      "sha256": "cdd5afd9f363dd1ea42f353792c01afdb469624653bc3f1c94cab00842c999b0",
+      "size": 48775
+    },
+    "web/routes/ops.py": {
+      "sha256": "8421b5fa437b905e54300afe913d9102c34bd90d8a6661480eb4055e2c4776a2",
+      "size": 37410
+    },
+    "web/routes/proxy_admin.py": {
+      "sha256": "1dfae23be094668ebd7f1467b4036e32def18359870ea6e70470eae4e3945df4",
+      "size": 8669
+    },
+    "web/routes/refresh_at.py": {
+      "sha256": "1c6aa029806fb98db8c6ac44ca2f082e022d6b07e942b561ab86363470e6a1bf",
+      "size": 4780
+    },
+    "web/routes/security_ops.py": {
+      "sha256": "a53b61ce8ba3f161d8f5d983d950d9b3f3657e3d05cdde7549ef3903915b6b03",
+      "size": 49016
+    },
+    "web/routes/shared_models.py": {
+      "sha256": "22fa3d45fd28cb973d7dbc1c30f0b2c1381cef86ed895928731866611af6e6ca",
+      "size": 319
+    },
+    "web/routes/sms_pool.py": {
+      "sha256": "c2a9e0a50ae23f725f5da88771103b772fbec02d92247e6844a277cf0e0f8ccc",
+      "size": 5091
+    },
+    "web/routes/trial_health.py": {
+      "sha256": "f69acbea5283b4d8f8974d9baf0182a9dee742b2931c8232549065c91dd46ddf",
+      "size": 24396
+    },
+    "web/static/style.css": {
+      "sha256": "0fafccdf7fa6d454f4569fb37d94555082ff6f6334c2406538f59295e98fa9ad",
+      "size": 38256
+    },
+    "web/static/vue/index.html": {
+      "sha256": "b7e17f922ec7a8488b34c6e686cb26277299cc6e5a88f6805d2b4aba81a5538d",
+      "size": 2683
+    },
+    "web/static/vue/new.html": {
+      "sha256": "c5f623f18fffba0c8581136672eafdb0e44552b035ad3b3869440da8eab18bcb",
+      "size": 974
+    },
+    "web/static/vue/assets/AccountsView-C1w7kagQ.css": {
+      "sha256": "a2e2de51261ee128e083b4c7be2d85e74e937a782fec3eb367a0228cd3ae94e1",
+      "size": 21856
+    },
+    "web/static/vue/assets/AccountsView-CeKy3GEd.js": {
+      "sha256": "c07d0bd487f6030b0dbe582c24f9c875c44b15df63b9d15a8ff815db2ac2ab24",
+      "size": 60821
+    },
+    "web/static/vue/assets/AccountsView-CsHYbf-D.css": {
+      "sha256": "b0c03c28b67737d9ca9785967d9f531c318f32a1c6d653afe1da9cb7845350a4",
+      "size": 21606
+    },
+    "web/static/vue/assets/AccountsView-hIA-JA3X.js": {
+      "sha256": "c9ef50656f8db58b12b0667afd536fd24b20ffbd8177d928487ed4a3694667c7",
+      "size": 60527
+    },
+    "web/static/vue/assets/AppEmpty-D88HNJnz.js": {
+      "sha256": "99010e36df9fe18ff7858fc1d2f6e4602b1dc51330f5a0d7d0ced43125755f43",
+      "size": 467
+    },
+    "web/static/vue/assets/AppEmpty-DvDrnfmq.css": {
+      "sha256": "605ad01a7e2a59ea335959e5cb7feb42702d204fdd57177f1ea83de44cdca3f9",
+      "size": 333
+    },
+    "web/static/vue/assets/AppPager-B-cbAPhP.js": {
+      "sha256": "925660ac6187d99d48d55a5b7b7b83fc415e763b1bab8a6b16124fa471fac92c",
+      "size": 1344
+    },
+    "web/static/vue/assets/AppPager-sqyLaiRA.css": {
+      "sha256": "ecb01f11e7802ba43a124707c6cde1dcf872609cbebb61a4a4ea750d72ec8438",
+      "size": 922
+    },
+    "web/static/vue/assets/CliproxyView-BvaRvJZ2.css": {
+      "sha256": "fb9c9f5cb0d61d63d765361c9d86200567fabb65675ea8207cdc30c2a6241ed7",
+      "size": 4667
+    },
+    "web/static/vue/assets/CliproxyView-D58LrhJ5.css": {
+      "sha256": "04e119427b7b08bfd4a9b170d06c2553a0288b254df19edc32e271cc690bc825",
+      "size": 4667
+    },
+    "web/static/vue/assets/CliproxyView-DAnposvs.js": {
+      "sha256": "56f050c363efbb19c7c2ff2ca5d77502b1383a14eecbfd9f43c2abf8294e0eb1",
+      "size": 16880
+    },
+    "web/static/vue/assets/CliproxyView-oX56Yshn.js": {
+      "sha256": "3abe275d299a28480fb7cc4dddb319493b419129941af82e3866975ac080987c",
+      "size": 16285
+    },
+    "web/static/vue/assets/CredentialExportView-8J0xj0Ye.js": {
+      "sha256": "014e8a4ec7bd33d5c6e32ba33ca4fe8b42f4fba586f415648080f5558b6f5a6e",
+      "size": 16033
+    },
+    "web/static/vue/assets/CredentialExportView-D0boux3T.js": {
+      "sha256": "07a94bab18468c7a73a89935ec06dc49cf6f0765c913ca38254e8648914d4e56",
+      "size": 16033
+    },
+    "web/static/vue/assets/CredentialExportView-DmYLoUWq.css": {
+      "sha256": "b0f453be18d3d7babadfb75464b4c8fd2e5c1fb912c95ee7dbe4a8a5c94c626f",
+      "size": 8030
+    },
+    "web/static/vue/assets/DashboardView-7JBC0NA2.js": {
+      "sha256": "c228e9ff6c8d5a57dd9fd431597c98c7141f2ca7d9bd938f17c2faa8cca519b7",
+      "size": 5354
+    },
+    "web/static/vue/assets/DashboardView-D3dkybTU.css": {
+      "sha256": "ab15c11b26e017f4d92b5f0309f9dc6b14fb603f3145616c80e24818c3426228",
+      "size": 3863
+    },
+    "web/static/vue/assets/DashboardView-Dg0IHwVa.js": {
+      "sha256": "177451a3780682e57ca04d5a17bf0827829c57b2fd384c52aaa0d5976bd06d84",
+      "size": 5354
+    },
+    "web/static/vue/assets/ExternalApiView-BvhF5_jE.css": {
+      "sha256": "8a9c8555844b83fcdf5fba2f82852b1e175fbe0ed2be6b6c09166131e37a468c",
+      "size": 13110
+    },
+    "web/static/vue/assets/ExternalApiView-C3SezO1u.js": {
+      "sha256": "6c07699efc22dd6bb93bf3dde5c0da01343062ec47e5160c9714f3173aa89d80",
+      "size": 79881
+    },
+    "web/static/vue/assets/ExternalApiView-DEWaSrZP.js": {
+      "sha256": "c7f0c004402127168012d10bc8d3d7da68e0d9d4f8649b0dbe54f9687263677e",
+      "size": 215
+    },
+    "web/static/vue/assets/FingerprintView-B1TUuvSo.css": {
+      "sha256": "d648cae984e6a930e1053dcafc39c8ec412d6e7094b4b16ea8cc8b8f287fc503",
+      "size": 2760
+    },
+    "web/static/vue/assets/FingerprintView-CO3wPOdA.js": {
+      "sha256": "a88a4775afc1c4671bc08eb2b16c7e21a2b2a6c5c22c1a1d48fa88d92a57af57",
+      "size": 6354
+    },
+    "web/static/vue/assets/FingerprintView-DInwj8v2.js": {
+      "sha256": "ed394bbad40705ed407a9e384d35e8ac14d26c7195c7de823a87308452959fe8",
+      "size": 6354
+    },
+    "web/static/vue/assets/IntegrationView-BTGwAXp1.js": {
+      "sha256": "4ba7d6f531cf6c423093fb925538f9a7c4370c2510bf0fa01f5695e40f0c6bcb",
+      "size": 4472
+    },
+    "web/static/vue/assets/IntegrationView-Bfs52u_5.js": {
+      "sha256": "ca5c094412e6fe030804b7616568ea77a7e5416e622a9f23df19ba2d34222258",
+      "size": 4477
+    },
+    "web/static/vue/assets/IntegrationView-CPdeV6Jc.css": {
+      "sha256": "a4a8da08a8ae3dbb8cb2c5a5b4c1b709cb4957b56d35910f491b4970e80d3e68",
+      "size": 1003
+    },
+    "web/static/vue/assets/LogsView-BB5YknVS.css": {
+      "sha256": "82afe164cb545654e17fb16578ef6f50b110baa4999d0650b403412b0856232c",
+      "size": 1313
+    },
+    "web/static/vue/assets/LogsView-CpDOBZ9j.js": {
+      "sha256": "70c335c20ef020397374d3b5e91cae4f37e3a7496d54f30baff2350a8b6805c9",
+      "size": 3796
+    },
+    "web/static/vue/assets/LogsView-g2qNGnP6.js": {
+      "sha256": "df326005effac02f3b9afa313e4f88de003c78d694142040bf9583f6bfb43ed7",
+      "size": 3791
+    },
+    "web/static/vue/assets/MailView-DBTcPxm2.css": {
+      "sha256": "4eb5e76d1ee1fa933bb9052b1655a677ec5526e3ae7c9b600957c6a9974ed138",
+      "size": 4566
+    },
+    "web/static/vue/assets/MailView-DfhsIzvN.js": {
+      "sha256": "a7227cadaef13401316ad98ff64def90c2a316bf8c00ab075f2b90d065a66ddb",
+      "size": 23600
+    },
+    "web/static/vue/assets/MailView-FYv8uiSN.js": {
+      "sha256": "9e2309d32ea35cd5ef66603d3f6a3d46e5a020062d6535da54d7717329835814",
+      "size": 23600
+    },
+    "web/static/vue/assets/OperationsView-C_v1S1we.css": {
+      "sha256": "09df89bdba7ad56855a1b7e7ec40597b68a4a0c53f9e85bfcedd1627a9f6fbc1",
+      "size": 18659
+    },
+    "web/static/vue/assets/OperationsView-CrBNu2kN.js": {
+      "sha256": "6969715d047dccec97b6650b4eb43c90adfeadd70b765eecaf34c4be691dbba1",
+      "size": 45640
+    },
+    "web/static/vue/assets/OperationsView-xbvYbdL7.js": {
+      "sha256": "5b67959391174f57b6414a5ba5727fe8eca82cb7bb1f2095e101451e87a8b670",
+      "size": 45640
+    },
+    "web/static/vue/assets/ProtocolLoginView-Btzslsom.js": {
+      "sha256": "2a6206f5eb7ab9580e9d6a14ce70d3830c9a8778864e8a7cac9631318527736b",
+      "size": 12936
+    },
+    "web/static/vue/assets/ProtocolLoginView-CGJUVR1J.css": {
+      "sha256": "a2ab3e2c020b55b90b80eb9e7274fd7f8b57295dd30431486159842974594c74",
+      "size": 4062
+    },
+    "web/static/vue/assets/ProtocolLoginView-DGvnpr4n.js": {
+      "sha256": "c79b45da28baeabc8aa2685b33fd7aeb4530436ac2d15580af012c17e10f991d",
+      "size": 12936
+    },
+    "web/static/vue/assets/ProxyView-C2mcZWWb.css": {
+      "sha256": "c30f3d4db9b51e5be2f0fb78e0600a620ae907dcbb303c247bae30dc0f08802b",
+      "size": 3637
+    },
+    "web/static/vue/assets/ProxyView-C9go7LTI.js": {
+      "sha256": "255c5986deeadfed064fa02404ec8163fc258daa8fe51b1802d6cf17d9946fc1",
+      "size": 12928
+    },
+    "web/static/vue/assets/ProxyView-NgR9ANVN.js": {
+      "sha256": "c2304eb24c68f84f78632d3070e6274a9d58fa073c08fd4cb86b4b906462a352",
+      "size": 12928
+    },
+    "web/static/vue/assets/RebindMailboxPicker-B87LgyNV.js": {
+      "sha256": "f268c1a003cbd285f7d8925e192ec7c76567991ab832d3e9077a20f0a2d34e2e",
+      "size": 52238
+    },
+    "web/static/vue/assets/RebindMailboxPicker-BCBTTB5u.css": {
+      "sha256": "782c02c7ebac4c6068cce5786ce132e4ec5f8434847efa0a8ca70c1eda5da17e",
+      "size": 16011
+    },
+    "web/static/vue/assets/RebindMailboxPicker-CnvQWPGT.css": {
+      "sha256": "74840c1ba96d8f72c89efef2a98c7b303572d5adfa3033be10b98dc9b56a7ae3",
+      "size": 16011
+    },
+    "web/static/vue/assets/RebindMailboxPicker-rUx3iw16.js": {
+      "sha256": "148365e664e04aae84f39091cf5c2f7df16284ee28dc23db18e576f5aaf1b425",
+      "size": 52453
+    },
+    "web/static/vue/assets/RebindView-BzTEbI0T.css": {
+      "sha256": "3f960905de52d3bff80812f096e8f27a2b7fb737724f0df55084c1e6626d0007",
+      "size": 6090
+    },
+    "web/static/vue/assets/RebindView-CfTzaiS5.js": {
+      "sha256": "50f33e33b7303dba295444f39c65b54ef64e7ad6362d35df0c7a196a3235b1ee",
+      "size": 22027
+    },
+    "web/static/vue/assets/RebindView-DYlE9Xl-.js": {
+      "sha256": "6dccca65a01b19daf11b9d2afeacd973f6c48d107b9466432942497bfb899b88",
+      "size": 22027
+    },
+    "web/static/vue/assets/SmsNumberPool-Cvq0NjHF.css": {
+      "sha256": "24ecc55214db3033a992c8a7f63fb77ea6ffe7176544a9205215f441d5e6afe0",
+      "size": 6868
+    },
+    "web/static/vue/assets/SmsNumberPool-D1RzdE4g.js": {
+      "sha256": "2d3afea0a12ecaa2a71420513b163f514ef4bef7de704ca07306adec814cd2ef",
+      "size": 13920
+    },
+    "web/static/vue/assets/SmsPoolView-EAWv1iRn.js": {
+      "sha256": "34e437dae0b86c770dde3b15f4909589ce7f680393189067612fe2f74b97aa80",
+      "size": 249
+    },
+    "web/static/vue/assets/TasksView-BTewBtAS.css": {
+      "sha256": "50089ffa9c92c8efd6188accd0d9939666d0754a31669006262eceb1506246a3",
+      "size": 4773
+    },
+    "web/static/vue/assets/TasksView-BvpRbVrw.js": {
+      "sha256": "a755437448dc775aa8699ddeae670f09d47f06e3f835a582d7c1914a9a448d4b",
+      "size": 12937
+    },
+    "web/static/vue/assets/TasksView-DOFmTm7S.css": {
+      "sha256": "5b8a353040e46a8087b8cefb34be9b5306765d7799fcc3f586a2c475cfa1df29",
+      "size": 4182
+    },
+    "web/static/vue/assets/TasksView-IKyrPNFj.js": {
+      "sha256": "a993cdf67f011f953da758367a2130ed6a4d71cf8e5396e9b70fd3ae0c2a2b96",
+      "size": 11678
+    },
+    "web/static/vue/assets/TrialView-C8knMy2S.js": {
+      "sha256": "97974befe70f2c56241906a14b94dde181ed4242bcc6df83632546d38fc7f5cd",
+      "size": 17065
+    },
+    "web/static/vue/assets/TrialView-D1xMQida.js": {
+      "sha256": "9ac546b392401763eddf948620ae2cafa6e9121d7decd2d59cf210291b92d111",
+      "size": 17065
+    },
+    "web/static/vue/assets/TrialView-Dia7HJCI.css": {
+      "sha256": "bae3f67ffa11afdd6cf5a34aa3de45c36fd25770b93e099840de010e13c4700b",
+      "size": 6924
+    },
+    "web/static/vue/assets/_plugin-vue_export-helper-CbfZvTSH.js": {
+      "sha256": "8df24513fbadd628b73d402c114ea144fb56fdb5f7595be601283dbf2534eba0",
+      "size": 63339
+    },
+    "web/static/vue/assets/api-BCb6BjQc.js": {
+      "sha256": "82d151bd0c458b746624c45ed594a9860d218e9d5975db31ba45bf16c4d15852",
+      "size": 1596
+    },
+    "web/static/vue/assets/circle-check-CDVD9kV1.js": {
+      "sha256": "c66e760ea2b2cbb8893bdc436faf8432af0b23533331623a905dc6b4d1ca0a08",
+      "size": 163
+    },
+    "web/static/vue/assets/circle-x-BQE3-zmV.js": {
+      "sha256": "09123af24d699dbfb738c8775ed1424049f22a1c7eacccb949c0b2c2a01ed27d",
+      "size": 192
+    },
+    "web/static/vue/assets/client-B9oxHnyk.js": {
+      "sha256": "a9872580d40f535ba83c5f65e23d618cd54dba25d95aa2ea7e6cbaf805904347",
+      "size": 7615
+    },
+    "web/static/vue/assets/clipboard-paste-CXHf5osN.js": {
+      "sha256": "5d91058aa6e2492dfc1084ae877a141d485ea9399939fd4118a15b2c321d367e",
+      "size": 366
+    },
+    "web/static/vue/assets/cliproxy-DUgyBei4.js": {
+      "sha256": "876ecc920d7750687573b1a86598d2cfcd74860608badea5da6a62eb7e65fa68",
+      "size": 2754
+    },
+    "web/static/vue/assets/config-lUtuP-TW.js": {
+      "sha256": "fc5d6e9db9090e4768eea3d7e4cc99b9408e63306c57329f2cb087835e4e124d",
+      "size": 222
+    },
+    "web/static/vue/assets/copy-CLviQImC.js": {
+      "sha256": "af6ee3137052ab3c8d08b113410385066563d334ae3207dd4a789ecaea4584be",
+      "size": 579
+    },
+    "web/static/vue/assets/eraser-DjHJxeAI.js": {
+      "sha256": "0ef9765fb1f958714b520403f0d100c1135462569aa58a38c639b09c8a7c1d2a",
+      "size": 267
+    },
+    "web/static/vue/assets/globe-CZXtfi1n.js": {
+      "sha256": "0ea5bf7cedf1c513aeb9b0c4008d1d321a0beb9d9aa9d5344d4431829b9996d8",
+      "size": 227
+    },
+    "web/static/vue/assets/groups-CwQ7VoiK.js": {
+      "sha256": "b2da754fd750742ed0a461a298ace45d63711f976d62b6ba2f453479def0bad7",
+      "size": 1256
+    },
+    "web/static/vue/assets/mail-plus-BW5uB1BP.js": {
+      "sha256": "b9f432d390ed221f7fdd4845685a18f5a0fdf73d44df4d50642bb7cbbe2802c4",
+      "size": 299
+    },
+    "web/static/vue/assets/main-BB2Hf74a.css": {
+      "sha256": "4c15c0528196f80d22d64fdde6c2843a31b6fa1cee12af6fcab8e79515195877",
+      "size": 101380
+    },
+    "web/static/vue/assets/main-BEdzb4Ut.js": {
+      "sha256": "dc3bf8f0153ef3842db3a3e282c73b79e9a7efac5216b3438938f43ea1876657",
+      "size": 353872
+    },
+    "web/static/vue/assets/main-CA-ovduB.css": {
+      "sha256": "8f462e42d1c24c6276128efdf13e8a1b527059ee0af19b1de0aeca70d8acbc99",
+      "size": 102191
+    },
+    "web/static/vue/assets/main-CGrM8epi.js": {
+      "sha256": "b13237670d19cbc9c07b53728ef19a12a72a533c2679e441058bf29cd0674bf4",
+      "size": 354848
+    },
+    "web/static/vue/assets/main-Cfh8MFvt.js": {
+      "sha256": "a40ba8c219fb5746ca4eec12e2a9008bb09e6b8798a5fe9addf08b95fc0041e0",
+      "size": 351033
+    },
+    "web/static/vue/assets/new-C355Rqox.js": {
+      "sha256": "7d10f37505e49395d6991cd81f957333b4186320948af1f90cb54cfc39c684e6",
+      "size": 105389
+    },
+    "web/static/vue/assets/new-DQurB5CH.js": {
+      "sha256": "5ecd4a09eefdefb4f4f9871a134940fa0e45142341ebd834c472d5f25a921543",
+      "size": 105183
+    },
+    "web/static/vue/assets/new-iCIG0wAi.css": {
+      "sha256": "e850a408f87a1c1f047e12ea2231fe09e07dc36d8ffb80f39c72552026d14176",
+      "size": 35109
+    },
+    "web/static/vue/assets/ops-e45t228R.js": {
+      "sha256": "b0191b2fef6fc6dee3343e695788b23fc3b258bb71ba62c2ee3919ec5a789bef",
+      "size": 1572
+    },
+    "web/static/vue/assets/plus-Ds2i_d_s.js": {
+      "sha256": "e569ae9d6fe1184ba73908b166abf824fb6e08ee91b83c6a06ca978b63b8dc75",
+      "size": 138
+    },
+    "web/static/vue/assets/rotate-ccw-CFy9-nbq.js": {
+      "sha256": "9fa0cff23682d011e5df906e69ed3ddce33847708b133a5198ff283eb0c2f9ad",
+      "size": 185
+    },
+    "web/static/vue/assets/settings-EeXUgwDG.js": {
+      "sha256": "de29e4b7c0d6440282a1d713bcb2ceacd73f9809c96b4389be69e7da8d9c7e3b",
+      "size": 180
+    },
+    "web/static/vue/assets/square-B464B_v1.js": {
+      "sha256": "c904893bab22cc6fec119bacf4354bbe9fd3d6396fcecedda8b31e903fa19643",
+      "size": 132
+    },
+    "web/static/vue/assets/tasks-DrNckYx1.js": {
+      "sha256": "b0c1c3c255a160c4c1e9b76eaeca7b7d23050e792c4a7dac1c9cfe0d19789d2f",
+      "size": 1684
+    },
+    "web/static/vue/assets/tasks-QB0CaqgH.js": {
+      "sha256": "301bc0ab0d27940a92572e43777502c6f995478d10f6a99a07ae06dad3e3fa0a",
+      "size": 1485
+    },
+    "web/static/vue/assets/trash-2-CcD4ZZyG.js": {
+      "sha256": "3029c6f2248118ff61b2c26e705e7b432727e883bb10b87d992463f3008fb3db",
+      "size": 313
+    },
+    "web/static/vue/assets/useConfirm-BMtIJ3on.js": {
+      "sha256": "3b83f701c48ece0e3ef202e20f83fda259e6dd2cf6fa079ee4847f842aed25da",
+      "size": 102
+    },
+    "web/static/vue/assets/useConfirm-D_Nduzah.js": {
+      "sha256": "b4303c08f68c19e69ddf801a95195ce732247a44cf1caa3db8eebe0f19280797",
+      "size": 102
+    },
+    "web/static/vue/assets/x-bwIyGy5p.js": {
+      "sha256": "2560c93000d9c4eeb73ee9105575b4afd0eeeb7057dcf006abefb080002159f2",
+      "size": 23198
+    },
+    "web/static/vue/assets/zap-COSlnULO.js": {
+      "sha256": "b026787d959d8636c40fc137e8138e4c4b427701329988c3778919b30548dccc",
+      "size": 756
+    },
+    "web/static/vue-local-overlay-20261015-061659/index.html": {
+      "sha256": "62c33b41309d4817cb1d8e6d212e76fc5f36cc25aba0e10de1fcb07e4074fb60",
+      "size": 2683
+    },
+    "web/static/vue-local-overlay-20261015-061659/new.html": {
+      "sha256": "94a9ba70533c3ab23b6d808b7b593b82cf548a20a38639bd784929a42d4f37e9",
+      "size": 974
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/AccountsView-C1w7kagQ.css": {
+      "sha256": "a2e2de51261ee128e083b4c7be2d85e74e937a782fec3eb367a0228cd3ae94e1",
+      "size": 21856
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/AccountsView-DCWeX4w0.js": {
+      "sha256": "6e3bf8ad9c0fa1ac216e55d368514815e8ad8998b1b1e899e792442af05df6b1",
+      "size": 60527
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/AppEmpty-D88HNJnz.js": {
+      "sha256": "99010e36df9fe18ff7858fc1d2f6e4602b1dc51330f5a0d7d0ced43125755f43",
+      "size": 467
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/AppEmpty-DvDrnfmq.css": {
+      "sha256": "605ad01a7e2a59ea335959e5cb7feb42702d204fdd57177f1ea83de44cdca3f9",
+      "size": 333
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/AppPager-B-cbAPhP.js": {
+      "sha256": "925660ac6187d99d48d55a5b7b7b83fc415e763b1bab8a6b16124fa471fac92c",
+      "size": 1344
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/AppPager-sqyLaiRA.css": {
+      "sha256": "ecb01f11e7802ba43a124707c6cde1dcf872609cbebb61a4a4ea750d72ec8438",
+      "size": 922
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/CliproxyView-BvaRvJZ2.css": {
+      "sha256": "fb9c9f5cb0d61d63d765361c9d86200567fabb65675ea8207cdc30c2a6241ed7",
+      "size": 4667
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/CliproxyView-Dt0C4xwl.js": {
+      "sha256": "57a2263bf63fee7e5195e09fe123b508f29076a04d69c9297c307b5c992b157c",
+      "size": 16285
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/CredentialExportView-B21KF58w.js": {
+      "sha256": "ea26aeb8c66d5dcec7bc0c816167cbebd252a0ea96239b93d03abcc87934140e",
+      "size": 16033
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/CredentialExportView-DmYLoUWq.css": {
+      "sha256": "b0f453be18d3d7babadfb75464b4c8fd2e5c1fb912c95ee7dbe4a8a5c94c626f",
+      "size": 8030
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/DashboardView-CM9XffIT.js": {
+      "sha256": "b508253907a1a3b3c343620fda57e6bbd92e046b7a25a49ed9c71b65002740fe",
+      "size": 5354
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/DashboardView-D3dkybTU.css": {
+      "sha256": "ab15c11b26e017f4d92b5f0309f9dc6b14fb603f3145616c80e24818c3426228",
+      "size": 3863
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/ExternalApiView-BvhF5_jE.css": {
+      "sha256": "8a9c8555844b83fcdf5fba2f82852b1e175fbe0ed2be6b6c09166131e37a468c",
+      "size": 13110
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/ExternalApiView-C3SezO1u.js": {
+      "sha256": "6c07699efc22dd6bb93bf3dde5c0da01343062ec47e5160c9714f3173aa89d80",
+      "size": 79881
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/ExternalApiView-DEWaSrZP.js": {
+      "sha256": "c7f0c004402127168012d10bc8d3d7da68e0d9d4f8649b0dbe54f9687263677e",
+      "size": 215
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/FingerprintView-B1TUuvSo.css": {
+      "sha256": "d648cae984e6a930e1053dcafc39c8ec412d6e7094b4b16ea8cc8b8f287fc503",
+      "size": 2760
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/FingerprintView-D88y_ryQ.js": {
+      "sha256": "ca271687b23a80a096c097a7f7efbe70e187ea2db28ac06f4d7399920a2a92d7",
+      "size": 6354
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/IntegrationView-CPdeV6Jc.css": {
+      "sha256": "a4a8da08a8ae3dbb8cb2c5a5b4c1b709cb4957b56d35910f491b4970e80d3e68",
+      "size": 1003
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/IntegrationView-DMs0-lbZ.js": {
+      "sha256": "008de650d626cc3d697f559143823580a598304a5186a20bde1978abe2c1afbc",
+      "size": 4472
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/LogsView-BB5YknVS.css": {
+      "sha256": "82afe164cb545654e17fb16578ef6f50b110baa4999d0650b403412b0856232c",
+      "size": 1313
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/LogsView-D10RFMEq.js": {
+      "sha256": "4faff91c9f8846322d847ad10d054020e511565ef143169515335c07c8ada811",
+      "size": 3796
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/MailView-CoSRAc6v.js": {
+      "sha256": "37f21e419708ab43da052f96417337939b6d04fad61ec419a25c0b3e8b895ea2",
+      "size": 23600
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/MailView-DBTcPxm2.css": {
+      "sha256": "4eb5e76d1ee1fa933bb9052b1655a677ec5526e3ae7c9b600957c6a9974ed138",
+      "size": 4566
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/OperationsView-CTrnFzcb.css": {
+      "sha256": "d749dc15b2fde4d73d3b4c3d5a97f3c5dcdf591c251eaa1f8c42202341723c3a",
+      "size": 18659
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/OperationsView-D1zzOO4x.js": {
+      "sha256": "3c737a4f8c2a124f387ee95561cff70b082f856dbfafdd987ca1660096296fd0",
+      "size": 45664
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/ProtocolLoginView-BgRDvB5Q.css": {
+      "sha256": "2a061f4811d0b352719bc8f3aaa1e59bb2c1d198edd9efeb5deaedf66a50844a",
+      "size": 4062
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/ProtocolLoginView-zEuKHAn7.js": {
+      "sha256": "3d550d3f04a3222b722fb5959188442c512a071f2b64919f634dddc930b0d8f7",
+      "size": 12947
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/ProxyView-C2mcZWWb.css": {
+      "sha256": "c30f3d4db9b51e5be2f0fb78e0600a620ae907dcbb303c247bae30dc0f08802b",
+      "size": 3637
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/ProxyView-CnGsq5RZ.js": {
+      "sha256": "6fcb43e93d7223070bced3cfb94d0ef8b0224abd45ed759da112e79cfae1f9d7",
+      "size": 12928
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/RebindMailboxPicker-BFZwH0QM.css": {
+      "sha256": "8872f2d419fe79fac8eca19996c389bd9ab10b847b6312e1398fc2eb12d2d2a7",
+      "size": 15665
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/RebindMailboxPicker-CUF950uG.js": {
+      "sha256": "9392670d06996228253eb195cfa515083ea8dbcfb6f27f4dad4d83fbd079f0d1",
+      "size": 50891
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/RebindView-BzTEbI0T.css": {
+      "sha256": "3f960905de52d3bff80812f096e8f27a2b7fb737724f0df55084c1e6626d0007",
+      "size": 6090
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/RebindView-DdKRGd5T.js": {
+      "sha256": "3073f9e7b5bf14d2ea5b7ad434c731f2fc5cf60805159b0dd2db923103aaa772",
+      "size": 22027
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/SmsNumberPool-Cvq0NjHF.css": {
+      "sha256": "24ecc55214db3033a992c8a7f63fb77ea6ffe7176544a9205215f441d5e6afe0",
+      "size": 6868
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/SmsNumberPool-D1RzdE4g.js": {
+      "sha256": "2d3afea0a12ecaa2a71420513b163f514ef4bef7de704ca07306adec814cd2ef",
+      "size": 13920
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/SmsPoolView-EAWv1iRn.js": {
+      "sha256": "34e437dae0b86c770dde3b15f4909589ce7f680393189067612fe2f74b97aa80",
+      "size": 249
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/TasksView-BZJhRFi1.js": {
+      "sha256": "aa63b879c30f939be0f512972a32399a60c2090e9d71a86bd819e15303b0de35",
+      "size": 11678
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/TasksView-DOFmTm7S.css": {
+      "sha256": "5b8a353040e46a8087b8cefb34be9b5306765d7799fcc3f586a2c475cfa1df29",
+      "size": 4182
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/TrialView-CM6Rfftl.js": {
+      "sha256": "8d1060312e87262e4a33a502b4e3c8aff918e1621ffe712ea40d0b8609b28671",
+      "size": 17065
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/TrialView-Dia7HJCI.css": {
+      "sha256": "bae3f67ffa11afdd6cf5a34aa3de45c36fd25770b93e099840de010e13c4700b",
+      "size": 6924
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/_plugin-vue_export-helper-CbfZvTSH.js": {
+      "sha256": "8df24513fbadd628b73d402c114ea144fb56fdb5f7595be601283dbf2534eba0",
+      "size": 63339
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/api-BCb6BjQc.js": {
+      "sha256": "82d151bd0c458b746624c45ed594a9860d218e9d5975db31ba45bf16c4d15852",
+      "size": 1596
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/circle-check-CDVD9kV1.js": {
+      "sha256": "c66e760ea2b2cbb8893bdc436faf8432af0b23533331623a905dc6b4d1ca0a08",
+      "size": 163
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/circle-x-BQE3-zmV.js": {
+      "sha256": "09123af24d699dbfb738c8775ed1424049f22a1c7eacccb949c0b2c2a01ed27d",
+      "size": 192
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/client-B9oxHnyk.js": {
+      "sha256": "a9872580d40f535ba83c5f65e23d618cd54dba25d95aa2ea7e6cbaf805904347",
+      "size": 7615
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/clipboard-paste-CXHf5osN.js": {
+      "sha256": "5d91058aa6e2492dfc1084ae877a141d485ea9399939fd4118a15b2c321d367e",
+      "size": 366
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/cliproxy-DUgyBei4.js": {
+      "sha256": "876ecc920d7750687573b1a86598d2cfcd74860608badea5da6a62eb7e65fa68",
+      "size": 2754
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/config-lUtuP-TW.js": {
+      "sha256": "fc5d6e9db9090e4768eea3d7e4cc99b9408e63306c57329f2cb087835e4e124d",
+      "size": 222
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/copy-CLviQImC.js": {
+      "sha256": "af6ee3137052ab3c8d08b113410385066563d334ae3207dd4a789ecaea4584be",
+      "size": 579
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/eraser-DjHJxeAI.js": {
+      "sha256": "0ef9765fb1f958714b520403f0d100c1135462569aa58a38c639b09c8a7c1d2a",
+      "size": 267
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/globe-CZXtfi1n.js": {
+      "sha256": "0ea5bf7cedf1c513aeb9b0c4008d1d321a0beb9d9aa9d5344d4431829b9996d8",
+      "size": 227
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/groups-CwQ7VoiK.js": {
+      "sha256": "b2da754fd750742ed0a461a298ace45d63711f976d62b6ba2f453479def0bad7",
+      "size": 1256
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/mail-plus-BW5uB1BP.js": {
+      "sha256": "b9f432d390ed221f7fdd4845685a18f5a0fdf73d44df4d50642bb7cbbe2802c4",
+      "size": 299
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/main-BYoLui_o.css": {
+      "sha256": "ab5954294def3bb4c0262891824ebdb3d0b8c19b49547e632f5dc383c31f08ad",
+      "size": 100654
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/main-D-iTaFYy.js": {
+      "sha256": "4a49770c54f264671bdd3b93f8e7d73844dd01885ee992182c9c412bf4b10681",
+      "size": 345090
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/new-DezEwzL-.js": {
+      "sha256": "4543ecc1c75789f9385f97e436d5f170e111dc51c1a1df1824eeac1580dafc61",
+      "size": 105183
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/new-iCIG0wAi.css": {
+      "sha256": "e850a408f87a1c1f047e12ea2231fe09e07dc36d8ffb80f39c72552026d14176",
+      "size": 35109
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/ops-e45t228R.js": {
+      "sha256": "b0191b2fef6fc6dee3343e695788b23fc3b258bb71ba62c2ee3919ec5a789bef",
+      "size": 1572
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/plus-Ds2i_d_s.js": {
+      "sha256": "e569ae9d6fe1184ba73908b166abf824fb6e08ee91b83c6a06ca978b63b8dc75",
+      "size": 138
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/rotate-ccw-CFy9-nbq.js": {
+      "sha256": "9fa0cff23682d011e5df906e69ed3ddce33847708b133a5198ff283eb0c2f9ad",
+      "size": 185
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/settings-EeXUgwDG.js": {
+      "sha256": "de29e4b7c0d6440282a1d713bcb2ceacd73f9809c96b4389be69e7da8d9c7e3b",
+      "size": 180
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/square-B464B_v1.js": {
+      "sha256": "c904893bab22cc6fec119bacf4354bbe9fd3d6396fcecedda8b31e903fa19643",
+      "size": 132
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/tasks-9AhCerlD.js": {
+      "sha256": "aaa53c945a37c718201bb842c0007937bf4e40050d9df5b8fd50f6072167c409",
+      "size": 1485
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/trash-2-CcD4ZZyG.js": {
+      "sha256": "3029c6f2248118ff61b2c26e705e7b432727e883bb10b87d992463f3008fb3db",
+      "size": 313
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/useConfirm-C63l0ovg.js": {
+      "sha256": "c644a399c1ff1dfbcae84ed6abd690d6c2105f1f3807fb028afa3271b3a7060f",
+      "size": 102
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/x-bwIyGy5p.js": {
+      "sha256": "2560c93000d9c4eeb73ee9105575b4afd0eeeb7057dcf006abefb080002159f2",
+      "size": 23198
+    },
+    "web/static/vue-local-overlay-20261015-061659/assets/zap-COSlnULO.js": {
+      "sha256": "b026787d959d8636c40fc137e8138e4c4b427701329988c3778919b30548dccc",
+      "size": 756
+    },
+    "web-ui/API_ENV.md": {
+      "sha256": "32112341a0947151650a85e38016109878fac3776730de5d256fa6a41834fffb",
+      "size": 1241
+    },
+    "web-ui/index.html": {
+      "sha256": "00bb4c8375721cc6ccc4a6eb06bb22935ec82927ba38be4b9ee7c3235b757bff",
+      "size": 636
+    },
+    "web-ui/new.html": {
+      "sha256": "9bdc8c9c9ad6b48721bde411606e9f9014cb5979b66e322137008a69adb7aabb",
+      "size": 583
+    },
+    "web-ui/package-lock.json": {
+      "sha256": "aaae39987e803afd0362e833afdc744aa5931822565d2e82eecbfa9be5f4c49f",
+      "size": 44196
+    },
+    "web-ui/package.json": {
+      "sha256": "6126083b150be9fbe5f3631928611da613d6e5af6081b53c26edcb251faa1be1",
+      "size": 608
+    },
+    "web-ui/tsconfig.json": {
+      "sha256": "3adf58bc07f8602abd55096185f541e990bbe8820b6ff54ae384a2f4251e14dc",
+      "size": 332
+    },
+    "web-ui/vite.config.js": {
+      "sha256": "0d1427f60e0dd0ce41620455c09485f1a81bc97242da831a2a02e5b3ffa399da",
+      "size": 962
+    },
+    "web-ui/src/App.vue": {
+      "sha256": "3082135ed948c808e5813688f49ac097a4b837c3fe25c12e0e4a692e86ebeb96",
+      "size": 218772
+    },
+    "web-ui/src/api.js": {
+      "sha256": "3340948ea339598519f6ca95f01b196baaac26479e5cf04c6948c3d6bc381712",
+      "size": 3021
+    },
+    "web-ui/src/main.js": {
+      "sha256": "0f7974ce1783b2507765aed008e0e1e0b255aa763fe6bbb2caf1ea8b64748374",
+      "size": 149
+    },
+    "web-ui/src/vue.css": {
+      "sha256": "f006f59c4ba8f7341eedae0f10af7cb3f89fb975d67d73ce3683c195927753db",
+      "size": 105808
+    },
+    "web-ui/src/components/AccountLogDialog.vue": {
+      "sha256": "bcd27ac0fb18fab8b5f98cecce76942b42f5626d80f9c1a7dc704d3d0dcb5b65",
+      "size": 4922
+    },
+    "web-ui/src/components/AccountsView.vue": {
+      "sha256": "5264da7d320e7eb422bad70bbd475aa5fff18380303069277ca33dbc8687c214",
+      "size": 82394
+    },
+    "web-ui/src/components/AppDialog.vue": {
+      "sha256": "3b206dd88f10215a6712d3a27e216da32ddd1347dcfa0115e32bb1ccd2303b69",
+      "size": 3023
+    },
+    "web-ui/src/components/AppPager.vue": {
+      "sha256": "ec7528b42cd0717787f83112f73e9f48de83e8d69faab1b98522c0593719b5be",
+      "size": 1233
+    },
+    "web-ui/src/components/AppSidebar.vue": {
+      "sha256": "bfb0b16e71f3dfb02d5c81894496bd81518c01176e9a679dfd5122ce53553f19",
+      "size": 3641
+    },
+    "web-ui/src/components/AppTopbar.vue": {
+      "sha256": "f978659eed00dd388120fae32d8f53d26bd6aca50ff1ea3916ae6d51470fc1b0",
+      "size": 1750
+    },
+    "web-ui/src/components/BrowserView.vue": {
+      "sha256": "800ebf846db6e080012cb1a292bee7ce839b9ee095899af1019bc1be10d1c01e",
+      "size": 3798
+    },
+    "web-ui/src/components/ClipboardDialog.vue": {
+      "sha256": "c8dcf1dc72b027d33ceec78edcfb30294a7bf28219f5c4ffcf86dd9a395870b6",
+      "size": 2194
+    },
+    "web-ui/src/components/CliproxyView.vue": {
+      "sha256": "b2be06a61b64af3f478388e06170d5c3b79181a3cb0de30a593a0ee7e928a8f6",
+      "size": 25903
+    },
+    "web-ui/src/components/CodexOauthDialog.vue": {
+      "sha256": "3368ee43dff6c1dfd501ddf9568aca38a4a539a5e1f55ddcd310b8cedab8eb46",
+      "size": 8976
+    },
+    "web-ui/src/components/ConcurrencyDialog.vue": {
+      "sha256": "8641e2e951b9cb6c8195beaad4c44fa64c85bae35d396c53e09b5b471ce9753f",
+      "size": 3709
+    },
+    "web-ui/src/components/CredentialExportView.vue": {
+      "sha256": "2983f7b73170cf0065b6fc9012ef3d67f6c4abb4e5cb8cfaf76d75cc39c29b06",
+      "size": 4637
+    },
+    "web-ui/src/components/ExternalApiView.vue": {
+      "sha256": "fac8bf74c601f9c8f80131838440b86c353cfcf674110e8cc3615caef88d9260",
+      "size": 126734
+    },
+    "web-ui/src/components/ImportAccountsDialog.vue": {
+      "sha256": "c45d50e72979be96a3e144a73b48f327885d4629fe1a294a886ae95f19d38703",
+      "size": 6279
+    },
+    "web-ui/src/components/ImportHistoryDialog.vue": {
+      "sha256": "03f00c92f0b4a4fac6fd1ff31aa1aefd27308c968dc0a787b919adea74650b3c",
+      "size": 7024
+    },
+    "web-ui/src/components/IntegrationView.vue": {
+      "sha256": "04c83c5b87788dc30334ab4dd2ff01c3d65c85143b1a365bba00d9d3de36a64e",
+      "size": 2122
+    },
+    "web-ui/src/components/LoginView.vue": {
+      "sha256": "d2c57181d979d1f0727b485e2fd9c98d5b9ed133f7b4f898540692216c218a13",
+      "size": 4219
+    },
+    "web-ui/src/components/LogsView.vue": {
+      "sha256": "79822ee6dbf74d855f81c29082a65d99d75b5576b0d17f913c7d10c65a3a6fb3",
+      "size": 2277
+    },
+    "web-ui/src/components/MailView.vue": {
+      "sha256": "849b7332e489fe82d5fe8994becb7f20c64405dae8a616ecceb9790961973944",
+      "size": 18011
+    },
+    "web-ui/src/components/MailcomRebindSettings.vue": {
+      "sha256": "d5aaa2cd0a1589799223434fb613dc470b5454a57ea705bc0acf83843eff6eed",
+      "size": 67032
+    },
+    "web-ui/src/components/MetricStrip.vue": {
+      "sha256": "f23f90044985cde90e53ce16e081bcbba919c56bb72c5643f7ace80a7e5b87d4",
+      "size": 2364
+    },
+    "web-ui/src/components/OperationProgress.vue": {
+      "sha256": "12984a44ba0f2e0fcf6939889ca0d92e9eb056a375ef2ec3c338ea0000ed1756",
+      "size": 1558
+    },
+    "web-ui/src/components/OperationsView.vue": {
+      "sha256": "773e137f2b08598cc1d5d6b0a166e1c7efa92b655db85fe649731a97823cfefd",
+      "size": 21096
+    },
+    "web-ui/src/components/PasswordChangeDialog.vue": {
+      "sha256": "84ccf70e80925d7ef5967b72203e515d9944fa854ac1d49eadff2776755fd7d7",
+      "size": 5114
+    },
+    "web-ui/src/components/PlusEligibilityView.vue": {
+      "sha256": "798fdedcb44a2fb02782909cc9201530fd729fd3896577214e689b0f78343315",
+      "size": 10994
+    },
+    "web-ui/src/components/ProtocolLoginView.vue": {
+      "sha256": "ef9ab33dcbea6d51a1d829ecda19c0381f03f995c32feecbec99811127c0f309",
+      "size": 13535
+    },
+    "web-ui/src/components/ProxyView.vue": {
+      "sha256": "8a9bb86c74486838bf7b9a326349268d805a7736a52c7f2c86c9c1a8bc1fd423",
+      "size": 8977
+    },
+    "web-ui/src/components/RebindAccountPicker.vue": {
+      "sha256": "9e1ca71acf709b3d8d962ace75b12706e0c37d780f53b7731aaf6d0e438d688e",
+      "size": 16264
+    },
+    "web-ui/src/components/RebindMailboxPicker.vue": {
+      "sha256": "2b47fe07cd651692960925a13b8701565d5eb74537124a714b3a5487bd8cc9c7",
+      "size": 6327
+    },
+    "web-ui/src/components/RebindView.vue": {
+      "sha256": "d40445b21d6ef7c4b19c1e23672eb5d4ec77c98d0e02507974660cdd9eae305b",
+      "size": 24564
+    },
+    "web-ui/src/components/SmsCountryPicker.vue": {
+      "sha256": "8afe4ecf930c2c31c32ef87fdbdd49fc59f216a9715b7bdda5c8030f7e774ec0",
+      "size": 7860
+    },
+    "web-ui/src/components/SmsNumberPool.vue": {
+      "sha256": "3173640eb6aa1e3c13897651094637ad0146a24b5f62371242f01cd054469d60",
+      "size": 24571
+    },
+    "web-ui/src/components/TaskView.vue": {
+      "sha256": "5741b316add8cc2060fd7649c1b22aaa5f2fd78079b1e5bf72d6c8b39de68ae2",
+      "size": 15105
+    },
+    "web-ui/src/components/TrialProxyView.vue": {
+      "sha256": "181f72b1b4ec5b1d0de4a1b538ef185555dda06e692c5b0f597e124d75d76b69",
+      "size": 3715
+    },
+    "web-ui/src/constants/mailcomAliasDomains.ts": {
+      "sha256": "0b924449b187f351ca98c349ef75d6c45fbf8e943c2e3228a2d4de6b4c1eab95",
+      "size": 3813
+    },
+    "web-ui/src/new/App.vue": {
+      "sha256": "998cdad524bef21abe41d51c552126ea730cdfd9362b58a446cd54b08a18cc70",
+      "size": 1029
+    },
+    "web-ui/src/new/main.ts": {
+      "sha256": "9a2dacb8a40fe87eed05f6abff5106c4314be6446f447121b3e24922fe9a286e",
+      "size": 281
+    },
+    "web-ui/src/new/api/accounts.ts": {
+      "sha256": "6da0823d45f0eb24400d2cdf0fe4ccb98d84556bd1b334498c3075f062ba4b83",
+      "size": 6421
+    },
+    "web-ui/src/new/api/auth.ts": {
+      "sha256": "0d4891d410cf96f652872a0bc8caa9411a0d570f6d889e78c4638b3920900934",
+      "size": 763
+    },
+    "web-ui/src/new/api/batchops.ts": {
+      "sha256": "3ef72df973faa7b67d0222502b54351e1fffbb9af181a7847f54a51192f2c46e",
+      "size": 11567
+    },
+    "web-ui/src/new/api/chatgpt2api.ts": {
+      "sha256": "a77bba679d00e478a59015a777d7ae7f16d0c2e21224add5a8d50c44ec3f8e4b",
+      "size": 1262
+    },
+    "web-ui/src/new/api/client.ts": {
+      "sha256": "1a5f5cf4dd8c605d6c0efc98357926dc9f95a2736f259b34ae219005ed6ac92b",
+      "size": 3799
+    },
+    "web-ui/src/new/api/cliproxy.ts": {
+      "sha256": "c476598d5bb15d85a625138923cc23d0302f2e28c47cd193bb9789abe6d12dd2",
+      "size": 6714
+    },
+    "web-ui/src/new/api/config.ts": {
+      "sha256": "5c8c96c6647ecf1bf4cd2c6ad8f60204b1bc233de04945c011f051f3dfaa23b6",
+      "size": 1053
+    },
+    "web-ui/src/new/api/groups.ts": {
+      "sha256": "eec0d4b475bc6a41c481bd7adcc78016b7a66891f1241e85cc2f2dd9aae96d56",
+      "size": 1413
+    },
+    "web-ui/src/new/api/mail.ts": {
+      "sha256": "cd774c86c447965f0b4068aac688a150408ad7360538f0085c29d126fb8d69b8",
+      "size": 3529
+    },
+    "web-ui/src/new/api/ops.ts": {
+      "sha256": "a96b593ee5ae03b373a71fd572044043413d824905ecf3596bbc29c0a3aa108b",
+      "size": 8615
+    },
+    "web-ui/src/new/api/proxy.ts": {
+      "sha256": "3f16b7093f6e1a7e4e6e7c4ededf7c65c6f94aa710add95f3742a5260eb18ec4",
+      "size": 1483
+    },
+    "web-ui/src/new/api/rebind.ts": {
+      "sha256": "54bad125b0ab7899146a9b5e58a6998657ee882998e1070c9f06bf1fda85425f",
+      "size": 3115
+    },
+    "web-ui/src/new/api/settings.ts": {
+      "sha256": "13932ac7bc02115b70d9280101a2f23c6c393be329e1cdcabad139855508e274",
+      "size": 586
+    },
+    "web-ui/src/new/api/status.ts": {
+      "sha256": "5d5ab6aa7705e8058ef63877669fb9ead368f2e2841b77731fef7c51e648a834",
+      "size": 219
+    },
+    "web-ui/src/new/api/tasks.ts": {
+      "sha256": "b736507d15fc01757cc1c372271afe6957ff611c311901059b1917e06a948c0a",
+      "size": 1863
+    },
+    "web-ui/src/new/api/trial.ts": {
+      "sha256": "dd99107ebbb2ca1a74f816dd37e6662dcd9b67deba45922a24ae4fbcaa1e91af",
+      "size": 2353
+    },
+    "web-ui/src/new/api/types.ts": {
+      "sha256": "d47e4fa3e9a6f50daf6b3d39a8fe3809a16cac4c3d30e4349a7b1628eede47a1",
+      "size": 808
+    },
+    "web-ui/src/new/components/layout/AppShell.vue": {
+      "sha256": "53fc18c0f9ddbabbaa784730ad21f09b3cb39961ef4540da70bf45d1bbdece43",
+      "size": 3477
+    },
+    "web-ui/src/new/components/layout/AppSidebar.vue": {
+      "sha256": "306cacfaa4f9b97849792e821e9957bf46b9b9b178bef3d6d757d92907e41ac4",
+      "size": 5123
+    },
+    "web-ui/src/new/components/layout/AppTopbar.vue": {
+      "sha256": "4b1a6089af01ecb9996c1541b5267c972513fd79bf39ee68c5bf8ba86c2313eb",
+      "size": 2856
+    },
+    "web-ui/src/new/components/sms/SmsCountryPicker.vue": {
+      "sha256": "f76dcfa8fdddd4cb6af1ef289d3ce9cb8f535ea537d971a763ec733aa378af6e",
+      "size": 14134
+    },
+    "web-ui/src/new/components/ui/AppButton.vue": {
+      "sha256": "6f9f33b3c54bd4e84d26558281d6ba2446c4b419d6aea2f3fec2ad5099a16663",
+      "size": 2288
+    },
+    "web-ui/src/new/components/ui/AppDialog.vue": {
+      "sha256": "64fdb054b45b49129b7d3512384ccbbff99c71365f6850053d7146f4e5a057e5",
+      "size": 1872
+    },
+    "web-ui/src/new/components/ui/AppEmpty.vue": {
+      "sha256": "7fe1fc9ac8fd7d838fbcf46126f5a95c6a20d7c2427d117fa95bc2452284e2e8",
+      "size": 650
+    },
+    "web-ui/src/new/components/ui/AppModal.vue": {
+      "sha256": "e2b990a2409add8037f1721577df8757bb69e89f783c7c76e1d8e51797a3b0dc",
+      "size": 3245
+    },
+    "web-ui/src/new/components/ui/AppPager.vue": {
+      "sha256": "b8a07d4b54c94d110ce1bbb8f2fb6cef97b01a010dc8935c8e5db091422240b4",
+      "size": 2292
+    },
+    "web-ui/src/new/components/ui/AppTag.vue": {
+      "sha256": "1132920ce1045a39643b62e92287c02cbf2d4697f3c135c942045a81d0736bd8",
+      "size": 860
+    },
+    "web-ui/src/new/components/ui/AppToast.vue": {
+      "sha256": "7f887796d283fca2f26afb69c4c4ca13b82369343ac8037e4dc220d338bd3c87",
+      "size": 1405
+    },
+    "web-ui/src/new/composables/useConfirm.ts": {
+      "sha256": "15464b31af60c7a497056e6b824ed9ebc3aa089fc3411b89d940ad3172c8fcb5",
+      "size": 280
+    },
+    "web-ui/src/new/composables/useCopy.ts": {
+      "sha256": "056c1c00cb2b6dce2aa3d3bb04fe27cdf889ddbbcd1c3e5bf247b30ad4eee293",
+      "size": 1059
+    },
+    "web-ui/src/new/composables/usePoller.ts": {
+      "sha256": "bdfdc0e937dbd0e3afd60a2d10b86c16b4c5c022301af8fa05af91132464384b",
+      "size": 1228
+    },
+    "web-ui/src/new/composables/useSse.ts": {
+      "sha256": "424c2983d4ae1b6b1cc6fba547a2b3b822170f861950d87fa02f11ee0363b870",
+      "size": 1532
+    },
+    "web-ui/src/new/router/index.ts": {
+      "sha256": "d134e54932fbb35a3ad2ee36fc9f63f2263767709b95cf6af53a449e41c82d2b",
+      "size": 7579
+    },
+    "web-ui/src/new/stores/accounts.ts": {
+      "sha256": "f1b58cb4993d5dc4edfa4f8a1ba8ddb487846a35d10b6ba5d9c2ca6faecb41d3",
+      "size": 9010
+    },
+    "web-ui/src/new/stores/auth.ts": {
+      "sha256": "bb9a90130047f0e6bfbaefd98f729facd65eb462ce3421f2d576fd0650063ada",
+      "size": 778
+    },
+    "web-ui/src/new/stores/batchops.ts": {
+      "sha256": "c8d2e44f50db783c2dd93b826cc49f075dbe74ec1ee64350a4253871ecc4ce4e",
+      "size": 23776
+    },
+    "web-ui/src/new/stores/cliproxy.ts": {
+      "sha256": "03eaa064eebda82653a5b8a589965c5dacc4d919de7a815d204a5d6f7ab608a3",
+      "size": 3346
+    },
+    "web-ui/src/new/stores/fingerprint.ts": {
+      "sha256": "879184c44a8fc26aa4f814588dbeaa0b718e25a74bfc5ee1bc80a1b998878579",
+      "size": 3037
+    },
+    "web-ui/src/new/stores/groups.ts": {
+      "sha256": "904683176a8170e0ff6970098be43a158634445b99477a07156996cbee4ad4d0",
+      "size": 1392
+    },
+    "web-ui/src/new/stores/mail.ts": {
+      "sha256": "e205269f92451474c748138bdfd2b64898f07693814ab048bbad6be4e9a8aa2d",
+      "size": 8200
+    },
+    "web-ui/src/new/stores/operations.ts": {
+      "sha256": "f76b783a3b90a6525b6336a336ee51937c288296a60dab3bdd62621c9d8ef432",
+      "size": 5077
+    },
+    "web-ui/src/new/stores/proxy.ts": {
+      "sha256": "08d5184ee21bdd2c25f741b583cb2e87a673e6fe1f547558a722213aee9a40d0",
+      "size": 4318
+    },
+    "web-ui/src/new/stores/rebind.ts": {
+      "sha256": "8ebe5bef13834e01a8d3b5b999650b589c050d0bfe4f154c82939b554f654b7f",
+      "size": 5272
+    },
+    "web-ui/src/new/stores/status.ts": {
+      "sha256": "6529c0029acc464821b19b7965af628565301cf4b98f6d7cb1a48255684b6be6",
+      "size": 750
+    },
+    "web-ui/src/new/stores/tasks.ts": {
+      "sha256": "bf748d9e31c9e4497b17a6a20342cb4157e31425e4fa83de6f61035db8180a79",
+      "size": 2372
+    },
+    "web-ui/src/new/stores/trial.ts": {
+      "sha256": "8311d6c9b7ddd1cb099fb4b6aa78548c67de014d5185bda834784528817fd5f1",
+      "size": 5041
+    },
+    "web-ui/src/new/stores/ui.ts": {
+      "sha256": "fe4aa6d56966ede180b2aefc5dd73f8b913215052cecf41dddd45fa8ccc2f2a9",
+      "size": 1759
+    },
+    "web-ui/src/new/styles/base.css": {
+      "sha256": "1cda799286fe221a7c361fe7d4b636a5e09b342da154fc46dfecf79d1e35ab31",
+      "size": 4039
+    },
+    "web-ui/src/new/styles/tokens.css": {
+      "sha256": "219abdaf16ec3dfdd196ffa28111fe9688f44c35569c3422f989715c04467f77",
+      "size": 4389
+    },
+    "web-ui/src/new/views/DashboardView.vue": {
+      "sha256": "d0bb35707745011da74045e56a088edec206e2440a5a00833b07e00c366738b0",
+      "size": 10360
+    },
+    "web-ui/src/new/views/StubView.vue": {
+      "sha256": "1bbdc433257d433b28d4dd758d43d090b989a5cafd7adf6e3d8e54ba1850a5de",
+      "size": 779
+    },
+    "web-ui/src/new/views/accounts/AccountBatchBar.vue": {
+      "sha256": "1fff0a75312c005c79cec8796d979e82525881d486d59a21052fd92faf08e09f",
+      "size": 12271
+    },
+    "web-ui/src/new/views/accounts/AccountCardList.vue": {
+      "sha256": "b3a8b11a70c4ff1ace21a28295afc2ddafc60ff0b82f50c1dc0f2fbe96277ff6",
+      "size": 9070
+    },
+    "web-ui/src/new/views/accounts/AccountLogDialog.vue": {
+      "sha256": "83b405bbc6e404c940831c772f71d537f352b7c93b9b7e99c08b3cb8b957f093",
+      "size": 4259
+    },
+    "web-ui/src/new/views/accounts/AccountTable.vue": {
+      "sha256": "4e5be4590592d881868398d3c6152c49dc10a3c3c045dd0586653a4a1a535c92",
+      "size": 14385
+    },
+    "web-ui/src/new/views/accounts/AccountToolbar.vue": {
+      "sha256": "efdabef5ccd6e1d8d09c072425ace2807ff40b1764757b85a6b696d5917a275b",
+      "size": 14033
+    },
+    "web-ui/src/new/views/accounts/AccountsView.vue": {
+      "sha256": "8b1e6fcdd8b1a8dc96155e40ed4ba5737f0967ba1b8738173e33bf7d0d421166",
+      "size": 10372
+    },
+    "web-ui/src/new/views/accounts/BatchJobDialog.vue": {
+      "sha256": "abdc02d1d2f17ccdbe2a8e8b3fb9f9d07b6a389c314488fbd3c9711c3a134730",
+      "size": 6708
+    },
+    "web-ui/src/new/views/accounts/BatchStartDialog.vue": {
+      "sha256": "8802c29fc9c23260602017e9d2705ecb64c6aa4d8647dec312d2c4731ac30385",
+      "size": 9949
+    },
+    "web-ui/src/new/views/accounts/CodexLiveDialog.vue": {
+      "sha256": "974789e32db1c68e4e8e5c5c7316005f56000362fc3a81d22184d964256a39d9",
+      "size": 24629
+    },
+    "web-ui/src/new/views/accounts/CredentialExportView.vue": {
+      "sha256": "6c303df75e32e73f5789e243f694ef72560d2022ac1b71bae431aae26400f298",
+      "size": 25814
+    },
+    "web-ui/src/new/views/accounts/DeviceInfoDialog.vue": {
+      "sha256": "e5cbd401e5eee9a946b0b039b2a196c67076af8cdc7c7c482aea4c6ea761d206",
+      "size": 6977
+    },
+    "web-ui/src/new/views/accounts/HealthProgress.vue": {
+      "sha256": "95f6c11947aa05876c5a7a8cde4fd6e984886e31c4643b5e480c336fe235aeaf",
+      "size": 3471
+    },
+    "web-ui/src/new/views/accounts/ImportAccountsDialog.vue": {
+      "sha256": "34b5b9fab81a3e3a53daaf9acdd6f0f96868c1e552912e526cdc36c7334d202d",
+      "size": 7433
+    },
+    "web-ui/src/new/views/accounts/ImportHistoryDialog.vue": {
+      "sha256": "deb6a1cdd8764fa1001af5b9c859e8726a32665dd4864ad07d85ada7ad60cebe",
+      "size": 7607
+    },
+    "web-ui/src/new/views/accounts/ProtocolLoginView.vue": {
+      "sha256": "98645623ec3a184e57913a07120caa713a2296337d8e14a5a7ad446c1fa77b19",
+      "size": 21130
+    },
+    "web-ui/src/new/views/accounts/RebindView.vue": {
+      "sha256": "2be89f31c106099b5d04bdcb56d4dc2d3347f2c7a46677b8779701ddf3701195",
+      "size": 32647
+    },
+    "web-ui/src/new/views/accounts/SmsHistoryDialog.vue": {
+      "sha256": "b3354f830a9aded493eba569758a42521fd573bccb527388b463436709eb4336",
+      "size": 12886
+    },
+    "web-ui/src/new/views/accounts/SmsPoolView.vue": {
+      "sha256": "f14920f094f2c0e2676997f97383b85c83811ce0f14dfe9f881249e0005a14d7",
+      "size": 182
+    },
+    "web-ui/src/new/views/accounts/SmsStartDialog.vue": {
+      "sha256": "6d847c8206df462f1b4bcb2a14405609d0bf8408c7e9b98d9ded2a535172b57b",
+      "size": 17784
+    },
+    "web-ui/src/new/views/accounts/SmsTaskBar.vue": {
+      "sha256": "74b398756da39f20932aea174328bf27595f30b4865789c0e7b33f3d9aaa64c1",
+      "size": 5326
+    },
+    "web-ui/src/new/views/accounts/useAccountActions.ts": {
+      "sha256": "ed6d0d00bdfb815b4e3f2b3a9b0bd67ebba89a47271a8d8719303147b9de1d9c",
+      "size": 11713
+    },
+    "web-ui/src/new/views/integrations/CliproxyView.vue": {
+      "sha256": "ac19de3065c3033ae48a11495ff743928b5d3724949102a8220e001d69c560cf",
+      "size": 25462
+    },
+    "web-ui/src/new/views/integrations/ExternalApiView.vue": {
+      "sha256": "b15763d4be204a6914ac93d9cfae8effa59a5642a76813a0abd07be3a5748ee3",
+      "size": 152
+    },
+    "web-ui/src/new/views/integrations/IntegrationView.vue": {
+      "sha256": "684c5fc3db147f68ca73b2c0fec1382f1467e41d921bebdfd23d7377da25c917",
+      "size": 5363
+    },
+    "web-ui/src/new/views/integrations/TrialView.vue": {
+      "sha256": "249c894abe861bc80f29d79ba7877ce49b45385a1ab092232cec5d1fc75d4074",
+      "size": 22759
+    },
+    "web-ui/src/new/views/register/FingerprintView.vue": {
+      "sha256": "5c4c27976194d9b12ea7ad527bddb9a6d369ccbb2d37c91eeb08d1eb3b1c7ebd",
+      "size": 7844
+    },
+    "web-ui/src/new/views/register/MailView.vue": {
+      "sha256": "3573dacbeeab02b6c3937be77ae9429b1d1c0a669acb94e6bf6f776a63627d20",
+      "size": 25937
+    },
+    "web-ui/src/new/views/register/ProxyView.vue": {
+      "sha256": "23dd10301535eb6ae3fb2163f6352fd6179fb6989e8673bc45dd1ed45f26b759",
+      "size": 16300
+    },
+    "web-ui/src/new/views/system/LogsView.vue": {
+      "sha256": "b642b91969c46f7101d14f40ed98d408ad914077772a50d0f223e806ca9c744f",
+      "size": 6863
+    },
+    "web-ui/src/new/views/system/OperationsView.vue": {
+      "sha256": "4af6cd09654b41aff8445c42774903491849efb881430421130fad6c46099cc9",
+      "size": 1948
+    },
+    "web-ui/src/new/views/system/OpsMaintenance.vue": {
+      "sha256": "bed97860377360f50c01264e2ebefbc6324afc51016398db5861527a1b2bf51c",
+      "size": 7647
+    },
+    "web-ui/src/new/views/system/OpsMetrics.vue": {
+      "sha256": "a84bd7f2c6fb0af4efe7c8ac1ad32cf67827a3fcba8ecc3de54c77bfdb16f8fa",
+      "size": 14068
+    },
+    "web-ui/src/new/views/system/OpsSettings.vue": {
+      "sha256": "56634d923aff732ca6ff4a05bf7bea635d72d427ee2c855246a3eda8e2a095d3",
+      "size": 7924
+    },
+    "web-ui/src/new/views/system/OpsSms.vue": {
+      "sha256": "5d07cfe236ffdb9cdf3a5596ee055b059931fd963978bac0fb06e87795c58eb3",
+      "size": 19312
+    },
+    "web-ui/src/new/views/tasks/TaskForm.vue": {
+      "sha256": "3450962cecde9902bd01a5f5535504c104923e1db0cea22ac019da4a7da9c51b",
+      "size": 5260
+    },
+    "web-ui/src/new/views/tasks/TasksView.vue": {
+      "sha256": "6c12e41ca37fd17908d1f7a727b590992b879f5074536b8625eb192676d8b507",
+      "size": 13664
+    },
+    "web-ui/src/styles/liquid-glass.css": {
+      "sha256": "74656879ec7f5fbecad02d8bbedeb7defc53b0e8cb8f519f92037caa2cdc7e14",
+      "size": 8551
+    },
+    "web-ui/tests/account-batch-selection.test.mjs": {
+      "sha256": "77381b0fbd363170a79130ab4f878129516bbeb4c21b7def49de90b08c22052c",
+      "size": 6282
+    },
+    "web-ui/tests/batchops-progress.test.mjs": {
+      "sha256": "8be2cf7f63a78772924501912da3da2052741a6d7a6e30f2089437258f158bce",
+      "size": 7697
+    },
+    "web-ui/tests/credential-export.test.mjs": {
+      "sha256": "e1636c975167dd8ae255d431e872188903e773740829a7a4b379c05617bfa335",
+      "size": 11473
+    },
+    "web-ui/tests/external-api.test.mjs": {
+      "sha256": "fb774b84ceee6caca8de853553bb097c7dddb9cb528b8a4faa6ff4b7d5b25b8f",
+      "size": 57805
+    },
+    "web-ui/tests/live-sms-log.test.mjs": {
+      "sha256": "9a76ef0daf0bcd03be842db528d872986341048fd150801b2cb3e56bcf10203e",
+      "size": 8211
+    },
+    "web-ui/tests/mailcom-alias-settings.test.mjs": {
+      "sha256": "067a8affa3fc3de52bfd9bb4a0874571bffade0eb3418dda5b60b6d1c40f1734",
+      "size": 12703
+    },
+    "web-ui/tests/mailcom-management-preview.html": {
+      "sha256": "f38d905cce573af6c987041161979dff1b3b308302e420d044a42ac8c80d66ae",
+      "size": 4109
+    },
+    "web-ui/tests/protocol-login-input.test.mjs": {
+      "sha256": "af55cdeb3bb60ea2cc2040c58ad439ff4865faca12ea79a94a28ab7749b7d965",
+      "size": 10814
+    },
+    "web-ui/tests/sms-number-pool.test.mjs": {
+      "sha256": "57760dc64901a26daa26a076597c870d83744d660aa4b46810b931b222563c21",
+      "size": 13918
+    },
+    "web-ui/tests/sms-settings.test.mjs": {
+      "sha256": "82bba2e9b51938dc4f8af790602f47fc428c58442d1d81fbe46024a858ab4648",
+      "size": 4781
+    },
+    "web-ui/tests/sms-ui-components.test.mjs": {
+      "sha256": "5a0868cd0eb3a092a78fb3e49a45a3a725338e4aeacca612a3a9a7bc82cabe95",
+      "size": 10546
+    },
+    "web-ui/tests/sms-workflow.test.mjs": {
+      "sha256": "ecff63fb0bde308abf5a0142a59909d34d2926473558a641c5675152115a99d6",
+      "size": 17823
+    }
+  }
+}

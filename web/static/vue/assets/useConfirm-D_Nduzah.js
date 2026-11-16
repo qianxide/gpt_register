@@ -1,0 +1,1 @@
+import{S as e}from"./new-DQurB5CH.js";function t(){let t=e();return(e,n)=>t.askConfirm(e,n)}export{t};

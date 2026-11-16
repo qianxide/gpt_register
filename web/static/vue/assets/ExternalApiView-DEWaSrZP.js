@@ -1,0 +1,1 @@
+import{E as e,g as t,l as n}from"./_plugin-vue_export-helper-CbfZvTSH.js";import{t as r}from"./ExternalApiView-C3SezO1u.js";var i=t({__name:`ExternalApiView`,setup(t){return(t,i)=>(e(),n(r))}});export{i as default};

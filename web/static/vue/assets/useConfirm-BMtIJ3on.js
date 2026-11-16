@@ -1,0 +1,1 @@
+import{x as e}from"./new-C355Rqox.js";function t(){let t=e();return(e,n)=>t.askConfirm(e,n)}export{t};

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>mail.com 管理预览 · 离线测试</title></head>
+<body>
+  <main style="max-width:1400px;margin:24px auto;padding:16px">
+    <p>离线 UI 测试数据；所有操作仅作用于本页模拟列表。</p>
+    <div id="app"></div>
+    <pre id="test-result" style="white-space:pre-wrap"></pre>
+  </main>
+  <script type="module">
+    import { createApp } from 'vue';
+    import Settings from '../src/components/MailcomRebindSettings.vue';
+    import '../src/vue.css';
+    import '../src/styles/liquid-glass.css';
+    document.documentElement.dataset.theme = new URL(location.href).searchParams.get('theme') || 'light';
+    const emails = Array.from({length:28}, (_, i) => `preview.owner${String(i + 1).padStart(2, '0')}@mail.com`);
+    let accounts = emails.map((email, i) => ({email, alias_count:i % 4 ? 9 : 0, alias_limit:9, bound_alias_count:i % 4 ? 6 : 0, unbound_alias_count:i % 4 ? 3 : 0, available_alias_count:i % 4 ? 3 : 0}));
+    const settings = () => ({ok:true, configured:true, api_base:'http://127.0.0.1:18787', admin_key_configured:true,
+      accounts, account_email:accounts[0]?.email || '', alias_domain:'dr.com', alias_domains:['dr.com'],
+      domains:['dr.com','mail.com','email.com'], alias_name_mode:'name_digits', alias_name_length:13, import_concurrency:3});
+    let lastConfirmation = '';
+    window.confirm = (text) => {lastConfirmation = text; return true;};
+    window.fetch = async (url, options = {}) => {
+      const path = new URL(url, location.href).pathname;
+      const body = options.body ? JSON.parse(options.body) : {};
+      let result;
+      if (path === '/api/mailcom/settings') result = settings();
+      else if (path === '/api/mailcom/domains') result = {ok:true,domains:settings().domains};
+      else if (path === '/api/mailcom/aliases' && options.method !== 'DELETE') {
+        const email = new URL(url, location.href).searchParams.get('email');
+        result = {ok:true,items:Array.from({length:accounts.find(a=>a.email===email)?.alias_count || 0}, (_,i)=>({address:`preview-alias${i}@dr.com`,status:'active',bound:i<6}))};
+      } else if (path === '/api/mailcom/aliases/batch') {
+        const results = body.emails.map(email => {
+          const row = accounts.find(a=>a.email===email);
+          const count = row?.alias_count || 0;
+          if (row) Object.assign(row, {alias_count:0,bound_alias_count:0,unbound_alias_count:0,available_alias_count:0});
+          return {email, requested:count, deleted:Array.from({length:count}, (_,i)=>`alias${i}@dr.com`),failed:[],remaining:0,removed_local:count};
+        });
+        result = {...settings(), alias_batch_deletion:{requested_accounts:results.length,processed_accounts:results.length,
+          concurrency:body.concurrency,deleted_accounts:results.length,failed_accounts:[],requested_aliases:results.reduce((n,r)=>n+r.requested,0),
+          deleted_aliases:results.reduce((n,r)=>n+r.deleted.length,0),results}};
+      } else if (path === '/api/mailcom/accounts/batch') {
+        const results = body.emails.map(email => ({email,ok:true,removed_local_aliases:accounts.find(a=>a.email===email)?.alias_count || 0}));
+        accounts = accounts.filter(a=>!body.emails.includes(a.email));
+        result = {...settings(),account_batch_removal:{requested_accounts:results.length,processed_accounts:results.length,
+          concurrency:body.concurrency,removed_accounts:body.emails,failed_accounts:[],remote_aliases_retained:true,
+          removed_local_aliases:results.reduce((n,r)=>n+r.removed_local_aliases,0),results}};
+      } else throw new Error(`Unexpected preview request ${options.method || 'GET'} ${path}`);
+      if (options.method === 'DELETE') document.querySelector('#test-result').textContent = JSON.stringify({path,body,lastConfirmation},null,2);
+      return new Response(JSON.stringify(result), {status:200,headers:{'Content-Type':'application/json'}});
+    };
+    createApp(Settings).mount('#app');
+  </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+import{E as e,g as t,l as n}from"./_plugin-vue_export-helper-CbfZvTSH.js";import{t as r}from"./SmsNumberPool-D1RzdE4g.js";var i=t({__name:`SmsPoolView`,setup(t){return(t,i)=>(e(),n(r,{"settings-href":`#/system/operations`}))}});export{i as default};

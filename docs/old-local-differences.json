@@ -1,0 +1,161 @@
+{
+  "baseline": "87.83.206.218",
+  "old_local_directory": "线上源码/87.83.206.218-20261013",
+  "files": [
+    {
+      "path": "web_app.py",
+      "server_sha256": "c804bb4c94c0f9a5cf28d8fec554b87a120e1449dd6fe35d864ebc5b7fb989d0",
+      "old_local_sha256": "56bf8eb596c4f39b1bfd4942a156cca4b55d9dc3907937028a0982bb64815bae"
+    },
+    {
+      "path": "common/account_store.py",
+      "server_sha256": "123aad0db80f55674c27b71d32c9771a89cf0588d91beebef2a7cd5b88747807",
+      "old_local_sha256": "c896d252d33c6d14d01f41ab11a7578a4378cd66d90012a9fa1c2595fb867108"
+    },
+    {
+      "path": "common/promo_eligibility.py",
+      "server_sha256": "b13c9ba099ac2fb26e89cb348284b90d42b5e000871c92c7ba63e7b20a92526a",
+      "old_local_sha256": "9d7e47e7a34cf7bf6f75c6e6b1d60438c46eb65bc27b26c78960cbf6e99a4fd5"
+    },
+    {
+      "path": "scripts/migrate_sqlite_to_mysql.py",
+      "server_sha256": "400536d6d674875c61d77ed3b42b8fbe91cbc0b65449843d8c353d21032d2181",
+      "old_local_sha256": "c1931569cbe7f9c8f7cea049aeecdfde104d9e51678e2577c988d151fe269996"
+    },
+    {
+      "path": "tests/test_account_store_mysql.py",
+      "server_sha256": "ca07f5cc37ed96f73d2d0e9c40ae78e7f62c3f7ec1b5acca9479160a4a3e08ef",
+      "old_local_sha256": "667a8cd34daba7ec595b750d51f91f7d14d2087b45e1e51f65f0092ec62e6f4f"
+    },
+    {
+      "path": "tests/test_account_store_sqlite.py",
+      "server_sha256": "a972444ed882d9df31f4a8455813aef34af139fe91a632dc06a40d0e87f7ee8a",
+      "old_local_sha256": "e3c460cb463c9224f78417e8eb7d2c90b4b875b931035bd04f5ec88a7c8f68e3"
+    },
+    {
+      "path": "tests/test_core.py",
+      "server_sha256": "58d1129f76156273edfaf3bff63a6bbe49c56ce4f4c83f05038e623e445615c1",
+      "old_local_sha256": "524173901d6b78e64f02c5864739b60fd90bb0823e9b70036cf9ca0ea92a2c89"
+    },
+    {
+      "path": "tests/test_mailcom_batch_management.py",
+      "server_sha256": "96ac20d5c6adff6d1e0ace93559b3757bc962b3fceb3ae0890838ca456669212",
+      "old_local_sha256": "3e2966fd9e908fc8d2dcd569529a40a9b6e783e36b2adc36538c0556343715af"
+    },
+    {
+      "path": "tests/test_resource_lifecycle.py",
+      "server_sha256": "1ae0b133de7091361a3d8a6ed34b2dba2eb80f93206b1d6e7c37a5191d73beea",
+      "old_local_sha256": "7eb2b07ba6152bba373cf6637dbceb54115089469fc85e3a3636fe0067d88024"
+    },
+    {
+      "path": "tests/test_session_refresh.py",
+      "server_sha256": "60d058cd29d1055cff346f99f3aa764df1442c165419e71d9fb14e6ca545d1d7",
+      "old_local_sha256": "a99b84d66f836811706c2bdcd69a77536c633f52abeb9c7275261ace09f5666a"
+    },
+    {
+      "path": "web/routes/jobs.py",
+      "server_sha256": "477c17308feeb019ef0184fb3ab7f3fdda77fdeb1c3bb8c86f06090a01e7a95a",
+      "old_local_sha256": "95648ad800f3cfec58cf6b486675af06deff994d3d41bcc8c78bb0335bfb47f0"
+    },
+    {
+      "path": "web-ui/src/App.vue",
+      "server_sha256": "3082135ed948c808e5813688f49ac097a4b837c3fe25c12e0e4a692e86ebeb96",
+      "old_local_sha256": "7d3c3f3554cbdf37c8bea8e720eff445b943b1530fd7ca646be7ba524add065b"
+    },
+    {
+      "path": "web-ui/src/vue.css",
+      "server_sha256": "f006f59c4ba8f7341eedae0f10af7cb3f89fb975d67d73ce3683c195927753db",
+      "old_local_sha256": "d84576f1523b1eed72eb4753c4c6303060b3dc12c8397f26d1904305d25b8198"
+    },
+    {
+      "path": "web-ui/src/components/AccountsView.vue",
+      "server_sha256": "5264da7d320e7eb422bad70bbd475aa5fff18380303069277ca33dbc8687c214",
+      "old_local_sha256": "c9bf0eb41d546792b88bcadba84c127b3b273efd8eb7eb627cbef7b00a88ac2b"
+    },
+    {
+      "path": "web-ui/src/components/ConcurrencyDialog.vue",
+      "server_sha256": "8641e2e951b9cb6c8195beaad4c44fa64c85bae35d396c53e09b5b471ce9753f",
+      "old_local_sha256": "5c468c59ac9fe0a3e0479a97d98727afe97866e2ade58818ec6131a5b3f33e29"
+    },
+    {
+      "path": "web-ui/src/components/MailcomRebindSettings.vue",
+      "server_sha256": "d5aaa2cd0a1589799223434fb613dc470b5454a57ea705bc0acf83843eff6eed",
+      "old_local_sha256": "35bc42f6476680634809e14af8a98e2babd24841849bd55714ea7704706670c2"
+    },
+    {
+      "path": "web-ui/src/components/ProtocolLoginView.vue",
+      "server_sha256": "ef9ab33dcbea6d51a1d829ecda19c0381f03f995c32feecbec99811127c0f309",
+      "old_local_sha256": "afb871c486dfc3ad2a9a1ef6d1e56041602757bdf47bd1b0eeb659877a1db7f9"
+    },
+    {
+      "path": "web-ui/src/components/TaskView.vue",
+      "server_sha256": "5741b316add8cc2060fd7649c1b22aaa5f2fd78079b1e5bf72d6c8b39de68ae2",
+      "old_local_sha256": "a5e5968368af075d60804abe8217799c150de87fafb4ad8eabf96f91fb6c3fcc"
+    },
+    {
+      "path": "web-ui/src/new/api/accounts.ts",
+      "server_sha256": "6da0823d45f0eb24400d2cdf0fe4ccb98d84556bd1b334498c3075f062ba4b83",
+      "old_local_sha256": "8a0928770c28ba82e00b4983024fcab7116c9d339030190dd7682b48bd3e11cd"
+    },
+    {
+      "path": "web-ui/src/new/api/tasks.ts",
+      "server_sha256": "b736507d15fc01757cc1c372271afe6957ff611c311901059b1917e06a948c0a",
+      "old_local_sha256": "6163c8b196cba87b6eeea0f083ee23205abd3a9b7d30f31224e579c76a762810"
+    },
+    {
+      "path": "web-ui/src/new/stores/accounts.ts",
+      "server_sha256": "f1b58cb4993d5dc4edfa4f8a1ba8ddb487846a35d10b6ba5d9c2ca6faecb41d3",
+      "old_local_sha256": "d996aaf8f31836ff9006beb64ae6b04f77a5985905f1ad2841c75328bcfbda61"
+    },
+    {
+      "path": "web-ui/src/new/stores/tasks.ts",
+      "server_sha256": "bf748d9e31c9e4497b17a6a20342cb4157e31425e4fa83de6f61035db8180a79",
+      "old_local_sha256": "c23e3439b2af255582d32ab5bbfbe5cd96399f8ceb3d97d3abca95a91621a0e4"
+    },
+    {
+      "path": "web-ui/src/new/views/accounts/AccountBatchBar.vue",
+      "server_sha256": "1fff0a75312c005c79cec8796d979e82525881d486d59a21052fd92faf08e09f",
+      "old_local_sha256": "26d4d394ca2548df13b6edec360f6c557af640e50566bfb0b50af01c648942d6"
+    },
+    {
+      "path": "web-ui/src/new/views/accounts/AccountCardList.vue",
+      "server_sha256": "b3a8b11a70c4ff1ace21a28295afc2ddafc60ff0b82f50c1dc0f2fbe96277ff6",
+      "old_local_sha256": "1b6cf79220734a11322c2d1a50ff7fcec0090e9f9d055697aae84cfa8b8ef8ba"
+    },
+    {
+      "path": "web-ui/src/new/views/accounts/AccountTable.vue",
+      "server_sha256": "4e5be4590592d881868398d3c6152c49dc10a3c3c045dd0586653a4a1a535c92",
+      "old_local_sha256": "1b6358d9461a716ca2778be64bf70d52d1966af8ab32037bb11e74a66791f2f8"
+    },
+    {
+      "path": "web-ui/src/new/views/accounts/AccountToolbar.vue",
+      "server_sha256": "efdabef5ccd6e1d8d09c072425ace2807ff40b1764757b85a6b696d5917a275b",
+      "old_local_sha256": "64f47ee55681df44646d5dae9b237af05f35b8f1e3869929c5b10b49f5bb1182"
+    },
+    {
+      "path": "web-ui/src/new/views/accounts/ProtocolLoginView.vue",
+      "server_sha256": "98645623ec3a184e57913a07120caa713a2296337d8e14a5a7ad446c1fa77b19",
+      "old_local_sha256": "4a8e8d8efcfeee81372b03f177f35b4363a287fa9d46940714c798f54309d65e"
+    },
+    {
+      "path": "web-ui/src/new/views/accounts/useAccountActions.ts",
+      "server_sha256": "ed6d0d00bdfb815b4e3f2b3a9b0bd67ebba89a47271a8d8719303147b9de1d9c",
+      "old_local_sha256": "e80a64a6b17594246bd568500dcd2c05595d7bb6381df9c253aeebc613f841e3"
+    },
+    {
+      "path": "web-ui/src/new/views/integrations/CliproxyView.vue",
+      "server_sha256": "ac19de3065c3033ae48a11495ff743928b5d3724949102a8220e001d69c560cf",
+      "old_local_sha256": "1af45254370901f8f3a3913a42411c55a149ee12784cd4de539c8a7db5a91c77"
+    },
+    {
+      "path": "web-ui/src/new/views/system/OpsSettings.vue",
+      "server_sha256": "56634d923aff732ca6ff4a05bf7bea635d72d427ee2c855246a3eda8e2a095d3",
+      "old_local_sha256": "3ab1266cc96a14c51a0c4d59ade09b8d90dfcf45dc906193ec4c38e03b497f82"
+    },
+    {
+      "path": "web-ui/src/new/views/tasks/TasksView.vue",
+      "server_sha256": "6c12e41ca37fd17908d1f7a727b590992b879f5074536b8625eb192676d8b507",
+      "old_local_sha256": "6b32990f6f073ef6b742e5ebcbf97b9c30f2de515c2df67f60e7561450b3033a"
+    }
+  ]
+}

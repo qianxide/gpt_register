@@ -1,0 +1,13 @@
+services:
+  mailcode:
+    build:
+      context: ../mailcode-service
+    restart: unless-stopped
+    network_mode: host
+    env_file:
+      - ./mailcode-service.env
+    volumes:
+      - mailcode-data:/var/lib/mailcode
+
+volumes:
+  mailcode-data:

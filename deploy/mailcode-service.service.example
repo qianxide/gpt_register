@@ -1,0 +1,22 @@
+[Unit]
+Description=mail.com alias adapter
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=gc-mailcode
+Group=gc-mailcode
+WorkingDirectory=/opt/gpt-register-fp/mailcode-service
+EnvironmentFile=/etc/gc-mailcode/mailcode.env
+ExecStart=/usr/bin/node /opt/gpt-register-fp/mailcode-service/server.mjs
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/gc-mailcode
+
+[Install]
+WantedBy=multi-user.target

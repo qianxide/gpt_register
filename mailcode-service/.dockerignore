@@ -1,0 +1,5 @@
+node_modules
+data
+*.test.mjs
+probe.mjs
+npm-debug.log*
